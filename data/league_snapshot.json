@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-25T21:04:53.459902+00:00",
+  "generated_at_utc": "2026-08-25T21:58:50.656457+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -77,6 +77,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -122,28 +126,21 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 176,
-    "sport": "nfl",
     "last_message_id": "1398053843371110400",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
-    "draft_id": "1328462469970038784",
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1787684520146,
     "last_pinned_message_id": "1395507603206840320",
+    "draft_id": "1328462469970038784",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -168,6 +165,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -10028,7 +10028,7 @@
       "position": "QB",
       "team": "SF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 412,
       "years_exp": 1,
       "depth_chart_position": "QB"
@@ -10537,7 +10537,7 @@
         "position": "QB",
         "team": "SF",
         "status": "Active",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "search_rank": 412,
         "years_exp": 1,
         "depth_chart_position": "QB"
