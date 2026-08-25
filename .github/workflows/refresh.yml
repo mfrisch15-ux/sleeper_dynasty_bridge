@@ -3,7 +3,7 @@ name: Refresh Sleeper League Snapshot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    - - cron: "15 * * * *"
 
 permissions:
   contents: write
