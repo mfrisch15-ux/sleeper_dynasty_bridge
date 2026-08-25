@@ -8,25 +8,41 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: sleeper-league-snapshot-main
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - run: python scripts/fetch_sleeper.py
+
+      - name: Fetch Sleeper league
+        run: python scripts/fetch_sleeper.py
+
       - name: Commit refreshed snapshot
         run: |
           git config user.name "sleeper-bridge-bot"
           git config user.email "actions@users.noreply.github.com"
+
+          cp data/league_snapshot.json /tmp/league_snapshot.json
+
+          git fetch origin main
+          git reset --hard origin/main
+
+          cp /tmp/league_snapshot.json data/league_snapshot.json
           git add data/league_snapshot.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "Refresh Sleeper league snapshot"
-            git pull --rebase origin main
-            git push origin main
+            git push origin HEAD:main
           fi
