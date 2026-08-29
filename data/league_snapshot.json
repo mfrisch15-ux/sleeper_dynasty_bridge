@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-29T18:16:24.327320+00:00",
+  "generated_at_utc": "2026-08-29T19:16:31.621551+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -77,10 +77,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -126,22 +122,28 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1398795086782820352",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 176,
+    "sport": "nfl",
+    "last_message_id": "1399505110840676352",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1787861246347,
+    "last_message_time": 1788030529273,
     "last_pinned_message_id": "1395507603206840320",
     "draft_id": "1328462469970038784",
-    "league_id": "1328462469961613312",
     "last_read_id": null,
+    "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "bracket_id": null,
     "bracket_overrides_id": null,
     "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -166,8 +168,6 @@
       "BN",
       "BN"
     ],
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -907,8 +907,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": -25,
-        "waiver_position": 9,
+        "waiver_budget_used": -24,
+        "waiver_position": 10,
         "wins": 0
       },
       "players": [
@@ -1121,19 +1121,6 @@
           "is_taxi": false
         },
         {
-          "player_id": "13402",
-          "name": "Skyler Bell",
-          "position": "WR",
-          "team": "BUF",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 375,
-          "years_exp": 0,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
           "player_id": "13424",
           "name": "Seth McGowan",
           "position": "RB",
@@ -1247,6 +1234,19 @@
           "search_rank": 5,
           "years_exp": 3,
           "is_starter": true,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
+          "player_id": "BAL",
+          "name": "Baltimore Ravens",
+          "position": "DEF",
+          "team": "BAL",
+          "status": null,
+          "injury_status": null,
+          "search_rank": null,
+          "years_exp": null,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -3057,7 +3057,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 55,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 0
       },
       "players": [
@@ -3900,7 +3900,6 @@
         "13317",
         "13337",
         "13346",
-        "13402",
         "13424",
         "4881",
         "5870",
@@ -3910,6 +3909,7 @@
         "8130",
         "8259",
         "9493",
+        "BAL",
         "NE"
       ],
       "roster_id": 3,
@@ -3956,7 +3956,6 @@
         "13317": 0.0,
         "13337": 0.0,
         "13346": 0.0,
-        "13402": 0.0,
         "13424": 0.0,
         "4881": 0.0,
         "5870": 0.0,
@@ -3966,6 +3965,7 @@
         "8130": 0.0,
         "8259": 0.0,
         "9493": 0.0,
+        "BAL": 0.0,
         "NE": 0.0
       }
     },
@@ -4566,6 +4566,36 @@
   ],
   "transactions_recent": {
     "1": [
+      {
+        "status": "complete",
+        "type": "waiver",
+        "metadata": {
+          "notes": "Your waiver claim was processed successfully!"
+        },
+        "created": 1788013612346,
+        "settings": {
+          "seq": 0,
+          "waiver_bid": 1
+        },
+        "leg": 1,
+        "draft_picks": [],
+        "creator": "1264778915197505536",
+        "transaction_id": "1399434156101865472",
+        "adds": {
+          "BAL": 3
+        },
+        "consenter_ids": [
+          3
+        ],
+        "drops": {
+          "13402": 3
+        },
+        "roster_ids": [
+          3
+        ],
+        "status_updated": 1788030529229,
+        "waiver_budget": []
+      },
       {
         "status": "complete",
         "type": "free_agent",
@@ -9712,6 +9742,17 @@
       "depth_chart_position": "QB"
     },
     {
+      "player_id": "13402",
+      "name": "Skyler Bell",
+      "position": "WR",
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 375,
+      "years_exp": 0,
+      "depth_chart_position": "SWR"
+    },
+    {
       "player_id": "13749",
       "name": "Kole Wilson",
       "position": "WR",
@@ -10337,17 +10378,6 @@
       "search_rank": 480,
       "years_exp": 0,
       "depth_chart_position": "SWR"
-    },
-    {
-      "player_id": "5985",
-      "name": "Foster Moreau",
-      "position": "TE",
-      "team": "HOU",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 481,
-      "years_exp": 7,
-      "depth_chart_position": "TE"
     }
   ],
   "free_agents_by_position": {
@@ -11215,6 +11245,17 @@
         "depth_chart_position": "SWR"
       },
       {
+        "player_id": "13402",
+        "name": "Skyler Bell",
+        "position": "WR",
+        "team": "BUF",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 375,
+        "years_exp": 0,
+        "depth_chart_position": "SWR"
+      },
+      {
         "player_id": "13749",
         "name": "Kole Wilson",
         "position": "WR",
@@ -11366,17 +11407,6 @@
         "injury_status": null,
         "search_rank": 442,
         "years_exp": 6,
-        "depth_chart_position": "SWR"
-      },
-      {
-        "player_id": "7559",
-        "name": "Ihmir Smith-Marsette",
-        "position": "WR",
-        "team": "ARI",
-        "status": "Active",
-        "injury_status": "Questionable",
-        "search_rank": 453,
-        "years_exp": 5,
         "depth_chart_position": "SWR"
       }
     ],
