@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-29T01:16:17.431998+00:00",
+  "generated_at_utc": "2026-08-29T02:16:26.025374+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -3644,7 +3644,7 @@
           "position": "WR",
           "team": "DEN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 192,
           "years_exp": 3,
           "is_starter": false,
@@ -9508,7 +9508,7 @@
       "position": "RB",
       "team": "BAL",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 365,
       "years_exp": 0,
       "depth_chart_position": "RB"
@@ -10811,7 +10811,7 @@
         "position": "RB",
         "team": "BAL",
         "status": "Active",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "search_rank": 365,
         "years_exp": 0,
         "depth_chart_position": "RB"
