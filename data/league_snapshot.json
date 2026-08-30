@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-30T01:16:59.009680+00:00",
+  "generated_at_utc": "2026-08-30T02:16:31.135439+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -127,7 +127,6 @@
       "st_ff": 1.0
     },
     "last_message_id": "1399505110840676352",
-    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -137,6 +136,7 @@
     "last_message_time": 1788030529273,
     "last_pinned_message_id": "1395507603206840320",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "roster_positions": [
