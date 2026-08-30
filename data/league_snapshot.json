@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-30T14:16:35.381008+00:00",
+  "generated_at_utc": "2026-08-30T15:16:44.277727+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -77,9 +77,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
+    "shard": 176,
     "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -125,7 +126,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "shard": 176,
     "last_message_id": "1399669975567876096",
     "draft_id": "1328462469970038784",
     "last_author_avatar": "bb4df5148bf5a7e4356ef1657abb854e",
@@ -139,11 +139,7 @@
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -168,6 +164,10 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -9682,7 +9682,7 @@
       "injury_status": null,
       "search_rank": 362,
       "years_exp": 1,
-      "depth_chart_position": "SWR"
+      "depth_chart_position": null
     },
     {
       "player_id": "13302",
@@ -10265,7 +10265,7 @@
       "injury_status": null,
       "search_rank": 466,
       "years_exp": 2,
-      "depth_chart_position": "TE"
+      "depth_chart_position": null
     },
     {
       "player_id": "11964",
@@ -11284,7 +11284,7 @@
         "injury_status": null,
         "search_rank": 362,
         "years_exp": 1,
-        "depth_chart_position": "SWR"
+        "depth_chart_position": null
       },
       {
         "player_id": "11616",
