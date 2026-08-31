@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-31T09:16:44.737047+00:00",
+  "generated_at_utc": "2026-08-31T10:16:41.319463+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -9063,7 +9063,7 @@
       "injury_status": null,
       "search_rank": 194,
       "years_exp": 6,
-      "depth_chart_position": "RWR"
+      "depth_chart_position": "SWR"
     },
     {
       "player_id": "4039",
@@ -9239,7 +9239,7 @@
       "injury_status": "Questionable",
       "search_rank": 243,
       "years_exp": 2,
-      "depth_chart_position": "SWR"
+      "depth_chart_position": null
     },
     {
       "player_id": "12829",
@@ -9316,7 +9316,7 @@
       "injury_status": "Questionable",
       "search_rank": 254,
       "years_exp": 0,
-      "depth_chart_position": "RB"
+      "depth_chart_position": null
     },
     {
       "player_id": "11377",
@@ -9360,7 +9360,7 @@
       "injury_status": null,
       "search_rank": 268,
       "years_exp": 1,
-      "depth_chart_position": "SWR"
+      "depth_chart_position": null
     },
     {
       "player_id": "11186",
@@ -9426,7 +9426,7 @@
       "injury_status": null,
       "search_rank": 283,
       "years_exp": 2,
-      "depth_chart_position": "SWR"
+      "depth_chart_position": null
     },
     {
       "player_id": "1166",
@@ -9734,7 +9734,7 @@
       "injury_status": null,
       "search_rank": 346,
       "years_exp": 0,
-      "depth_chart_position": "TE"
+      "depth_chart_position": null
     },
     {
       "player_id": "12389",
@@ -9767,7 +9767,7 @@
       "injury_status": null,
       "search_rank": 354,
       "years_exp": 1,
-      "depth_chart_position": "LWR"
+      "depth_chart_position": null
     },
     {
       "player_id": "14029",
@@ -9778,7 +9778,7 @@
       "injury_status": null,
       "search_rank": 356,
       "years_exp": 0,
-      "depth_chart_position": "TE"
+      "depth_chart_position": null
     },
     {
       "player_id": "8208",
@@ -10086,7 +10086,7 @@
       "injury_status": null,
       "search_rank": 427,
       "years_exp": 0,
-      "depth_chart_position": "RB"
+      "depth_chart_position": null
     },
     {
       "player_id": "7812",
@@ -10339,7 +10339,7 @@
       "injury_status": null,
       "search_rank": 462,
       "years_exp": 7,
-      "depth_chart_position": "RWR"
+      "depth_chart_position": null
     },
     {
       "player_id": "13277",
@@ -10806,7 +10806,7 @@
         "injury_status": "Questionable",
         "search_rank": 254,
         "years_exp": 0,
-        "depth_chart_position": "RB"
+        "depth_chart_position": null
       },
       {
         "player_id": "12171",
@@ -10960,7 +10960,7 @@
         "injury_status": null,
         "search_rank": 427,
         "years_exp": 0,
-        "depth_chart_position": "RB"
+        "depth_chart_position": null
       },
       {
         "player_id": "12928",
@@ -11050,7 +11050,7 @@
         "injury_status": null,
         "search_rank": 194,
         "years_exp": 6,
-        "depth_chart_position": "RWR"
+        "depth_chart_position": "SWR"
       },
       {
         "player_id": "4039",
@@ -11105,7 +11105,7 @@
         "injury_status": "Questionable",
         "search_rank": 243,
         "years_exp": 2,
-        "depth_chart_position": "SWR"
+        "depth_chart_position": null
       },
       {
         "player_id": "12829",
@@ -11160,7 +11160,7 @@
         "injury_status": null,
         "search_rank": 268,
         "years_exp": 1,
-        "depth_chart_position": "SWR"
+        "depth_chart_position": null
       },
       {
         "player_id": "11808",
@@ -11182,7 +11182,7 @@
         "injury_status": null,
         "search_rank": 283,
         "years_exp": 2,
-        "depth_chart_position": "SWR"
+        "depth_chart_position": null
       },
       {
         "player_id": "13904",
@@ -11336,7 +11336,7 @@
         "injury_status": null,
         "search_rank": 354,
         "years_exp": 1,
-        "depth_chart_position": "LWR"
+        "depth_chart_position": null
       },
       {
         "player_id": "13402",
@@ -11690,7 +11690,7 @@
         "injury_status": null,
         "search_rank": 346,
         "years_exp": 0,
-        "depth_chart_position": "TE"
+        "depth_chart_position": null
       },
       {
         "player_id": "12389",
@@ -11712,7 +11712,7 @@
         "injury_status": null,
         "search_rank": 356,
         "years_exp": 0,
-        "depth_chart_position": "TE"
+        "depth_chart_position": null
       },
       {
         "player_id": "11304",
