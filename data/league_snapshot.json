@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-31T19:16:35.101263+00:00",
+  "generated_at_utc": "2026-08-31T20:16:46.753434+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -124,21 +124,25 @@
     },
     "season": "2026",
     "season_type": "regular",
-    "shard": 176,
     "sport": "nfl",
-    "last_message_id": "1400189756909838336",
+    "last_message_id": "1400239041508601856",
+    "shard": 176,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788193761616,
+    "last_message_time": 1788205511981,
     "last_pinned_message_id": "1395507603206840320",
-    "draft_id": "1328462469970038784",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -162,10 +166,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
@@ -1237,19 +1237,6 @@
           "is_taxi": false
         },
         {
-          "player_id": "BAL",
-          "name": "Baltimore Ravens",
-          "position": "DEF",
-          "team": "BAL",
-          "status": null,
-          "injury_status": null,
-          "search_rank": null,
-          "years_exp": null,
-          "is_starter": true,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
           "player_id": "NE",
           "name": "New England Patriots",
           "position": "DEF",
@@ -1258,7 +1245,7 @@
           "injury_status": null,
           "search_rank": null,
           "years_exp": null,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         }
@@ -1364,7 +1351,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 285,
           "years_exp": 0,
           "is_starter": false,
@@ -1670,6 +1657,19 @@
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 667,
+          "years_exp": 3,
+          "is_starter": false,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
+          "player_id": "11237",
+          "name": "Jacob Saylors",
+          "position": "RB",
+          "team": "DET",
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 616,
           "years_exp": 3,
           "is_starter": false,
           "is_reserve": false,
@@ -2575,7 +2575,7 @@
           "position": "RB",
           "team": "GB",
           "status": "Active",
-          "injury_status": "DNR",
+          "injury_status": "NA",
           "search_rank": 20,
           "years_exp": 7,
           "is_starter": false,
@@ -2670,19 +2670,6 @@
           "search_rank": null,
           "years_exp": null,
           "is_starter": true,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
-          "player_id": "SF",
-          "name": "San Francisco 49ers",
-          "position": "DEF",
-          "team": "SF",
-          "status": null,
-          "injury_status": null,
-          "search_rank": null,
-          "years_exp": null,
-          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         }
@@ -3921,7 +3908,6 @@
         "8130",
         "8259",
         "9493",
-        "BAL",
         "NE"
       ],
       "roster_id": 3,
@@ -3937,7 +3923,7 @@
         "8130",
         "12512",
         "8259",
-        "BAL"
+        "NE"
       ],
       "starters_points": [
         0.0,
@@ -3977,7 +3963,6 @@
         "8130": 0.0,
         "8259": 0.0,
         "9493": 0.0,
-        "BAL": 0.0,
         "NE": 0.0
       }
     },
@@ -4075,6 +4060,7 @@
       "points": 0.0,
       "players": [
         "10444",
+        "11237",
         "11584",
         "11624",
         "11786",
@@ -4105,12 +4091,12 @@
       "starters": [
         "3294",
         "9221",
-        "11584",
+        "7588",
         "8112",
         "12526",
         "2216",
         "5001",
-        "7588",
+        "11584",
         "11786",
         "LAR"
       ],
@@ -4128,6 +4114,7 @@
       ],
       "players_points": {
         "10444": 0.0,
+        "11237": 0.0,
         "11584": 0.0,
         "11624": 0.0,
         "11786": 0.0,
@@ -4266,8 +4253,7 @@
         "7569",
         "8151",
         "9224",
-        "JAX",
-        "SF"
+        "JAX"
       ],
       "roster_id": 7,
       "custom_points": null,
@@ -4321,8 +4307,7 @@
         "7569": 0.0,
         "8151": 0.0,
         "9224": 0.0,
-        "JAX": 0.0,
-        "SF": 0.0
+        "JAX": 0.0
       }
     },
     {
@@ -4580,6 +4565,75 @@
   ],
   "transactions_recent": {
     "1": [
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1788205511944,
+        "settings": null,
+        "leg": 1,
+        "draft_picks": [],
+        "creator": "1264778915197505536",
+        "transaction_id": "1400239041353383936",
+        "adds": null,
+        "consenter_ids": [
+          3
+        ],
+        "drops": {
+          "BAL": 3
+        },
+        "roster_ids": [
+          3
+        ],
+        "status_updated": 1788205511944,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1788204277751,
+        "settings": null,
+        "leg": 1,
+        "draft_picks": [],
+        "creator": "1126265615670505472",
+        "transaction_id": "1400233864776912896",
+        "adds": {
+          "11237": 5
+        },
+        "consenter_ids": [
+          5
+        ],
+        "drops": null,
+        "roster_ids": [
+          5
+        ],
+        "status_updated": 1788204277751,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1788204085656,
+        "settings": null,
+        "leg": 1,
+        "draft_picks": [],
+        "creator": "1265444209784008704",
+        "transaction_id": "1400233059067957248",
+        "adds": null,
+        "consenter_ids": [
+          7
+        ],
+        "drops": {
+          "SF": 7
+        },
+        "roster_ids": [
+          7
+        ],
+        "status_updated": 1788204085656,
+        "waiver_budget": []
+      },
       {
         "status": "complete",
         "type": "free_agent",
@@ -5143,8 +5197,8 @@
         "waiver_budget": [
           {
             "amount": 30,
-            "receiver": 3,
-            "sender": 6
+            "sender": 6,
+            "receiver": 3
           }
         ]
       },
@@ -5761,8 +5815,8 @@
         "waiver_budget": [
           {
             "amount": 35,
-            "receiver": 6,
-            "sender": 9
+            "sender": 9,
+            "receiver": 6
           }
         ]
       },
@@ -8939,17 +8993,6 @@
       "depth_chart_position": "RB"
     },
     {
-      "player_id": "12476",
-      "name": "Devin Neal",
-      "position": "RB",
-      "team": "NO",
-      "status": "Active",
-      "injury_status": "IR",
-      "search_rank": 169,
-      "years_exp": 1,
-      "depth_chart_position": "RB"
-    },
-    {
       "player_id": "7528",
       "name": "Najee Harris",
       "position": "RB",
@@ -9321,7 +9364,7 @@
       "injury_status": "Questionable",
       "search_rank": 254,
       "years_exp": 0,
-      "depth_chart_position": null
+      "depth_chart_position": "RB"
     },
     {
       "player_id": "11377",
@@ -9483,7 +9526,7 @@
       "position": "WR",
       "team": "PIT",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 300,
       "years_exp": 5,
       "depth_chart_position": "RWR"
@@ -10201,7 +10244,7 @@
       "injury_status": "Questionable",
       "search_rank": 468,
       "years_exp": 3,
-      "depth_chart_position": "TE"
+      "depth_chart_position": null
     },
     {
       "player_id": "11969",
@@ -10488,6 +10531,17 @@
       "search_rank": 499,
       "years_exp": 6,
       "depth_chart_position": "TE"
+    },
+    {
+      "player_id": "13744",
+      "name": "Cameron Ross",
+      "position": "WR",
+      "team": "DEN",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 499,
+      "years_exp": 0,
+      "depth_chart_position": null
     }
   ],
   "free_agents_by_position": {
@@ -10737,17 +10791,6 @@
         "depth_chart_position": "RB"
       },
       {
-        "player_id": "12476",
-        "name": "Devin Neal",
-        "position": "RB",
-        "team": "NO",
-        "status": "Active",
-        "injury_status": "IR",
-        "search_rank": 169,
-        "years_exp": 1,
-        "depth_chart_position": "RB"
-      },
-      {
         "player_id": "7528",
         "name": "Najee Harris",
         "position": "RB",
@@ -10855,7 +10898,7 @@
         "injury_status": "Questionable",
         "search_rank": 254,
         "years_exp": 0,
-        "depth_chart_position": null
+        "depth_chart_position": "RB"
       },
       {
         "player_id": "12171",
@@ -11228,7 +11271,7 @@
         "position": "WR",
         "team": "PIT",
         "status": "Active",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "search_rank": 300,
         "years_exp": 5,
         "depth_chart_position": "RWR"
