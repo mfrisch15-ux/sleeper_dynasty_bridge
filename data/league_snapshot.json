@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-31T20:16:46.753434+00:00",
+  "generated_at_utc": "2026-08-31T21:16:31.523438+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -9312,17 +9312,6 @@
       "depth_chart_position": "TE"
     },
     {
-      "player_id": "12829",
-      "name": "Coleman Owen",
-      "position": "WR",
-      "team": "IND",
-      "status": "Active",
-      "injury_status": "IR",
-      "search_rank": 244,
-      "years_exp": 1,
-      "depth_chart_position": null
-    },
-    {
       "player_id": "11306",
       "name": "Xavier Gipson",
       "position": "WR",
@@ -9453,17 +9442,6 @@
       "search_rank": 278,
       "years_exp": 2,
       "depth_chart_position": null
-    },
-    {
-      "player_id": "13438",
-      "name": "DeaMonte Trayanum",
-      "position": "RB",
-      "team": "NYJ",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 281,
-      "years_exp": 0,
-      "depth_chart_position": "RB"
     },
     {
       "player_id": "11940",
@@ -10542,6 +10520,28 @@
       "search_rank": 499,
       "years_exp": 0,
       "depth_chart_position": null
+    },
+    {
+      "player_id": "12788",
+      "name": "Will Sheppard",
+      "position": "WR",
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 500,
+      "years_exp": 1,
+      "depth_chart_position": null
+    },
+    {
+      "player_id": "13409",
+      "name": "Donaven McCulley",
+      "position": "WR",
+      "team": "MIA",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 501,
+      "years_exp": 0,
+      "depth_chart_position": null
     }
   ],
   "free_agents_by_position": {
@@ -10934,17 +10934,6 @@
         "depth_chart_position": "RB"
       },
       {
-        "player_id": "13438",
-        "name": "DeaMonte Trayanum",
-        "position": "RB",
-        "team": "NYJ",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 281,
-        "years_exp": 0,
-        "depth_chart_position": "RB"
-      },
-      {
         "player_id": "12462",
         "name": "Damien Martinez",
         "position": "RB",
@@ -11187,17 +11176,6 @@
         "search_rank": 242,
         "years_exp": 2,
         "depth_chart_position": "SWR"
-      },
-      {
-        "player_id": "12829",
-        "name": "Coleman Owen",
-        "position": "WR",
-        "team": "IND",
-        "status": "Active",
-        "injury_status": "IR",
-        "search_rank": 244,
-        "years_exp": 1,
-        "depth_chart_position": null
       },
       {
         "player_id": "11306",
@@ -11528,6 +11506,17 @@
         "search_rank": 476,
         "years_exp": 12,
         "depth_chart_position": "RWR"
+      },
+      {
+        "player_id": "8917",
+        "name": "KaVontae Turpin",
+        "position": "WR",
+        "team": "DAL",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 479,
+        "years_exp": 4,
+        "depth_chart_position": "SWR"
       }
     ],
     "TE": [
