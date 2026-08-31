@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-31T04:16:32.241744+00:00",
+  "generated_at_utc": "2026-08-31T05:16:40.614717+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -9173,7 +9173,7 @@
       "position": "WR",
       "team": "IND",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "IR",
       "search_rank": 244,
       "years_exp": 1,
       "depth_chart_position": null
@@ -11083,7 +11083,7 @@
         "position": "WR",
         "team": "IND",
         "status": "Active",
-        "injury_status": "Questionable",
+        "injury_status": "IR",
         "search_rank": 244,
         "years_exp": 1,
         "depth_chart_position": null
