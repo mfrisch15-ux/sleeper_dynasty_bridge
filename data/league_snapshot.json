@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-31T06:16:36.338234+00:00",
+  "generated_at_utc": "2026-08-31T07:16:32.798104+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -77,7 +77,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1400028734538436608",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -127,6 +126,8 @@
     "season_type": "regular",
     "shard": 176,
     "sport": "nfl",
+    "last_message_id": "1400028734538436608",
+    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -136,7 +137,6 @@
     "last_message_time": 1788155370892,
     "last_pinned_message_id": "1395507603206840320",
     "last_read_id": null,
-    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "bracket_id": null,
