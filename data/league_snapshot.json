@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-31T16:16:40.820228+00:00",
+  "generated_at_utc": "2026-08-31T17:16:42.051458+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -81,7 +81,6 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
-    "last_message_id": "1400163542056845312",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -127,18 +126,20 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
+    "last_message_id": "1400189756909838336",
+    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788187511508,
+    "last_message_time": 1788193761616,
     "last_pinned_message_id": "1395507603206840320",
-    "draft_id": "1328462469970038784",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -165,7 +166,6 @@
     ],
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -1295,19 +1295,6 @@
           "is_taxi": false
         },
         {
-          "player_id": "11237",
-          "name": "Jacob Saylors",
-          "position": "RB",
-          "team": "DET",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 616,
-          "years_exp": 3,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
           "player_id": "11618",
           "name": "Jalen McMillan",
           "position": "WR",
@@ -1601,6 +1588,19 @@
           "status": "Active",
           "injury_status": null,
           "search_rank": 168,
+          "years_exp": 4,
+          "is_starter": false,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
+          "player_id": "8205",
+          "name": "Isiah Pacheco",
+          "position": "RB",
+          "team": "DET",
+          "status": "Active",
+          "injury_status": "Questionable",
+          "search_rank": 151,
           "years_exp": 4,
           "is_starter": false,
           "is_reserve": false,
@@ -3986,7 +3986,6 @@
       "points": 0.0,
       "players": [
         "10859",
-        "11237",
         "11618",
         "11638",
         "12474",
@@ -4010,6 +4009,7 @@
         "8142",
         "8144",
         "8180",
+        "8205",
         "9225",
         "DET",
         "MIN"
@@ -4043,7 +4043,6 @@
       ],
       "players_points": {
         "10859": 0.0,
-        "11237": 0.0,
         "11618": 0.0,
         "11638": 0.0,
         "12474": 0.0,
@@ -4067,6 +4066,7 @@
         "8142": 0.0,
         "8144": 0.0,
         "8180": 0.0,
+        "8205": 0.0,
         "9225": 0.0,
         "DET": 0.0,
         "MIN": 0.0
@@ -4581,6 +4581,31 @@
   ],
   "transactions_recent": {
     "1": [
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1788193761573,
+        "settings": null,
+        "leg": 1,
+        "draft_picks": [],
+        "creator": "1264983252985192448",
+        "transaction_id": "1400189756729503744",
+        "adds": {
+          "8205": 4
+        },
+        "consenter_ids": [
+          4
+        ],
+        "drops": {
+          "11237": 4
+        },
+        "roster_ids": [
+          4
+        ],
+        "status_updated": 1788193761573,
+        "waiver_budget": []
+      },
       {
         "status": "complete",
         "type": "free_agent",
@@ -5119,8 +5144,8 @@
         "waiver_budget": [
           {
             "amount": 30,
-            "sender": 6,
-            "receiver": 3
+            "receiver": 3,
+            "sender": 6
           }
         ]
       },
@@ -5737,8 +5762,8 @@
         "waiver_budget": [
           {
             "amount": 35,
-            "sender": 9,
-            "receiver": 6
+            "receiver": 6,
+            "sender": 9
           }
         ]
       },
@@ -8882,17 +8907,6 @@
       "depth_chart_position": "TE"
     },
     {
-      "player_id": "8205",
-      "name": "Isiah Pacheco",
-      "position": "RB",
-      "team": "DET",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "search_rank": 151,
-      "years_exp": 4,
-      "depth_chart_position": "RB"
-    },
-    {
       "player_id": "9506",
       "name": "Sean Tucker",
       "position": "RB",
@@ -10464,6 +10478,17 @@
       "search_rank": 498,
       "years_exp": 3,
       "depth_chart_position": "SWR"
+    },
+    {
+      "player_id": "6826",
+      "name": "Cole Kmet",
+      "position": "TE",
+      "team": "CHI",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 499,
+      "years_exp": 6,
+      "depth_chart_position": "TE"
     }
   ],
   "free_agents_by_position": {
@@ -10679,17 +10704,6 @@
       }
     ],
     "RB": [
-      {
-        "player_id": "8205",
-        "name": "Isiah Pacheco",
-        "position": "RB",
-        "team": "DET",
-        "status": "Active",
-        "injury_status": "Questionable",
-        "search_rank": 151,
-        "years_exp": 4,
-        "depth_chart_position": "RB"
-      },
       {
         "player_id": "9506",
         "name": "Sean Tucker",
