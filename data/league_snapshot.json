@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-01T00:33:10.833149+00:00",
+  "generated_at_utc": "2026-09-01T01:21:06.255799+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -9812,6 +9812,17 @@
       "depth_chart_position": "SWR"
     },
     {
+      "player_id": "4443",
+      "name": "Pharaoh Brown",
+      "position": "TE",
+      "team": "IND",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 363,
+      "years_exp": 9,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "13310",
       "name": "Miller Moss",
       "position": "QB",
@@ -10315,7 +10326,7 @@
       "injury_status": null,
       "search_rank": 476,
       "years_exp": 8,
-      "depth_chart_position": "TE"
+      "depth_chart_position": null
     },
     {
       "player_id": "2078",
@@ -10547,17 +10558,6 @@
       "search_rank": 499,
       "years_exp": 6,
       "depth_chart_position": "TE"
-    },
-    {
-      "player_id": "13744",
-      "name": "Cameron Ross",
-      "position": "WR",
-      "team": "DEN",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 499,
-      "years_exp": 0,
-      "depth_chart_position": null
     }
   ],
   "free_agents_by_position": {
@@ -11812,6 +11812,17 @@
         "depth_chart_position": "TE"
       },
       {
+        "player_id": "4443",
+        "name": "Pharaoh Brown",
+        "position": "TE",
+        "team": "IND",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 363,
+        "years_exp": 9,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "12715",
         "name": "Thomas Fidone",
         "position": "TE",
@@ -11974,17 +11985,6 @@
         "injury_status": null,
         "search_rank": 452,
         "years_exp": 0,
-        "depth_chart_position": "TE"
-      },
-      {
-        "player_id": "6001",
-        "name": "Drew Sample",
-        "position": "TE",
-        "team": "CIN",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 454,
-        "years_exp": 7,
         "depth_chart_position": "TE"
       }
     ]
