@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-01T12:28:21.899153+00:00",
+  "generated_at_utc": "2026-09-01T13:23:19.061011+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -77,10 +77,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 176,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -126,7 +122,12 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 176,
+    "sport": "nfl",
     "last_message_id": "1400296827000987648",
+    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -136,7 +137,6 @@
     "last_message_time": 1788219289116,
     "last_pinned_message_id": "1395507603206840320",
     "last_read_id": null,
-    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "bracket_id": null,
@@ -9130,6 +9130,17 @@
       "depth_chart_position": "QB"
     },
     {
+      "player_id": "12457",
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 189,
+      "years_exp": 1,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "11579",
       "name": "Audric Estime",
       "position": "RB",
@@ -10547,17 +10558,6 @@
       "search_rank": 492,
       "years_exp": 6,
       "depth_chart_position": "TE"
-    },
-    {
-      "player_id": "13329",
-      "name": "Malik Benson",
-      "position": "WR",
-      "team": "LV",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 495,
-      "years_exp": 0,
-      "depth_chart_position": "RWR"
     }
   ],
   "free_agents_by_position": {
@@ -10882,6 +10882,17 @@
         "search_rank": 182,
         "years_exp": 1,
         "depth_chart_position": "RB"
+      },
+      {
+        "player_id": "12457",
+        "name": "Jaydon Blue",
+        "position": "RB",
+        "team": "PHI",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 189,
+        "years_exp": 1,
+        "depth_chart_position": null
       },
       {
         "player_id": "11579",
