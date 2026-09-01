@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-01T20:22:07.748716+00:00",
+  "generated_at_utc": "2026-09-01T21:21:29.682114+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -77,10 +77,7 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
+    "last_message_id": "1400619300464672768",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -126,19 +123,27 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1400296827000987648",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 176,
+    "sport": "nfl",
+    "last_author_avatar": "bb4df5148bf5a7e4356ef1657abb854e",
+    "last_author_display_name": "DrSlick",
+    "last_author_id": "735298292942041088",
+    "last_author_is_bot": false,
+    "draft_id": "1328462469970038784",
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788219289116,
+    "last_message_time": 1788296172781,
     "last_pinned_message_id": "1395507603206840320",
-    "draft_id": "1328462469970038784",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -162,11 +167,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -1558,8 +1558,8 @@
           "name": "Isiah Pacheco",
           "position": "RB",
           "team": "DET",
-          "status": "Active",
-          "injury_status": "Questionable",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 151,
           "years_exp": 4,
           "is_starter": false,
@@ -1627,7 +1627,7 @@
           "player_id": "10444",
           "name": "Cedric Tillman",
           "position": "WR",
-          "team": null,
+          "team": "NO",
           "status": "Active",
           "injury_status": "Questionable",
           "search_rank": 667,
@@ -2665,19 +2665,6 @@
         "wins": 0
       },
       "players": [
-        {
-          "player_id": "11565",
-          "name": "J.J. McCarthy",
-          "position": "QB",
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 224,
-          "years_exp": 2,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": false
-        },
         {
           "player_id": "11576",
           "name": "Braelon Allen",
@@ -4283,7 +4270,6 @@
     {
       "points": 0.0,
       "players": [
-        "11565",
         "11576",
         "11627",
         "11635",
@@ -4339,7 +4325,6 @@
         0.0
       ],
       "players_points": {
-        "11565": 0.0,
         "11576": 0.0,
         "11627": 0.0,
         "11635": 0.0,
@@ -4535,6 +4520,29 @@
   ],
   "transactions_recent": {
     "1": [
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1788294937445,
+        "settings": null,
+        "leg": 1,
+        "draft_picks": [],
+        "creator": "1265708049574670336",
+        "transaction_id": "1400614119089922048",
+        "adds": null,
+        "drops": {
+          "11565": 8
+        },
+        "consenter_ids": [
+          8
+        ],
+        "roster_ids": [
+          8
+        ],
+        "status_updated": 1788294937445,
+        "waiver_budget": []
+      },
       {
         "status": "complete",
         "type": "free_agent",
@@ -9218,6 +9226,17 @@
       "depth_chart_position": "RB"
     },
     {
+      "player_id": "11565",
+      "name": "J.J. McCarthy",
+      "position": "QB",
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "search_rank": 224,
+      "years_exp": 2,
+      "depth_chart_position": "QB"
+    },
+    {
       "player_id": "12467",
       "name": "Jordan James",
       "position": "RB",
@@ -9282,6 +9301,17 @@
       "search_rank": 233,
       "years_exp": 6,
       "depth_chart_position": "QB"
+    },
+    {
+      "player_id": "13749",
+      "name": "Kole Wilson",
+      "position": "WR",
+      "team": "CLE",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 238,
+      "years_exp": 0,
+      "depth_chart_position": null
     },
     {
       "player_id": "11617",
@@ -9434,6 +9464,17 @@
       "status": "Active",
       "injury_status": null,
       "search_rank": 305,
+      "years_exp": 1,
+      "depth_chart_position": null
+    },
+    {
+      "player_id": "12792",
+      "name": "Garrett Greene",
+      "position": "QB",
+      "team": "TB",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 310,
       "years_exp": 1,
       "depth_chart_position": null
     },
@@ -9900,6 +9941,17 @@
       "depth_chart_position": null
     },
     {
+      "player_id": "12732",
+      "name": "Dominic Lovett",
+      "position": "WR",
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 444,
+      "years_exp": 1,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "9482",
       "name": "Michael Mayer",
       "position": "TE",
@@ -10263,6 +10315,17 @@
       "depth_chart_position": "SWR"
     },
     {
+      "player_id": "12788",
+      "name": "Will Sheppard",
+      "position": "WR",
+      "team": "MIA",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 500,
+      "years_exp": 1,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "11557",
       "name": "Joe Milton",
       "position": "QB",
@@ -10503,61 +10566,6 @@
       "search_rank": 527,
       "years_exp": 0,
       "depth_chart_position": "QB"
-    },
-    {
-      "player_id": "11729",
-      "name": "Sione Vaki",
-      "position": "RB",
-      "team": "DET",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 527,
-      "years_exp": 2,
-      "depth_chart_position": "RB"
-    },
-    {
-      "player_id": "4054",
-      "name": "Mo Alie-Cox",
-      "position": "TE",
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 528,
-      "years_exp": 9,
-      "depth_chart_position": "TE"
-    },
-    {
-      "player_id": "8188",
-      "name": "Tyquan Thornton",
-      "position": "WR",
-      "team": "KC",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 528,
-      "years_exp": 4,
-      "depth_chart_position": "LWR"
-    },
-    {
-      "player_id": "8181",
-      "name": "Connor Heyward",
-      "position": "TE",
-      "team": "LV",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 529,
-      "years_exp": 4,
-      "depth_chart_position": "RB"
-    },
-    {
-      "player_id": "12500",
-      "name": "Quinn Ewers",
-      "position": "QB",
-      "team": "JAX",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 531,
-      "years_exp": 1,
-      "depth_chart_position": "QB"
     }
   ],
   "free_agents_by_position": {
@@ -10593,6 +10601,17 @@
         "injury_status": null,
         "search_rank": 209,
         "years_exp": 13,
+        "depth_chart_position": "QB"
+      },
+      {
+        "player_id": "11565",
+        "name": "J.J. McCarthy",
+        "position": "QB",
+        "team": "MIN",
+        "status": "Active",
+        "injury_status": "Questionable",
+        "search_rank": 224,
+        "years_exp": 2,
         "depth_chart_position": "QB"
       },
       {
@@ -10649,6 +10668,17 @@
         "search_rank": 299,
         "years_exp": 9,
         "depth_chart_position": "QB"
+      },
+      {
+        "player_id": "12792",
+        "name": "Garrett Greene",
+        "position": "QB",
+        "team": "TB",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 310,
+        "years_exp": 1,
+        "depth_chart_position": null
       },
       {
         "player_id": "6136",
@@ -10835,17 +10865,6 @@
         "injury_status": null,
         "search_rank": 527,
         "years_exp": 0,
-        "depth_chart_position": "QB"
-      },
-      {
-        "player_id": "12500",
-        "name": "Quinn Ewers",
-        "position": "QB",
-        "team": "JAX",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 531,
-        "years_exp": 1,
         "depth_chart_position": "QB"
       }
     ],
@@ -11157,17 +11176,6 @@
         "search_rank": 522,
         "years_exp": 2,
         "depth_chart_position": "RB"
-      },
-      {
-        "player_id": "11729",
-        "name": "Sione Vaki",
-        "position": "RB",
-        "team": "DET",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 527,
-        "years_exp": 2,
-        "depth_chart_position": "RB"
       }
     ],
     "WR": [
@@ -11258,6 +11266,17 @@
         "search_rank": 203,
         "years_exp": 5,
         "depth_chart_position": "LWR"
+      },
+      {
+        "player_id": "13749",
+        "name": "Kole Wilson",
+        "position": "WR",
+        "team": "CLE",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 238,
+        "years_exp": 0,
+        "depth_chart_position": null
       },
       {
         "player_id": "11617",
@@ -11447,6 +11466,17 @@
         "depth_chart_position": "RWR"
       },
       {
+        "player_id": "12732",
+        "name": "Dominic Lovett",
+        "position": "WR",
+        "team": "DET",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 444,
+        "years_exp": 1,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "13227",
         "name": "Mitch Van Vooren",
         "position": "WR",
@@ -11546,6 +11576,17 @@
         "depth_chart_position": "SWR"
       },
       {
+        "player_id": "12788",
+        "name": "Will Sheppard",
+        "position": "WR",
+        "team": "MIA",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 500,
+        "years_exp": 1,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "8119",
         "name": "Jahan Dotson",
         "position": "WR",
@@ -11577,28 +11618,6 @@
         "search_rank": 513,
         "years_exp": 3,
         "depth_chart_position": "SWR"
-      },
-      {
-        "player_id": "13338",
-        "name": "Kevin Coleman",
-        "position": "WR",
-        "team": "MIA",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 523,
-        "years_exp": 0,
-        "depth_chart_position": "SWR"
-      },
-      {
-        "player_id": "8188",
-        "name": "Tyquan Thornton",
-        "position": "WR",
-        "team": "KC",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 528,
-        "years_exp": 4,
-        "depth_chart_position": "LWR"
       }
     ],
     "TE": [
