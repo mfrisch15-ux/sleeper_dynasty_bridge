@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-01T22:20:30.008636+00:00",
+  "generated_at_utc": "2026-09-01T23:18:50.575157+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -9215,6 +9215,17 @@
       "depth_chart_position": "QB"
     },
     {
+      "player_id": "13401",
+      "name": "Michael Trigg",
+      "position": "TE",
+      "team": "DAL",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 212,
+      "years_exp": 0,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "5995",
       "name": "Justice Hill",
       "position": "RB",
@@ -10023,7 +10034,7 @@
       "position": "TE",
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "IR",
       "search_rank": 468,
       "years_exp": 3,
       "depth_chart_position": null
@@ -10392,6 +10403,17 @@
       "depth_chart_position": "TE"
     },
     {
+      "player_id": "11199",
+      "name": "Emari Demercado",
+      "position": "RB",
+      "team": "DAL",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 509,
+      "years_exp": 3,
+      "depth_chart_position": "RB"
+    },
+    {
       "player_id": "7087",
       "name": "Jonathan Ward",
       "position": "RB",
@@ -10544,28 +10566,6 @@
       "search_rank": 522,
       "years_exp": 2,
       "depth_chart_position": "RB"
-    },
-    {
-      "player_id": "13338",
-      "name": "Kevin Coleman",
-      "position": "WR",
-      "team": "MIA",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 523,
-      "years_exp": 0,
-      "depth_chart_position": "SWR"
-    },
-    {
-      "player_id": "13404",
-      "name": "Garrett Nussmeier",
-      "position": "QB",
-      "team": "KC",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 527,
-      "years_exp": 0,
-      "depth_chart_position": "QB"
     }
   ],
   "free_agents_by_position": {
@@ -10855,17 +10855,6 @@
         "search_rank": 517,
         "years_exp": 11,
         "depth_chart_position": "QB"
-      },
-      {
-        "player_id": "13404",
-        "name": "Garrett Nussmeier",
-        "position": "QB",
-        "team": "KC",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 527,
-        "years_exp": 0,
-        "depth_chart_position": "QB"
       }
     ],
     "RB": [
@@ -11120,6 +11109,17 @@
         "injury_status": null,
         "search_rank": 491,
         "years_exp": 2,
+        "depth_chart_position": "RB"
+      },
+      {
+        "player_id": "11199",
+        "name": "Emari Demercado",
+        "position": "RB",
+        "team": "DAL",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 509,
+        "years_exp": 3,
         "depth_chart_position": "RB"
       },
       {
@@ -11688,6 +11688,17 @@
         "depth_chart_position": "TE"
       },
       {
+        "player_id": "13401",
+        "name": "Michael Trigg",
+        "position": "TE",
+        "team": "DAL",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 212,
+        "years_exp": 0,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "8172",
         "name": "Greg Dulcich",
         "position": "TE",
@@ -12034,7 +12045,7 @@
         "position": "TE",
         "team": "MIA",
         "status": "Active",
-        "injury_status": "Questionable",
+        "injury_status": "IR",
         "search_rank": 468,
         "years_exp": 3,
         "depth_chart_position": null
@@ -12048,17 +12059,6 @@
         "injury_status": null,
         "search_rank": 472,
         "years_exp": 0,
-        "depth_chart_position": "TE"
-      },
-      {
-        "player_id": "12938",
-        "name": "Jackson Meeks",
-        "position": "TE",
-        "team": "DET",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 472,
-        "years_exp": 1,
         "depth_chart_position": "TE"
       }
     ]
