@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-01T11:22:24.139489+00:00",
+  "generated_at_utc": "2026-09-01T12:28:21.899153+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -77,10 +77,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 176,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -135,10 +135,15 @@
     "last_message_text_map": null,
     "last_message_time": 1788219289116,
     "last_pinned_message_id": "1395507603206840320",
-    "draft_id": "1328462469970038784",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -162,11 +167,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -9537,6 +9537,17 @@
       "depth_chart_position": "RWR"
     },
     {
+      "player_id": "12756",
+      "name": "Stephen Gosnell",
+      "position": "WR",
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 305,
+      "years_exp": 1,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "8414",
       "name": "Britain Covey",
       "position": "WR",
@@ -10547,17 +10558,6 @@
       "search_rank": 495,
       "years_exp": 0,
       "depth_chart_position": "RWR"
-    },
-    {
-      "player_id": "11320",
-      "name": "Nikko Remigio",
-      "position": "WR",
-      "team": "KC",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 498,
-      "years_exp": 3,
-      "depth_chart_position": "SWR"
     }
   ],
   "free_agents_by_position": {
@@ -11304,6 +11304,17 @@
         "depth_chart_position": "RWR"
       },
       {
+        "player_id": "12756",
+        "name": "Stephen Gosnell",
+        "position": "WR",
+        "team": "BUF",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 305,
+        "years_exp": 1,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "8414",
         "name": "Britain Covey",
         "position": "WR",
@@ -11555,17 +11566,6 @@
         "search_rank": 471,
         "years_exp": 1,
         "depth_chart_position": null
-      },
-      {
-        "player_id": "2078",
-        "name": "Odell Beckham",
-        "position": "WR",
-        "team": "NYG",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 473,
-        "years_exp": 12,
-        "depth_chart_position": "RWR"
       }
     ],
     "TE": [
