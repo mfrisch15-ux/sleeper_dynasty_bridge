@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T22:21:32.388318+00:00",
+  "generated_at_utc": "2026-09-02T23:19:50.746700+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -76,6 +76,10 @@
       "daily_waivers_last_ran": 26
     },
     "avatar": null,
+    "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "company_id": null,
     "scoring_settings": {
       "sack": 1.0,
@@ -122,12 +126,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 176,
-    "sport": "nfl",
     "last_message_id": "1401001011841081344",
-    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -135,10 +134,16 @@
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1788387179865,
+    "draft_id": "1328462469970038784",
     "last_pinned_message_id": "1400888556456529920",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -162,11 +167,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -9898,7 +9898,7 @@
     {
       "player_id": "13516",
       "name": "Max Bredeson",
-      "position": "TE",
+      "position": "RB",
       "team": "MIN",
       "status": "Active",
       "injury_status": null,
@@ -11144,6 +11144,17 @@
         "depth_chart_position": "RB"
       },
       {
+        "player_id": "13516",
+        "name": "Max Bredeson",
+        "position": "RB",
+        "team": "MIN",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 407,
+        "years_exp": 0,
+        "depth_chart_position": "RB"
+      },
+      {
         "player_id": "4147",
         "name": "Samaje Perine",
         "position": "RB",
@@ -11984,17 +11995,6 @@
         "depth_chart_position": null
       },
       {
-        "player_id": "13516",
-        "name": "Max Bredeson",
-        "position": "TE",
-        "team": "MIN",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 407,
-        "years_exp": 0,
-        "depth_chart_position": "RB"
-      },
-      {
         "player_id": "13210",
         "name": "Drake Dabney",
         "position": "TE",
@@ -12146,6 +12146,17 @@
         "injury_status": null,
         "search_rank": 484,
         "years_exp": 9,
+        "depth_chart_position": "TE"
+      },
+      {
+        "player_id": "7535",
+        "name": "Hunter Long",
+        "position": "TE",
+        "team": "ARI",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 488,
+        "years_exp": 5,
         "depth_chart_position": "TE"
       }
     ]
