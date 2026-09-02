@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T15:27:29.958689+00:00",
+  "generated_at_utc": "2026-09-02T16:24:30.900139+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -10325,17 +10325,6 @@
       "depth_chart_position": "TE"
     },
     {
-      "player_id": "12892",
-      "name": "Da'Quan Felton",
-      "position": "WR",
-      "team": "NYJ",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "search_rank": 491,
-      "years_exp": 1,
-      "depth_chart_position": null
-    },
-    {
       "player_id": "9479",
       "name": "Darnell Washington",
       "position": "TE",
@@ -10443,17 +10432,6 @@
       "injury_status": null,
       "search_rank": 502,
       "years_exp": 1,
-      "depth_chart_position": null
-    },
-    {
-      "player_id": "11557",
-      "name": "Joe Milton",
-      "position": "QB",
-      "team": "DAL",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 504,
-      "years_exp": 2,
       "depth_chart_position": null
     },
     {
@@ -10620,6 +10598,28 @@
       "search_rank": 513,
       "years_exp": 1,
       "depth_chart_position": null
+    },
+    {
+      "player_id": "14038",
+      "name": "Trayvon Rudolph",
+      "position": "WR",
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 514,
+      "years_exp": 0,
+      "depth_chart_position": null
+    },
+    {
+      "player_id": "12511",
+      "name": "Will Howard",
+      "position": "QB",
+      "team": "PIT",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "search_rank": 516,
+      "years_exp": 1,
+      "depth_chart_position": "QB"
     }
   ],
   "free_agents_by_position": {
@@ -10856,17 +10856,6 @@
         "depth_chart_position": "QB"
       },
       {
-        "player_id": "11557",
-        "name": "Joe Milton",
-        "position": "QB",
-        "team": "DAL",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 504,
-        "years_exp": 2,
-        "depth_chart_position": null
-      },
-      {
         "player_id": "2307",
         "name": "Marcus Mariota",
         "position": "QB",
@@ -10885,6 +10874,17 @@
         "status": "Active",
         "injury_status": null,
         "search_rank": 512,
+        "years_exp": 1,
+        "depth_chart_position": "QB"
+      },
+      {
+        "player_id": "12511",
+        "name": "Will Howard",
+        "position": "QB",
+        "team": "PIT",
+        "status": "Active",
+        "injury_status": "Questionable",
+        "search_rank": 516,
         "years_exp": 1,
         "depth_chart_position": "QB"
       }
@@ -11597,17 +11597,6 @@
         "depth_chart_position": "LWR"
       },
       {
-        "player_id": "12892",
-        "name": "Da'Quan Felton",
-        "position": "WR",
-        "team": "NYJ",
-        "status": "Active",
-        "injury_status": "Questionable",
-        "search_rank": 491,
-        "years_exp": 1,
-        "depth_chart_position": null
-      },
-      {
         "player_id": "13329",
         "name": "Malik Benson",
         "position": "WR",
@@ -11650,6 +11639,17 @@
         "search_rank": 502,
         "years_exp": 1,
         "depth_chart_position": null
+      },
+      {
+        "player_id": "10226",
+        "name": "Andrei Iosivas",
+        "position": "WR",
+        "team": "CIN",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 506,
+        "years_exp": 3,
+        "depth_chart_position": "SWR"
       }
     ],
     "TE": [
