@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T09:23:21.853553+00:00",
+  "generated_at_utc": "2026-09-02T10:23:58.903238+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -135,8 +135,8 @@
     "last_message_text_map": null,
     "last_message_time": 1788324119350,
     "last_pinned_message_id": "1395507603206840320",
-    "last_read_id": null,
     "draft_id": "1328462469970038784",
+    "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "roster_positions": [
@@ -5229,8 +5229,8 @@
         "waiver_budget": [
           {
             "amount": 30,
-            "receiver": 3,
-            "sender": 6
+            "sender": 6,
+            "receiver": 3
           }
         ]
       },
@@ -5847,8 +5847,8 @@
         "waiver_budget": [
           {
             "amount": 35,
-            "receiver": 6,
-            "sender": 9
+            "sender": 9,
+            "receiver": 6
           }
         ]
       },
@@ -9704,7 +9704,7 @@
       "injury_status": "PUP",
       "search_rank": 371,
       "years_exp": 3,
-      "depth_chart_position": "LWR"
+      "depth_chart_position": "RWR"
     },
     {
       "player_id": "12171",
@@ -11394,7 +11394,7 @@
         "injury_status": "PUP",
         "search_rank": 371,
         "years_exp": 3,
-        "depth_chart_position": "LWR"
+        "depth_chart_position": "RWR"
       },
       {
         "player_id": "6154",
