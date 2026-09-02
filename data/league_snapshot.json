@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T18:26:13.653033+00:00",
+  "generated_at_utc": "2026-09-02T19:20:27.580839+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -77,10 +77,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 176,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -126,19 +126,19 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1400895858681118720",
-    "last_author_avatar": "e7af4deab0289b4f5505646424895246",
-    "last_author_display_name": "ChrBTX",
-    "last_author_id": "872912569105625088",
-    "last_author_is_bot": false,
+    "last_message_id": "1400949892356026368",
+    "draft_id": "1328462469970038784",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788362109587,
+    "last_message_time": 1788374992029,
     "last_pinned_message_id": "1400888556456529920",
-    "draft_id": "1328462469970038784",
-    "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "last_read_id": null,
     "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
@@ -881,7 +881,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": -24,
-        "waiver_position": 9,
+        "waiver_position": 10,
         "wins": 0
       },
       "players": [
@@ -1211,10 +1211,10 @@
           "is_taxi": false
         },
         {
-          "player_id": "NE",
-          "name": "New England Patriots",
+          "player_id": "BAL",
+          "name": "Baltimore Ravens",
           "position": "DEF",
-          "team": "NE",
+          "team": "BAL",
           "status": null,
           "injury_status": null,
           "search_rank": null,
@@ -2648,7 +2648,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 22,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 0
       },
       "players": [
@@ -3826,7 +3826,7 @@
         "8130",
         "8259",
         "9493",
-        "NE"
+        "BAL"
       ],
       "roster_id": 3,
       "custom_points": null,
@@ -3841,7 +3841,7 @@
         "8130",
         "12512",
         "8259",
-        "NE"
+        "BAL"
       ],
       "starters_points": [
         0.0,
@@ -3881,7 +3881,7 @@
         "8130": 0.0,
         "8259": 0.0,
         "9493": 0.0,
-        "NE": 0.0
+        "BAL": 0.0
       }
     },
     {
@@ -4475,6 +4475,36 @@
   ],
   "transactions_recent": {
     "1": [
+      {
+        "status": "complete",
+        "type": "waiver",
+        "metadata": {
+          "notes": "Your waiver claim was processed successfully!"
+        },
+        "created": 1788361348553,
+        "settings": {
+          "seq": 0,
+          "waiver_bid": 0
+        },
+        "leg": 1,
+        "draft_picks": [],
+        "creator": "1264778915197505536",
+        "transaction_id": "1400892667465834496",
+        "adds": {
+          "BAL": 3
+        },
+        "drops": {
+          "NE": 3
+        },
+        "consenter_ids": [
+          3
+        ],
+        "roster_ids": [
+          3
+        ],
+        "status_updated": 1788374991891,
+        "waiver_budget": []
+      },
       {
         "status": "complete",
         "type": "free_agent",
