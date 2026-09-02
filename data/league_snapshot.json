@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T03:22:00.070333+00:00",
+  "generated_at_utc": "2026-09-02T04:24:18.985435+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -77,7 +77,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1400619300464672768",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -125,18 +124,19 @@
     },
     "season": "2026",
     "season_type": "regular",
-    "shard": 176,
     "sport": "nfl",
+    "last_message_id": "1400619300464672768",
+    "shard": 176,
     "last_author_avatar": "bb4df5148bf5a7e4356ef1657abb854e",
     "last_author_display_name": "DrSlick",
     "last_author_id": "735298292942041088",
     "last_author_is_bot": false,
-    "draft_id": "1328462469970038784",
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1788296172781,
     "last_pinned_message_id": "1395507603206840320",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "bracket_id": null,
@@ -9501,6 +9501,17 @@
       "depth_chart_position": null
     },
     {
+      "player_id": "6529",
+      "name": "Chris Myarick",
+      "position": "TE",
+      "team": "LV",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 315,
+      "years_exp": 7,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "11762",
       "name": "Anthony Gould",
       "position": "WR",
@@ -10084,6 +10095,17 @@
       "depth_chart_position": "TE"
     },
     {
+      "player_id": "6843",
+      "name": "Albert Okwuegbunam",
+      "position": "TE",
+      "team": "LV",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 471,
+      "years_exp": 6,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "13227",
       "name": "Mitch Van Vooren",
       "position": "WR",
@@ -10403,6 +10425,17 @@
       "depth_chart_position": null
     },
     {
+      "player_id": "13011",
+      "name": "Brennan Presley",
+      "position": "WR",
+      "team": "LAR",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 502,
+      "years_exp": 1,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "11557",
       "name": "Joe Milton",
       "position": "QB",
@@ -10533,39 +10566,6 @@
       "search_rank": 512,
       "years_exp": 1,
       "depth_chart_position": null
-    },
-    {
-      "player_id": "9501",
-      "name": "DeMario Douglas",
-      "position": "WR",
-      "team": "NE",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 513,
-      "years_exp": 3,
-      "depth_chart_position": "SWR"
-    },
-    {
-      "player_id": "13423",
-      "name": "Eli Heidenreich",
-      "position": "RB",
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 514,
-      "years_exp": 0,
-      "depth_chart_position": "RB"
-    },
-    {
-      "player_id": "13324",
-      "name": "Matt Hibner",
-      "position": "TE",
-      "team": "BAL",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 514,
-      "years_exp": 0,
-      "depth_chart_position": "TE"
     }
   ],
   "free_agents_by_position": {
@@ -11143,17 +11143,6 @@
         "search_rank": 512,
         "years_exp": 7,
         "depth_chart_position": null
-      },
-      {
-        "player_id": "13423",
-        "name": "Eli Heidenreich",
-        "position": "RB",
-        "team": "PIT",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 514,
-        "years_exp": 0,
-        "depth_chart_position": "RB"
       }
     ],
     "WR": [
@@ -11587,15 +11576,15 @@
         "depth_chart_position": null
       },
       {
-        "player_id": "8119",
-        "name": "Jahan Dotson",
+        "player_id": "13011",
+        "name": "Brennan Presley",
         "position": "WR",
-        "team": "ATL",
+        "team": "LAR",
         "status": "Active",
         "injury_status": null,
-        "search_rank": 510,
-        "years_exp": 4,
-        "depth_chart_position": "RWR"
+        "search_rank": 502,
+        "years_exp": 1,
+        "depth_chart_position": null
       }
     ],
     "TE": [
@@ -11773,6 +11762,17 @@
         "injury_status": null,
         "search_rank": 297,
         "years_exp": 9,
+        "depth_chart_position": null
+      },
+      {
+        "player_id": "6529",
+        "name": "Chris Myarick",
+        "position": "TE",
+        "team": "LV",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 315,
+        "years_exp": 7,
         "depth_chart_position": null
       },
       {
@@ -12025,17 +12025,6 @@
         "status": "Active",
         "injury_status": null,
         "search_rank": 458,
-        "years_exp": 1,
-        "depth_chart_position": "TE"
-      },
-      {
-        "player_id": "12817",
-        "name": "Jake Briningstool",
-        "position": "TE",
-        "team": "KC",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 461,
         "years_exp": 1,
         "depth_chart_position": "TE"
       }
