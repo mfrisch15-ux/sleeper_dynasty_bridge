@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-01T23:18:50.575157+00:00",
+  "generated_at_utc": "2026-09-02T00:31:14.642059+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -77,10 +77,7 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 176,
+    "last_message_id": "1400619300464672768",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -126,12 +123,15 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1400619300464672768",
-    "draft_id": "1328462469970038784",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 176,
+    "sport": "nfl",
     "last_author_avatar": "bb4df5148bf5a7e4356ef1657abb854e",
     "last_author_display_name": "DrSlick",
     "last_author_id": "735298292942041088",
     "last_author_is_bot": false,
+    "draft_id": "1328462469970038784",
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1788296172781,
@@ -139,6 +139,11 @@
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -162,11 +167,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -9710,6 +9710,17 @@
       "depth_chart_position": "TE"
     },
     {
+      "player_id": "13630",
+      "name": "Evan Svoboda",
+      "position": "TE",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 380,
+      "years_exp": 0,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "7103",
       "name": "Tavien Feaster",
       "position": "RB",
@@ -9983,6 +9994,17 @@
       "search_rank": 453,
       "years_exp": 3,
       "depth_chart_position": "QB"
+    },
+    {
+      "player_id": "12928",
+      "name": "Amar Johnson",
+      "position": "RB",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 454,
+      "years_exp": 1,
+      "depth_chart_position": null
     },
     {
       "player_id": "6001",
@@ -10544,28 +10566,6 @@
       "search_rank": 518,
       "years_exp": 0,
       "depth_chart_position": "TE"
-    },
-    {
-      "player_id": "11370",
-      "name": "Chris Brooks",
-      "position": "RB",
-      "team": "GB",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 519,
-      "years_exp": 3,
-      "depth_chart_position": "RB"
-    },
-    {
-      "player_id": "11571",
-      "name": "Isaiah Davis",
-      "position": "RB",
-      "team": "NYJ",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "search_rank": 522,
-      "years_exp": 2,
-      "depth_chart_position": "RB"
     }
   ],
   "free_agents_by_position": {
@@ -11057,6 +11057,17 @@
         "depth_chart_position": "RB"
       },
       {
+        "player_id": "12928",
+        "name": "Amar Johnson",
+        "position": "RB",
+        "team": "LAC",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 454,
+        "years_exp": 1,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "11582",
         "name": "Carson Steele",
         "position": "RB",
@@ -11153,28 +11164,6 @@
         "injury_status": null,
         "search_rank": 514,
         "years_exp": 0,
-        "depth_chart_position": "RB"
-      },
-      {
-        "player_id": "11370",
-        "name": "Chris Brooks",
-        "position": "RB",
-        "team": "GB",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 519,
-        "years_exp": 3,
-        "depth_chart_position": "RB"
-      },
-      {
-        "player_id": "11571",
-        "name": "Isaiah Davis",
-        "position": "RB",
-        "team": "NYJ",
-        "status": "Active",
-        "injury_status": "Questionable",
-        "search_rank": 522,
-        "years_exp": 2,
         "depth_chart_position": "RB"
       }
     ],
@@ -11886,6 +11875,17 @@
         "depth_chart_position": "TE"
       },
       {
+        "player_id": "13630",
+        "name": "Evan Svoboda",
+        "position": "TE",
+        "team": "LAC",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 380,
+        "years_exp": 0,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "12389",
         "name": "Hayden Rucci",
         "position": "TE",
@@ -12049,17 +12049,6 @@
         "search_rank": 468,
         "years_exp": 3,
         "depth_chart_position": null
-      },
-      {
-        "player_id": "13308",
-        "name": "Bauer Sharp",
-        "position": "TE",
-        "team": "TB",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 472,
-        "years_exp": 0,
-        "depth_chart_position": "TE"
       }
     ]
   },
