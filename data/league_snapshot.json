@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T02:35:40.903130+00:00",
+  "generated_at_utc": "2026-09-02T03:22:00.070333+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -10062,6 +10062,17 @@
       "depth_chart_position": "TE"
     },
     {
+      "player_id": "13645",
+      "name": "Michael Wortham",
+      "position": "WR",
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 465,
+      "years_exp": 0,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "11082",
       "name": "Ben Sims",
       "position": "TE",
@@ -10359,6 +10370,17 @@
       "depth_chart_position": "RWR"
     },
     {
+      "player_id": "13348",
+      "name": "J'Mari Taylor",
+      "position": "RB",
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 496,
+      "years_exp": 0,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "11320",
       "name": "Nikko Remigio",
       "position": "WR",
@@ -10544,28 +10566,6 @@
       "search_rank": 514,
       "years_exp": 0,
       "depth_chart_position": "TE"
-    },
-    {
-      "player_id": "12511",
-      "name": "Will Howard",
-      "position": "QB",
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "search_rank": 516,
-      "years_exp": 1,
-      "depth_chart_position": "QB"
-    },
-    {
-      "player_id": "2306",
-      "name": "Jameis Winston",
-      "position": "QB",
-      "team": "NYG",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 517,
-      "years_exp": 11,
-      "depth_chart_position": "QB"
     }
   ],
   "free_agents_by_position": {
@@ -10831,28 +10831,6 @@
         "status": "Active",
         "injury_status": "Questionable",
         "search_rank": 508,
-        "years_exp": 11,
-        "depth_chart_position": "QB"
-      },
-      {
-        "player_id": "12511",
-        "name": "Will Howard",
-        "position": "QB",
-        "team": "PIT",
-        "status": "Active",
-        "injury_status": "Questionable",
-        "search_rank": 516,
-        "years_exp": 1,
-        "depth_chart_position": "QB"
-      },
-      {
-        "player_id": "2306",
-        "name": "Jameis Winston",
-        "position": "QB",
-        "team": "NYG",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 517,
         "years_exp": 11,
         "depth_chart_position": "QB"
       }
@@ -11121,6 +11099,17 @@
         "search_rank": 491,
         "years_exp": 2,
         "depth_chart_position": "RB"
+      },
+      {
+        "player_id": "13348",
+        "name": "J'Mari Taylor",
+        "position": "RB",
+        "team": "JAX",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 496,
+        "years_exp": 0,
+        "depth_chart_position": null
       },
       {
         "player_id": "11199",
@@ -11466,6 +11455,17 @@
         "depth_chart_position": null
       },
       {
+        "player_id": "13645",
+        "name": "Michael Wortham",
+        "position": "WR",
+        "team": "JAX",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 465,
+        "years_exp": 0,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "13227",
         "name": "Mitch Van Vooren",
         "position": "WR",
@@ -11596,17 +11596,6 @@
         "search_rank": 510,
         "years_exp": 4,
         "depth_chart_position": "RWR"
-      },
-      {
-        "player_id": "10226",
-        "name": "Andrei Iosivas",
-        "position": "WR",
-        "team": "CIN",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 511,
-        "years_exp": 3,
-        "depth_chart_position": "SWR"
       }
     ],
     "TE": [
