@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-02T00:31:14.642059+00:00",
+  "generated_at_utc": "2026-09-02T01:20:15.833672+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -77,6 +77,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 176,
     "last_message_id": "1400619300464672768",
     "scoring_settings": {
       "sack": 1.0,
@@ -123,20 +127,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 176,
-    "sport": "nfl",
     "last_author_avatar": "bb4df5148bf5a7e4356ef1657abb854e",
     "last_author_display_name": "DrSlick",
     "last_author_id": "735298292942041088",
     "last_author_is_bot": false,
-    "draft_id": "1328462469970038784",
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1788296172781,
     "last_pinned_message_id": "1395507603206840320",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "bracket_id": null,
@@ -10059,7 +10059,7 @@
       "injury_status": "IR",
       "search_rank": 468,
       "years_exp": 3,
-      "depth_chart_position": null
+      "depth_chart_position": "TE"
     },
     {
       "player_id": "13227",
@@ -10104,6 +10104,17 @@
       "search_rank": 473,
       "years_exp": 12,
       "depth_chart_position": "RWR"
+    },
+    {
+      "player_id": "6588",
+      "name": "Tom Kennedy",
+      "position": "WR",
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 475,
+      "years_exp": 7,
+      "depth_chart_position": null
     },
     {
       "player_id": "8917",
@@ -10480,6 +10491,17 @@
       "depth_chart_position": null
     },
     {
+      "player_id": "13249",
+      "name": "Thomas Gordon",
+      "position": "TE",
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 512,
+      "years_exp": 1,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "9501",
       "name": "DeMario Douglas",
       "position": "WR",
@@ -10544,28 +10566,6 @@
       "search_rank": 517,
       "years_exp": 2,
       "depth_chart_position": null
-    },
-    {
-      "player_id": "13429",
-      "name": "Seydou Traore",
-      "position": "TE",
-      "team": "MIA",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 518,
-      "years_exp": 0,
-      "depth_chart_position": "TE"
-    },
-    {
-      "player_id": "13434",
-      "name": "Will Kacmarek",
-      "position": "TE",
-      "team": "MIA",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "search_rank": 518,
-      "years_exp": 0,
-      "depth_chart_position": "TE"
     }
   ],
   "free_agents_by_position": {
@@ -11488,6 +11488,17 @@
         "depth_chart_position": "RWR"
       },
       {
+        "player_id": "6588",
+        "name": "Tom Kennedy",
+        "position": "WR",
+        "team": "DET",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 475,
+        "years_exp": 7,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "8917",
         "name": "KaVontae Turpin",
         "position": "WR",
@@ -11594,17 +11605,6 @@
         "status": "Active",
         "injury_status": null,
         "search_rank": 511,
-        "years_exp": 3,
-        "depth_chart_position": "SWR"
-      },
-      {
-        "player_id": "9501",
-        "name": "DeMario Douglas",
-        "position": "WR",
-        "team": "NE",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 513,
         "years_exp": 3,
         "depth_chart_position": "SWR"
       }
@@ -12048,7 +12048,7 @@
         "injury_status": "IR",
         "search_rank": 468,
         "years_exp": 3,
-        "depth_chart_position": null
+        "depth_chart_position": "TE"
       }
     ]
   },
