@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-03T18:25:57.032596+00:00",
+  "generated_at_utc": "2026-09-03T19:19:20.818919+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -81,7 +81,6 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
-    "last_message_id": "1401297916135538688",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -127,6 +126,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
+    "last_message_id": "1401297916135538688",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -162,9 +162,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -1520,7 +1520,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 94,
           "years_exp": 4,
           "is_starter": false,
