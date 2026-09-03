@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-03T22:21:31.665919+00:00",
+  "generated_at_utc": "2026-09-03T23:19:30.360924+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -77,7 +77,7 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1401297916135538688",
+    "last_message_id": "1401377897788272640",
     "shard": 176,
     "season": "2026",
     "season_type": "regular",
@@ -127,14 +127,14 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
+    "last_author_avatar": "7572250c2fb084c434fed0e82229e183",
+    "last_author_display_name": "vishvall",
+    "last_author_id": "1264983252985192448",
     "draft_id": "1328462469970038784",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788457967365,
+    "last_message_time": 1788477036477,
     "last_pinned_message_id": "1400888556456529920",
     "last_read_id": null,
     "league_id": "1328462469961613312",
@@ -912,6 +912,19 @@
           "is_taxi": false
         },
         {
+          "player_id": "10235",
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 671,
+          "years_exp": 3,
+          "is_starter": false,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
           "player_id": "11603",
           "name": "AJ Barner",
           "position": "TE",
@@ -1029,19 +1042,6 @@
           "is_taxi": false
         },
         {
-          "player_id": "13268",
-          "name": "Elijah Sarratt",
-          "position": "WR",
-          "team": "BAL",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 201,
-          "years_exp": 0,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": true
-        },
-        {
           "player_id": "13274",
           "name": "Germie Bernard",
           "position": "WR",
@@ -1052,7 +1052,7 @@
           "years_exp": 0,
           "is_starter": false,
           "is_reserve": false,
-          "is_taxi": false
+          "is_taxi": true
         },
         {
           "player_id": "13317",
@@ -3803,6 +3803,7 @@
       "players": [
         "10219",
         "10222",
+        "10235",
         "11603",
         "11655",
         "11834",
@@ -3812,7 +3813,6 @@
         "12492",
         "12508",
         "12512",
-        "13268",
         "13274",
         "13317",
         "13337",
@@ -3858,6 +3858,7 @@
       "players_points": {
         "10219": 0.0,
         "10222": 0.0,
+        "10235": 0.0,
         "11603": 0.0,
         "11655": 0.0,
         "11834": 0.0,
@@ -3867,7 +3868,6 @@
         "12492": 0.0,
         "12508": 0.0,
         "12512": 0.0,
-        "13268": 0.0,
         "13274": 0.0,
         "13317": 0.0,
         "13337": 0.0,
@@ -4475,6 +4475,31 @@
   ],
   "transactions_recent": {
     "1": [
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1788475521263,
+        "settings": null,
+        "leg": 1,
+        "draft_picks": [],
+        "creator": "1264778915197505536",
+        "transaction_id": "1401371542524280832",
+        "adds": {
+          "10235": 3
+        },
+        "drops": {
+          "13268": 3
+        },
+        "consenter_ids": [
+          3
+        ],
+        "roster_ids": [
+          3
+        ],
+        "status_updated": 1788475521263,
+        "waiver_budget": []
+      },
       {
         "status": "complete",
         "type": "free_agent",
@@ -9348,6 +9373,17 @@
       "depth_chart_position": "SWR"
     },
     {
+      "player_id": "13268",
+      "name": "Elijah Sarratt",
+      "position": "WR",
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 201,
+      "years_exp": 0,
+      "depth_chart_position": "LWR"
+    },
+    {
       "player_id": "7571",
       "name": "Rashod Bateman",
       "position": "WR",
@@ -10710,17 +10746,6 @@
       "search_rank": 517,
       "years_exp": 9,
       "depth_chart_position": "TE"
-    },
-    {
-      "player_id": "12079",
-      "name": "Treyton Welch",
-      "position": "TE",
-      "team": "NO",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 517,
-      "years_exp": 2,
-      "depth_chart_position": null
     }
   ],
   "free_agents_by_position": {
@@ -11390,6 +11415,17 @@
         "depth_chart_position": "SWR"
       },
       {
+        "player_id": "13268",
+        "name": "Elijah Sarratt",
+        "position": "WR",
+        "team": "BAL",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 201,
+        "years_exp": 0,
+        "depth_chart_position": "LWR"
+      },
+      {
         "player_id": "7571",
         "name": "Rashod Bateman",
         "position": "WR",
@@ -11751,17 +11787,6 @@
         "search_rank": 500,
         "years_exp": 4,
         "depth_chart_position": "RWR"
-      },
-      {
-        "player_id": "12788",
-        "name": "Will Sheppard",
-        "position": "WR",
-        "team": "MIA",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 500,
-        "years_exp": 1,
-        "depth_chart_position": null
       }
     ],
     "TE": [
