@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-03T17:22:18.893761+00:00",
+  "generated_at_utc": "2026-09-03T18:25:57.032596+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -76,11 +76,12 @@
       "daily_waivers_last_ran": 26
     },
     "avatar": null,
+    "company_id": null,
     "shard": 176,
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
-    "company_id": null,
+    "last_message_id": "1401297916135538688",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -126,24 +127,18 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1401001011841081344",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788387179865,
-    "draft_id": "1328462469970038784",
+    "last_message_time": 1788457967365,
     "last_pinned_message_id": "1400888556456529920",
+    "draft_id": "1328462469970038784",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -167,6 +162,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -1611,19 +1611,6 @@
       },
       "players": [
         {
-          "player_id": "10444",
-          "name": "Cedric Tillman",
-          "position": "WR",
-          "team": "NO",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 667,
-          "years_exp": 3,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
           "player_id": "11237",
           "name": "Jacob Saylors",
           "position": "RB",
@@ -1793,6 +1780,19 @@
           "is_taxi": false
         },
         {
+          "player_id": "4039",
+          "name": "Cooper Kupp",
+          "position": "WR",
+          "team": "SEA",
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 198,
+          "years_exp": 9,
+          "is_starter": false,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
           "player_id": "5001",
           "name": "Dalton Schultz",
           "position": "TE",
@@ -1801,7 +1801,7 @@
           "injury_status": null,
           "search_rank": 98,
           "years_exp": 8,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -1814,7 +1814,7 @@
           "injury_status": null,
           "search_rank": 94,
           "years_exp": 8,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -3659,7 +3659,7 @@
       ],
       "roster_id": 1,
       "custom_points": null,
-      "matchup_id": 5,
+      "matchup_id": 4,
       "starters": [
         "11560",
         "9509",
@@ -3744,7 +3744,7 @@
       ],
       "roster_id": 2,
       "custom_points": null,
-      "matchup_id": 1,
+      "matchup_id": 2,
       "starters": [
         "4984",
         "8138",
@@ -3917,7 +3917,7 @@
       ],
       "roster_id": 4,
       "custom_points": null,
-      "matchup_id": 4,
+      "matchup_id": 5,
       "starters": [
         "6904",
         "12507",
@@ -3975,7 +3975,6 @@
     {
       "points": 0.0,
       "players": [
-        "10444",
         "11237",
         "11584",
         "11624",
@@ -3989,6 +3988,7 @@
         "13298",
         "2216",
         "3294",
+        "4039",
         "5001",
         "5022",
         "5045",
@@ -4011,7 +4011,7 @@
         "8112",
         "12526",
         "2216",
-        "5001",
+        "5022",
         "11584",
         "11786",
         "LAR"
@@ -4029,7 +4029,6 @@
         0.0
       ],
       "players_points": {
-        "10444": 0.0,
         "11237": 0.0,
         "11584": 0.0,
         "11624": 0.0,
@@ -4043,6 +4042,7 @@
         "13298": 0.0,
         "2216": 0.0,
         "3294": 0.0,
+        "4039": 0.0,
         "5001": 0.0,
         "5022": 0.0,
         "5045": 0.0,
@@ -4422,7 +4422,7 @@
       ],
       "roster_id": 10,
       "custom_points": null,
-      "matchup_id": 2,
+      "matchup_id": 1,
       "starters": [
         "11563",
         "8150",
@@ -4475,6 +4475,52 @@
   ],
   "transactions_recent": {
     "1": [
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1788457967326,
+        "settings": null,
+        "leg": 1,
+        "draft_picks": [],
+        "creator": "1126265615670505472",
+        "transaction_id": "1401297915976167424",
+        "adds": {
+          "4039": 5
+        },
+        "consenter_ids": [
+          5
+        ],
+        "drops": null,
+        "roster_ids": [
+          5
+        ],
+        "status_updated": 1788457967326,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1788457942325,
+        "settings": null,
+        "leg": 1,
+        "draft_picks": [],
+        "creator": "1126265615670505472",
+        "transaction_id": "1401297811110117376",
+        "adds": null,
+        "consenter_ids": [
+          5
+        ],
+        "drops": {
+          "10444": 5
+        },
+        "roster_ids": [
+          5
+        ],
+        "status_updated": 1788457942325,
+        "waiver_budget": []
+      },
       {
         "status": "complete",
         "type": "free_agent",
@@ -9291,17 +9337,6 @@
       "depth_chart_position": "SWR"
     },
     {
-      "player_id": "4039",
-      "name": "Cooper Kupp",
-      "position": "WR",
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 198,
-      "years_exp": 9,
-      "depth_chart_position": "SWR"
-    },
-    {
       "player_id": "11783",
       "name": "Ryan Flournoy",
       "position": "WR",
@@ -10594,7 +10629,7 @@
       "position": "QB",
       "team": "PIT",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 513,
       "years_exp": 1,
       "depth_chart_position": "QB"
@@ -10675,6 +10710,17 @@
       "search_rank": 517,
       "years_exp": 9,
       "depth_chart_position": "TE"
+    },
+    {
+      "player_id": "12079",
+      "name": "Treyton Welch",
+      "position": "TE",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 517,
+      "years_exp": 2,
+      "depth_chart_position": null
     }
   ],
   "free_agents_by_position": {
@@ -10916,7 +10962,7 @@
         "position": "QB",
         "team": "PIT",
         "status": "Active",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "search_rank": 513,
         "years_exp": 1,
         "depth_chart_position": "QB"
@@ -11333,17 +11379,6 @@
         "depth_chart_position": "SWR"
       },
       {
-        "player_id": "4039",
-        "name": "Cooper Kupp",
-        "position": "WR",
-        "team": "SEA",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 198,
-        "years_exp": 9,
-        "depth_chart_position": "SWR"
-      },
-      {
         "player_id": "11783",
         "name": "Ryan Flournoy",
         "position": "WR",
@@ -11716,6 +11751,17 @@
         "search_rank": 500,
         "years_exp": 4,
         "depth_chart_position": "RWR"
+      },
+      {
+        "player_id": "12788",
+        "name": "Will Sheppard",
+        "position": "WR",
+        "team": "MIA",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 500,
+        "years_exp": 1,
+        "depth_chart_position": null
       }
     ],
     "TE": [
