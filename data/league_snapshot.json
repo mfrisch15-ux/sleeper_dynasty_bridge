@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-05T01:20:07.010644+00:00",
+  "generated_at_utc": "2026-09-05T02:21:44.111691+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 1,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 1,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -79,6 +79,10 @@
     "avatar": null,
     "company_id": null,
     "last_message_id": "1401606101782245376",
+    "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -124,10 +128,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 176,
-    "sport": "nfl",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -137,10 +137,9 @@
     "last_message_time": 1788531444549,
     "last_pinned_message_id": "1401604029200510976",
     "draft_id": "1328462469970038784",
+    "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "last_read_id": null,
-    "bracket_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -164,8 +163,9 @@
       "BN",
       "BN"
     ],
-    "bracket_overrides_id": null,
     "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
