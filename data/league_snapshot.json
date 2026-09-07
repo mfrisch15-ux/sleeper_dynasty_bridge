@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-07T17:22:03.453091+00:00",
+  "generated_at_utc": "2026-09-07T18:25:30.392721+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -78,10 +78,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 176,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -136,12 +136,10 @@
     "last_message_text_map": null,
     "last_message_time": 1788717698886,
     "last_pinned_message_id": "1402369202257424384",
-    "last_read_id": null,
     "draft_id": "1328462469970038784",
+    "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -165,6 +163,8 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
@@ -3388,7 +3388,7 @@
           "search_rank": 62,
           "years_exp": 0,
           "is_starter": false,
-          "is_reserve": false,
+          "is_reserve": true,
           "is_taxi": false
         },
         {
@@ -10217,6 +10217,17 @@
       "depth_chart_position": "SWR"
     },
     {
+      "player_id": "6853",
+      "name": "Van Jefferson",
+      "position": "WR",
+      "team": "WAS",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 454,
+      "years_exp": 6,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "12792",
       "name": "Garrett Greene",
       "position": "QB",
@@ -10772,7 +10783,7 @@
       "position": "TE",
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 514,
       "years_exp": 0,
       "depth_chart_position": "TE"
@@ -10842,17 +10853,6 @@
       "search_rank": 522,
       "years_exp": 4,
       "depth_chart_position": "LWR"
-    },
-    {
-      "player_id": "13306",
-      "name": "Taylen Green",
-      "position": "QB",
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 523,
-      "years_exp": 0,
-      "depth_chart_position": "QB"
     }
   ],
   "free_agents_by_position": {
@@ -11140,17 +11140,6 @@
         "status": "Active",
         "injury_status": null,
         "search_rank": 515,
-        "years_exp": 0,
-        "depth_chart_position": "QB"
-      },
-      {
-        "player_id": "13306",
-        "name": "Taylen Green",
-        "position": "QB",
-        "team": "CLE",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 523,
         "years_exp": 0,
         "depth_chart_position": "QB"
       }
@@ -11764,6 +11753,17 @@
         "depth_chart_position": "SWR"
       },
       {
+        "player_id": "6853",
+        "name": "Van Jefferson",
+        "position": "WR",
+        "team": "WAS",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 454,
+        "years_exp": 6,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "13533",
         "name": "Barion Brown",
         "position": "WR",
@@ -11905,17 +11905,6 @@
         "search_rank": 519,
         "years_exp": 0,
         "depth_chart_position": null
-      },
-      {
-        "player_id": "11377",
-        "name": "Tyrell Shavers",
-        "position": "WR",
-        "team": "BUF",
-        "status": "Active",
-        "injury_status": "PUP",
-        "search_rank": 519,
-        "years_exp": 3,
-        "depth_chart_position": "RWR"
       }
     ],
     "TE": [
