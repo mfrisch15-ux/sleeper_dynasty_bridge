@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-07T14:23:55.052926+00:00",
+  "generated_at_utc": "2026-09-07T15:23:24.617313+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -78,10 +78,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -127,7 +123,12 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 176,
+    "sport": "nfl",
     "last_message_id": "1402387309097132032",
+    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -137,11 +138,13 @@
     "last_message_time": 1788717698886,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
-    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -165,9 +168,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -9584,7 +9584,7 @@
       "position": "QB",
       "team": "ATL",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "search_rank": 228,
       "years_exp": 2,
       "depth_chart_position": "QB"
@@ -10929,7 +10929,7 @@
         "position": "QB",
         "team": "ATL",
         "status": "Active",
-        "injury_status": "Questionable",
+        "injury_status": "Out",
         "search_rank": 228,
         "years_exp": 2,
         "depth_chart_position": "QB"
