@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-07T19:21:05.820818+00:00",
+  "generated_at_utc": "2026-09-07T20:22:50.705796+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -128,7 +128,6 @@
       "st_ff": 1.0
     },
     "last_message_id": "1402387309097132032",
-    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -138,8 +137,11 @@
     "last_message_time": 1788717698886,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -163,8 +165,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
@@ -1430,7 +1430,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 46,
           "years_exp": 6,
           "is_starter": true,
@@ -4524,8 +4524,8 @@
         "waiver_budget": [
           {
             "amount": 15,
-            "receiver": 6,
-            "sender": 3
+            "sender": 3,
+            "receiver": 6
           }
         ]
       },
@@ -4765,8 +4765,8 @@
         "waiver_budget": [
           {
             "amount": 50,
-            "receiver": 1,
-            "sender": 9
+            "sender": 9,
+            "receiver": 1
           }
         ]
       },
@@ -5501,8 +5501,8 @@
         "waiver_budget": [
           {
             "amount": 30,
-            "receiver": 3,
-            "sender": 6
+            "sender": 6,
+            "receiver": 3
           }
         ]
       },
@@ -6119,8 +6119,8 @@
         "waiver_budget": [
           {
             "amount": 35,
-            "receiver": 6,
-            "sender": 9
+            "sender": 9,
+            "receiver": 6
           }
         ]
       },
@@ -10170,7 +10170,7 @@
       "injury_status": null,
       "search_rank": 450,
       "years_exp": 12,
-      "depth_chart_position": "RWR"
+      "depth_chart_position": "LWR"
     },
     {
       "player_id": "13890",
@@ -10379,7 +10379,7 @@
       "injury_status": null,
       "search_rank": 477,
       "years_exp": 0,
-      "depth_chart_position": "RWR"
+      "depth_chart_position": "LWR"
     },
     {
       "player_id": "6147",
@@ -10478,7 +10478,7 @@
       "injury_status": "PUP",
       "search_rank": 490,
       "years_exp": 2,
-      "depth_chart_position": "LWR"
+      "depth_chart_position": "RWR"
     },
     {
       "player_id": "12510",
@@ -11728,7 +11728,7 @@
         "injury_status": null,
         "search_rank": 450,
         "years_exp": 12,
-        "depth_chart_position": "RWR"
+        "depth_chart_position": "LWR"
       },
       {
         "player_id": "13890",
@@ -11794,7 +11794,7 @@
         "injury_status": null,
         "search_rank": 477,
         "years_exp": 0,
-        "depth_chart_position": "RWR"
+        "depth_chart_position": "LWR"
       },
       {
         "player_id": "11895",
@@ -11805,7 +11805,7 @@
         "injury_status": "PUP",
         "search_rank": 490,
         "years_exp": 2,
-        "depth_chart_position": "LWR"
+        "depth_chart_position": "RWR"
       },
       {
         "player_id": "11911",
