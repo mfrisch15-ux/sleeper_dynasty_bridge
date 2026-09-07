@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-07T22:21:28.239075+00:00",
+  "generated_at_utc": "2026-09-07T23:21:05.791492+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -78,10 +78,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -136,10 +136,12 @@
     "last_message_text_map": null,
     "last_message_time": 1788717698886,
     "last_pinned_message_id": "1402369202257424384",
-    "draft_id": "1328462469970038784",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -163,8 +165,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
@@ -10481,6 +10481,17 @@
       "depth_chart_position": "QB"
     },
     {
+      "player_id": "12356",
+      "name": "Jabari Small",
+      "position": "RB",
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 491,
+      "years_exp": 2,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "7842",
       "name": "Luke Farrell",
       "position": "TE",
@@ -10842,17 +10853,6 @@
       "search_rank": 522,
       "years_exp": 4,
       "depth_chart_position": "LWR"
-    },
-    {
-      "player_id": "13306",
-      "name": "Taylen Green",
-      "position": "QB",
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 523,
-      "years_exp": 0,
-      "depth_chart_position": "QB"
     }
   ],
   "free_agents_by_position": {
@@ -11142,17 +11142,6 @@
         "search_rank": 515,
         "years_exp": 0,
         "depth_chart_position": "QB"
-      },
-      {
-        "player_id": "13306",
-        "name": "Taylen Green",
-        "position": "QB",
-        "team": "CLE",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 523,
-        "years_exp": 0,
-        "depth_chart_position": "QB"
       }
     ],
     "RB": [
@@ -11419,6 +11408,17 @@
         "search_rank": 487,
         "years_exp": 1,
         "depth_chart_position": "RB"
+      },
+      {
+        "player_id": "12356",
+        "name": "Jabari Small",
+        "position": "RB",
+        "team": "DET",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 491,
+        "years_exp": 2,
+        "depth_chart_position": null
       },
       {
         "player_id": "13423",
