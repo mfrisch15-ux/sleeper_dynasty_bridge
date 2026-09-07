@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-07T18:25:30.392721+00:00",
+  "generated_at_utc": "2026-09-07T19:21:05.820818+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -78,10 +78,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -128,6 +128,7 @@
       "st_ff": 1.0
     },
     "last_message_id": "1402387309097132032",
+    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -136,7 +137,6 @@
     "last_message_text_map": null,
     "last_message_time": 1788717698886,
     "last_pinned_message_id": "1402369202257424384",
-    "draft_id": "1328462469970038784",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
@@ -4524,8 +4524,8 @@
         "waiver_budget": [
           {
             "amount": 15,
-            "sender": 3,
-            "receiver": 6
+            "receiver": 6,
+            "sender": 3
           }
         ]
       },
@@ -4765,8 +4765,8 @@
         "waiver_budget": [
           {
             "amount": 50,
-            "sender": 9,
-            "receiver": 1
+            "receiver": 1,
+            "sender": 9
           }
         ]
       },
@@ -5501,8 +5501,8 @@
         "waiver_budget": [
           {
             "amount": 30,
-            "sender": 6,
-            "receiver": 3
+            "receiver": 3,
+            "sender": 6
           }
         ]
       },
@@ -6119,8 +6119,8 @@
         "waiver_budget": [
           {
             "amount": 35,
-            "sender": 9,
-            "receiver": 6
+            "receiver": 6,
+            "sender": 9
           }
         ]
       },
