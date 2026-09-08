@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-08T14:25:42.876137+00:00",
+  "generated_at_utc": "2026-09-08T15:25:40.820816+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -10149,6 +10149,17 @@
       "depth_chart_position": "TE"
     },
     {
+      "player_id": "13816",
+      "name": "Mark Gronowski",
+      "position": "QB",
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 450,
+      "years_exp": 0,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "4147",
       "name": "Samaje Perine",
       "position": "RB",
@@ -10917,17 +10928,6 @@
       "search_rank": 534,
       "years_exp": 0,
       "depth_chart_position": null
-    },
-    {
-      "player_id": "6039",
-      "name": "Ty Johnson",
-      "position": "RB",
-      "team": "BUF",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "search_rank": 534,
-      "years_exp": 7,
-      "depth_chart_position": "RB"
     }
   ],
   "free_agents_by_position": {
@@ -11085,6 +11085,17 @@
         "search_rank": 424,
         "years_exp": 5,
         "depth_chart_position": "QB"
+      },
+      {
+        "player_id": "13816",
+        "name": "Mark Gronowski",
+        "position": "QB",
+        "team": "HOU",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 450,
+        "years_exp": 0,
+        "depth_chart_position": null
       },
       {
         "player_id": "9229",
@@ -11593,17 +11604,6 @@
         "search_rank": 534,
         "years_exp": 0,
         "depth_chart_position": null
-      },
-      {
-        "player_id": "6039",
-        "name": "Ty Johnson",
-        "position": "RB",
-        "team": "BUF",
-        "status": "Active",
-        "injury_status": "Questionable",
-        "search_rank": 534,
-        "years_exp": 7,
-        "depth_chart_position": "RB"
       }
     ],
     "WR": [
