@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-08T19:21:27.999574+00:00",
+  "generated_at_utc": "2026-09-08T20:22:56.861981+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -78,10 +78,11 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 176,
+    "last_message_id": "1403134809391235072",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -127,24 +128,21 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1402935863985315840",
+    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788848484563,
+    "last_message_time": 1788895916844,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
-    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -168,6 +166,8 @@
       "BN",
       "BN"
     ],
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -1625,19 +1625,6 @@
           "is_taxi": false
         },
         {
-          "player_id": "1166",
-          "name": "Kirk Cousins",
-          "position": "QB",
-          "team": "LV",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 273,
-          "years_exp": 14,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
           "player_id": "11786",
           "name": "Cam Little",
           "position": "K",
@@ -1830,6 +1817,19 @@
           "years_exp": 4,
           "is_starter": true,
           "is_reserve": false,
+          "is_taxi": false
+        },
+        {
+          "player_id": "8205",
+          "name": "Isiah Pacheco",
+          "position": "RB",
+          "team": "DET",
+          "status": "Inactive",
+          "injury_status": "IR",
+          "search_rank": 151,
+          "years_exp": 4,
+          "is_starter": false,
+          "is_reserve": true,
           "is_taxi": false
         },
         {
@@ -3962,7 +3962,6 @@
         "11237",
         "11584",
         "11624",
-        "1166",
         "11786",
         "12469",
         "12502",
@@ -3978,6 +3977,7 @@
         "5045",
         "7588",
         "8112",
+        "8205",
         "8676",
         "8800",
         "9221",
@@ -4016,7 +4016,6 @@
         "11237": 0.0,
         "11584": 0.0,
         "11624": 0.0,
-        "1166": 0.0,
         "11786": 0.0,
         "12469": 0.0,
         "12502": 0.0,
@@ -4032,6 +4031,7 @@
         "5045": 0.0,
         "7588": 0.0,
         "8112": 0.0,
+        "8205": 0.0,
         "8676": 0.0,
         "8800": 0.0,
         "9221": 0.0,
@@ -4461,6 +4461,31 @@
   ],
   "transactions_recent": {
     "1": [
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1788895916803,
+        "settings": null,
+        "leg": 1,
+        "draft_picks": [],
+        "creator": "1126265615670505472",
+        "transaction_id": "1403134809219317760",
+        "adds": {
+          "8205": 5
+        },
+        "drops": {
+          "1166": 5
+        },
+        "consenter_ids": [
+          5
+        ],
+        "roster_ids": [
+          5
+        ],
+        "status_updated": 1788895916803,
+        "waiver_budget": []
+      },
       {
         "status": "complete",
         "type": "free_agent",
@@ -9753,6 +9778,17 @@
       "depth_chart_position": null
     },
     {
+      "player_id": "1166",
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "team": "LV",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 273,
+      "years_exp": 14,
+      "depth_chart_position": "QB"
+    },
+    {
       "player_id": "4017",
       "name": "Deshaun Watson",
       "position": "QB",
@@ -10917,17 +10953,6 @@
       "search_rank": 532,
       "years_exp": 2,
       "depth_chart_position": null
-    },
-    {
-      "player_id": "13418",
-      "name": "Robert Henry",
-      "position": "RB",
-      "team": "WAS",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 534,
-      "years_exp": 0,
-      "depth_chart_position": null
     }
   ],
   "free_agents_by_position": {
@@ -11018,6 +11043,17 @@
         "injury_status": null,
         "search_rank": 237,
         "years_exp": 6,
+        "depth_chart_position": "QB"
+      },
+      {
+        "player_id": "1166",
+        "name": "Kirk Cousins",
+        "position": "QB",
+        "team": "LV",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 273,
+        "years_exp": 14,
         "depth_chart_position": "QB"
       },
       {
@@ -11592,17 +11628,6 @@
         "injury_status": null,
         "search_rank": 528,
         "years_exp": 6,
-        "depth_chart_position": null
-      },
-      {
-        "player_id": "13418",
-        "name": "Robert Henry",
-        "position": "RB",
-        "team": "WAS",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 534,
-        "years_exp": 0,
         "depth_chart_position": null
       }
     ],
