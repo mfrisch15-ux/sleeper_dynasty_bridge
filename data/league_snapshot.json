@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-09T22:21:37.896018+00:00",
+  "generated_at_utc": "2026-09-09T23:20:58.341273+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -78,10 +78,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -127,6 +123,10 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 176,
+    "sport": "nfl",
     "last_message_id": "1403469771764224000",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -136,10 +136,15 @@
     "last_message_text_map": null,
     "last_message_time": 1788975778098,
     "last_pinned_message_id": "1402369202257424384",
-    "last_read_id": null,
     "draft_id": "1328462469970038784",
+    "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -163,11 +168,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -2672,7 +2672,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 199,
           "years_exp": 1,
           "is_starter": false,
@@ -9464,7 +9464,7 @@
       "position": "RB",
       "team": "NO",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 180,
       "years_exp": 3,
       "depth_chart_position": "RB"
@@ -9541,7 +9541,7 @@
       "position": "RB",
       "team": "NO",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 190,
       "years_exp": 2,
       "depth_chart_position": "RB"
@@ -9794,7 +9794,7 @@
       "position": "TE",
       "team": "SEA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 282,
       "years_exp": 1,
       "depth_chart_position": "TE"
@@ -10542,7 +10542,7 @@
       "position": "QB",
       "team": "SEA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 494,
       "years_exp": 1,
       "depth_chart_position": "QB"
@@ -10740,7 +10740,7 @@
       "position": "QB",
       "team": "WAS",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 508,
       "years_exp": 11,
       "depth_chart_position": "QB"
@@ -11172,7 +11172,7 @@
         "position": "QB",
         "team": "SEA",
         "status": "Active",
-        "injury_status": null,
+        "injury_status": "Out",
         "search_rank": 494,
         "years_exp": 1,
         "depth_chart_position": "QB"
@@ -11227,7 +11227,7 @@
         "position": "QB",
         "team": "WAS",
         "status": "Active",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "search_rank": 508,
         "years_exp": 11,
         "depth_chart_position": "QB"
@@ -11339,7 +11339,7 @@
         "position": "RB",
         "team": "NO",
         "status": "Active",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "search_rank": 180,
         "years_exp": 3,
         "depth_chart_position": "RB"
@@ -11372,7 +11372,7 @@
         "position": "RB",
         "team": "NO",
         "status": "Active",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "search_rank": 190,
         "years_exp": 2,
         "depth_chart_position": "RB"
@@ -12223,7 +12223,7 @@
         "position": "TE",
         "team": "SEA",
         "status": "Active",
-        "injury_status": null,
+        "injury_status": "Out",
         "search_rank": 282,
         "years_exp": 1,
         "depth_chart_position": "TE"
