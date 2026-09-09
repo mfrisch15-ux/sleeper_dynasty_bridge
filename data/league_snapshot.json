@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-09T06:29:01.455805+00:00",
+  "generated_at_utc": "2026-09-09T07:24:11.672597+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -78,10 +78,7 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 176,
+    "last_message_id": "1403310821538308096",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -127,20 +124,22 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1403296336966590464",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "shard": 176,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
-    "draft_id": "1328462469970038784",
     "last_message_text_map": null,
-    "last_message_time": 1788934428019,
+    "last_message_time": 1788937881411,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -166,6 +165,7 @@
     ],
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -209,7 +209,7 @@
           "injury_status": null,
           "search_rank": 97,
           "years_exp": 2,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -326,7 +326,7 @@
           "injury_status": "Out",
           "search_rank": 39,
           "years_exp": 1,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -3646,7 +3646,7 @@
       ],
       "roster_id": 1,
       "custom_points": null,
-      "matchup_id": 3,
+      "matchup_id": 2,
       "starters": [
         "11560",
         "9509",
@@ -3655,7 +3655,7 @@
         "12519",
         "11646",
         "12506",
-        "12529",
+        "11581",
         "1945",
         "KC"
       ],
@@ -3729,7 +3729,7 @@
       ],
       "roster_id": 2,
       "custom_points": null,
-      "matchup_id": 1,
+      "matchup_id": 2,
       "starters": [
         "4984",
         "8138",
@@ -3814,7 +3814,7 @@
       ],
       "roster_id": 3,
       "custom_points": null,
-      "matchup_id": 2,
+      "matchup_id": 1,
       "starters": [
         "4881",
         "6813",
@@ -3987,7 +3987,7 @@
       ],
       "roster_id": 5,
       "custom_points": null,
-      "matchup_id": 3,
+      "matchup_id": 4,
       "starters": [
         "3294",
         "9221",
@@ -4071,7 +4071,7 @@
       ],
       "roster_id": 6,
       "custom_points": null,
-      "matchup_id": 4,
+      "matchup_id": 1,
       "starters": [
         "6770",
         "12527",
@@ -4242,7 +4242,7 @@
       ],
       "roster_id": 8,
       "custom_points": null,
-      "matchup_id": 1,
+      "matchup_id": 3,
       "starters": [
         "4046",
         "9226",
@@ -4408,7 +4408,7 @@
       ],
       "roster_id": 10,
       "custom_points": null,
-      "matchup_id": 2,
+      "matchup_id": 3,
       "starters": [
         "11563",
         "8150",
