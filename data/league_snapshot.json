@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-09T20:23:19.656580+00:00",
+  "generated_at_utc": "2026-09-09T21:21:05.311917+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -406,7 +406,7 @@
           "years_exp": 0,
           "is_starter": false,
           "is_reserve": false,
-          "is_taxi": true
+          "is_taxi": false
         },
         {
           "player_id": "1945",
@@ -453,7 +453,7 @@
           "position": "WR",
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 73,
           "years_exp": 7,
           "is_starter": true,
@@ -562,7 +562,7 @@
           "position": "WR",
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 39,
           "years_exp": 1,
           "is_starter": false,
@@ -905,7 +905,7 @@
           "position": "RB",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 110,
           "years_exp": 2,
           "is_starter": false,
@@ -1482,7 +1482,7 @@
           "position": "WR",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 105,
           "years_exp": 4,
           "is_starter": false,
@@ -1495,7 +1495,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 94,
           "years_exp": 4,
           "is_starter": false,
@@ -2129,7 +2129,7 @@
           "position": "WR",
           "team": "CIN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 36,
           "years_exp": 6,
           "is_starter": true,
@@ -2329,7 +2329,7 @@
           "position": "RB",
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 44,
           "years_exp": 1,
           "is_starter": true,
@@ -2342,7 +2342,7 @@
           "position": "TE",
           "team": "IND",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 48,
           "years_exp": 1,
           "is_starter": true,
@@ -2537,7 +2537,7 @@
           "position": "WR",
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 104,
           "years_exp": 6,
           "is_starter": false,
@@ -2815,7 +2815,7 @@
           "position": "WR",
           "team": "CIN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 4,
           "years_exp": 5,
           "is_starter": true,
@@ -2906,7 +2906,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 111,
           "years_exp": 3,
           "is_starter": false,
@@ -3054,7 +3054,7 @@
           "position": "WR",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 61,
           "years_exp": 0,
           "is_starter": false,
@@ -3465,7 +3465,7 @@
           "injury_status": null,
           "search_rank": 68,
           "years_exp": 6,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -3478,7 +3478,7 @@
           "injury_status": null,
           "search_rank": 66,
           "years_exp": 5,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -4412,7 +4412,7 @@
       "starters": [
         "11563",
         "8150",
-        "7594",
+        "6806",
         "8137",
         "8146",
         "11620",
@@ -9343,7 +9343,7 @@
       "position": "TE",
       "team": "NYG",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 144,
       "years_exp": 2,
       "depth_chart_position": "TE"
@@ -10040,17 +10040,6 @@
       "search_rank": 405,
       "years_exp": 6,
       "depth_chart_position": null
-    },
-    {
-      "player_id": "6154",
-      "name": "David Sills",
-      "position": "WR",
-      "team": "TB",
-      "status": "Active",
-      "injury_status": "IR",
-      "search_rank": 405,
-      "years_exp": 7,
-      "depth_chart_position": "RWR"
     },
     {
       "player_id": "13760",
@@ -10953,6 +10942,17 @@
       "search_rank": 534,
       "years_exp": 7,
       "depth_chart_position": "RB"
+    },
+    {
+      "player_id": "13013",
+      "name": "Mark Redman",
+      "position": "TE",
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 536,
+      "years_exp": 1,
+      "depth_chart_position": "TE"
     }
   ],
   "free_agents_by_position": {
@@ -11864,17 +11864,6 @@
         "depth_chart_position": null
       },
       {
-        "player_id": "6154",
-        "name": "David Sills",
-        "position": "WR",
-        "team": "TB",
-        "status": "Active",
-        "injury_status": "IR",
-        "search_rank": 405,
-        "years_exp": 7,
-        "depth_chart_position": "RWR"
-      },
-      {
         "player_id": "13760",
         "name": "Jaden Bradley",
         "position": "WR",
@@ -12093,6 +12082,17 @@
         "search_rank": 519,
         "years_exp": 3,
         "depth_chart_position": "RWR"
+      },
+      {
+        "player_id": "8188",
+        "name": "Tyquan Thornton",
+        "position": "WR",
+        "team": "KC",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 522,
+        "years_exp": 4,
+        "depth_chart_position": "LWR"
       }
     ],
     "TE": [
@@ -12135,7 +12135,7 @@
         "position": "TE",
         "team": "NYG",
         "status": "Active",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "search_rank": 144,
         "years_exp": 2,
         "depth_chart_position": "TE"
