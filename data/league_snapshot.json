@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-10T19:19:27.878448+00:00",
+  "generated_at_utc": "2026-09-10T20:21:38.013832+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -77,6 +77,11 @@
       "daily_waivers_last_ran": 26
     },
     "avatar": null,
+    "company_id": null,
+    "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -122,13 +127,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 176,
-    "sport": "nfl",
-    "company_id": null,
     "last_message_id": "1403469771764224000",
-    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -138,6 +137,7 @@
     "last_message_time": 1788975778098,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "roster_positions": [
@@ -2945,7 +2945,7 @@
           "position": "WR",
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 39,
           "years_exp": 3,
           "is_starter": true,
