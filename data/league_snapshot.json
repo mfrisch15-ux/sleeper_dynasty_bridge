@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-10T15:23:55.394271+00:00",
+  "generated_at_utc": "2026-09-10T16:22:53.673168+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -9866,6 +9866,17 @@
       "depth_chart_position": null
     },
     {
+      "player_id": "6045",
+      "name": "Gary Jennings",
+      "position": "WR",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 324,
+      "years_exp": 7,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "6136",
       "name": "Jarrett Stidham",
       "position": "QB",
@@ -10942,17 +10953,6 @@
       "search_rank": 527,
       "years_exp": 2,
       "depth_chart_position": "RB"
-    },
-    {
-      "player_id": "6451",
-      "name": "Stephen Carlson",
-      "position": "TE",
-      "team": "CHI",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 527,
-      "years_exp": 7,
-      "depth_chart_position": null
     }
   ],
   "free_agents_by_position": {
@@ -11776,6 +11776,17 @@
         "depth_chart_position": null
       },
       {
+        "player_id": "6045",
+        "name": "Gary Jennings",
+        "position": "WR",
+        "team": "LAC",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 324,
+        "years_exp": 7,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "8250",
         "name": "Tay Martin",
         "position": "WR",
@@ -12060,17 +12071,6 @@
         "search_rank": 519,
         "years_exp": 5,
         "depth_chart_position": null
-      },
-      {
-        "player_id": "11377",
-        "name": "Tyrell Shavers",
-        "position": "WR",
-        "team": "BUF",
-        "status": "Active",
-        "injury_status": "PUP",
-        "search_rank": 519,
-        "years_exp": 3,
-        "depth_chart_position": "RWR"
       }
     ],
     "TE": [
