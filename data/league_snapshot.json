@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-11T16:24:01.364062+00:00",
+  "generated_at_utc": "2026-09-11T17:21:52.204845+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -731,7 +731,7 @@
           "position": "WR",
           "team": "NE",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "search_rank": 17,
           "years_exp": 7,
           "is_starter": true,
@@ -1235,7 +1235,7 @@
           "position": "WR",
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Doubtful",
           "search_rank": 165,
           "years_exp": 2,
           "is_starter": false,
@@ -9365,7 +9365,7 @@
       "position": "RB",
       "team": "TB",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Doubtful",
       "search_rank": 155,
       "years_exp": 3,
       "depth_chart_position": "RB"
@@ -11262,7 +11262,7 @@
         "position": "RB",
         "team": "TB",
         "status": "Active",
-        "injury_status": "Questionable",
+        "injury_status": "Doubtful",
         "search_rank": 155,
         "years_exp": 3,
         "depth_chart_position": "RB"
