@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-12T19:18:47.461967+00:00",
+  "generated_at_utc": "2026-09-12T20:23:05.364290+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -388,7 +388,7 @@
           "position": "TE",
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "IR",
           "search_rank": 140,
           "years_exp": 0,
           "is_starter": false,
@@ -9536,17 +9536,6 @@
       "depth_chart_position": null
     },
     {
-      "player_id": "11579",
-      "name": "Audric Estime",
-      "position": "RB",
-      "team": "NO",
-      "status": "Active",
-      "injury_status": "IR",
-      "search_rank": 190,
-      "years_exp": 2,
-      "depth_chart_position": "RB"
-    },
-    {
       "player_id": "12536",
       "name": "Jaylin Noel",
       "position": "WR",
@@ -10248,7 +10237,7 @@
       "injury_status": null,
       "search_rank": 443,
       "years_exp": 2,
-      "depth_chart_position": null
+      "depth_chart_position": "TE"
     },
     {
       "player_id": "2078",
@@ -10413,7 +10402,7 @@
       "injury_status": null,
       "search_rank": 466,
       "years_exp": 0,
-      "depth_chart_position": null
+      "depth_chart_position": "RB"
     },
     {
       "player_id": "13423",
@@ -10953,6 +10942,17 @@
       "search_rank": 525,
       "years_exp": 0,
       "depth_chart_position": "TE"
+    },
+    {
+      "player_id": "11729",
+      "name": "Sione Vaki",
+      "position": "RB",
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 527,
+      "years_exp": 2,
+      "depth_chart_position": "RB"
     }
   ],
   "free_agents_by_position": {
@@ -11367,17 +11367,6 @@
         "depth_chart_position": null
       },
       {
-        "player_id": "11579",
-        "name": "Audric Estime",
-        "position": "RB",
-        "team": "NO",
-        "status": "Active",
-        "injury_status": "IR",
-        "search_rank": 190,
-        "years_exp": 2,
-        "depth_chart_position": "RB"
-      },
-      {
         "player_id": "11569",
         "name": "Jarquez Hunter",
         "position": "RB",
@@ -11551,7 +11540,7 @@
         "injury_status": null,
         "search_rank": 466,
         "years_exp": 0,
-        "depth_chart_position": null
+        "depth_chart_position": "RB"
       },
       {
         "player_id": "13423",
@@ -11627,6 +11616,17 @@
         "status": "Active",
         "injury_status": null,
         "search_rank": 518,
+        "years_exp": 2,
+        "depth_chart_position": "RB"
+      },
+      {
+        "player_id": "11729",
+        "name": "Sione Vaki",
+        "position": "RB",
+        "team": "DET",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 527,
         "years_exp": 2,
         "depth_chart_position": "RB"
       }
@@ -12336,7 +12336,7 @@
         "injury_status": null,
         "search_rank": 443,
         "years_exp": 2,
-        "depth_chart_position": null
+        "depth_chart_position": "TE"
       },
       {
         "player_id": "4993",
