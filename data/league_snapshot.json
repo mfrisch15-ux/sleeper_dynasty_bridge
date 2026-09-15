@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-15T04:24:52.309931+00:00",
+  "generated_at_utc": "2026-09-15T05:24:05.762077+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -43,6 +43,7 @@
       "playoff_type": 1,
       "taxi_slots": 4,
       "sub_start_time_eligibility": 0,
+      "last_scored_leg": 1,
       "daily_waivers_days": 5461,
       "sub_lock_if_starter_active": 0,
       "playoff_week_start": 15,
@@ -78,10 +79,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1404889584587862016",
+    "sport": "nfl",
     "shard": 176,
     "season": "2026",
     "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -127,7 +129,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1404889584587862016",
+    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -136,12 +138,9 @@
     "last_message_text_map": null,
     "last_message_time": 1789314287853,
     "last_pinned_message_id": "1402369202257424384",
+    "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "draft_id": "1328462469970038784",
-    "last_read_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "group_id": null,
     "roster_positions": [
       "QB",
@@ -166,6 +165,8 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -177,9 +178,13 @@
       "display_name": "ChrBTX",
       "team_name": "Learn to Love the Draft ",
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 161,
+        "fpts_against": 176,
+        "fpts_against_decimal": 36,
+        "fpts_decimal": 66,
+        "losses": 1,
+        "ppts": 178,
+        "ppts_decimal": 26,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": -50,
@@ -507,14 +512,18 @@
       "display_name": "DrSlick",
       "team_name": "Frida\u2019s Dynasty",
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 176,
+        "fpts_against": 161,
+        "fpts_against_decimal": 66,
+        "fpts_decimal": 36,
         "losses": 0,
+        "ppts": 215,
+        "ppts_decimal": 76,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 20,
         "waiver_position": 6,
-        "wins": 0
+        "wins": 1
       },
       "players": [
         {
@@ -602,7 +611,7 @@
           "team": "MIA",
           "status": "Active",
           "injury_status": null,
-          "search_rank": 199,
+          "search_rank": 198,
           "years_exp": 0,
           "is_starter": false,
           "is_reserve": false,
@@ -680,7 +689,7 @@
           "team": "WAS",
           "status": "Active",
           "injury_status": null,
-          "search_rank": 104,
+          "search_rank": 105,
           "years_exp": 11,
           "is_starter": false,
           "is_reserve": false,
@@ -850,9 +859,13 @@
       "display_name": "mattkojm",
       "team_name": "Yards After Concussion ",
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 128,
+        "fpts_against": 172,
+        "fpts_against_decimal": 76,
+        "fpts_decimal": 76,
+        "losses": 1,
+        "ppts": 154,
+        "ppts_decimal": 30,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": -9,
@@ -1101,7 +1114,7 @@
           "team": "WAS",
           "status": "Active",
           "injury_status": null,
-          "search_rank": 55,
+          "search_rank": 56,
           "years_exp": 7,
           "is_starter": true,
           "is_reserve": false,
@@ -1206,14 +1219,18 @@
       "display_name": "vishvall",
       "team_name": "Trump National Fball Team",
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 165,
+        "fpts_against": 164,
+        "fpts_against_decimal": 10,
+        "fpts_decimal": 52,
         "losses": 0,
+        "ppts": 179,
+        "ppts_decimal": 32,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 4,
-        "wins": 0
+        "wins": 1
       },
       "players": [
         {
@@ -1223,7 +1240,7 @@
           "team": "DET",
           "status": "Active",
           "injury_status": null,
-          "search_rank": 58,
+          "search_rank": 57,
           "years_exp": 3,
           "is_starter": true,
           "is_reserve": false,
@@ -1575,9 +1592,13 @@
       "display_name": "antonioesteves",
       "team_name": "Gabagool Merchants  ",
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 164,
+        "fpts_against": 165,
+        "fpts_against_decimal": 52,
+        "fpts_decimal": 10,
+        "losses": 1,
+        "ppts": 183,
+        "ppts_decimal": 44,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
@@ -1631,7 +1652,7 @@
           "team": "JAX",
           "status": "Active",
           "injury_status": null,
-          "search_rank": 132,
+          "search_rank": 133,
           "years_exp": 2,
           "is_starter": true,
           "is_reserve": false,
@@ -1748,7 +1769,7 @@
           "team": "SEA",
           "status": "Active",
           "injury_status": null,
-          "search_rank": 196,
+          "search_rank": 195,
           "years_exp": 9,
           "is_starter": false,
           "is_reserve": false,
@@ -1918,14 +1939,18 @@
       "display_name": "Firebird4",
       "team_name": "Sasha\u2019s Revenge",
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 172,
+        "fpts_against": 128,
+        "fpts_against_decimal": 76,
+        "fpts_decimal": 76,
         "losses": 0,
+        "ppts": 187,
+        "ppts_decimal": 0,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": -20,
         "waiver_position": 7,
-        "wins": 0
+        "wins": 1
       },
       "players": [
         {
@@ -2130,7 +2155,7 @@
           "team": "CIN",
           "status": "Active",
           "injury_status": null,
-          "search_rank": 36,
+          "search_rank": 35,
           "years_exp": 6,
           "is_starter": true,
           "is_reserve": false,
@@ -2156,7 +2181,7 @@
           "team": "ATL",
           "status": "Active",
           "injury_status": null,
-          "search_rank": 67,
+          "search_rank": 68,
           "years_exp": 5,
           "is_starter": false,
           "is_reserve": false,
@@ -2261,9 +2286,13 @@
       "display_name": "kayfleisch",
       "team_name": "Carthage War Elephants",
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 130,
+        "fpts_against": 140,
+        "fpts_against_decimal": 16,
+        "fpts_decimal": 30,
+        "losses": 1,
+        "ppts": 151,
+        "ppts_decimal": 84,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
@@ -2343,7 +2372,7 @@
           "team": "IND",
           "status": "Active",
           "injury_status": null,
-          "search_rank": 47,
+          "search_rank": 49,
           "years_exp": 1,
           "is_starter": true,
           "is_reserve": false,
@@ -2538,7 +2567,7 @@
           "team": "PIT",
           "status": "Active",
           "injury_status": null,
-          "search_rank": 105,
+          "search_rank": 106,
           "years_exp": 6,
           "is_starter": false,
           "is_reserve": false,
@@ -2630,14 +2659,18 @@
       "display_name": "mfrisch15",
       "team_name": "Frisch\u2019s F\u00fatbol Factory \ud83c\udfed",
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 139,
+        "fpts_against": 78,
+        "fpts_against_decimal": 94,
+        "fpts_decimal": 96,
         "losses": 0,
+        "ppts": 149,
+        "ppts_decimal": 66,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 22,
         "waiver_position": 9,
-        "wins": 0
+        "wins": 1
       },
       "players": [
         {
@@ -2986,14 +3019,18 @@
       "display_name": "zeusygoosy",
       "team_name": "\ud83c\udff9zeus\u2019s law\u2694\ufe0f",
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 140,
+        "fpts_against": 130,
+        "fpts_against_decimal": 30,
+        "fpts_decimal": 16,
         "losses": 0,
+        "ppts": 160,
+        "ppts_decimal": 56,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 105,
         "waiver_position": 8,
-        "wins": 0
+        "wins": 1
       },
       "players": [
         {
@@ -3329,9 +3366,13 @@
       "display_name": "yojoebow",
       "team_name": "Tushy Pushy",
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 78,
+        "fpts_against": 139,
+        "fpts_against_decimal": 96,
+        "fpts_decimal": 94,
+        "losses": 1,
+        "ppts": 121,
+        "ppts_decimal": 8,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
@@ -9834,7 +9875,7 @@
       "team": "CHI",
       "status": "Active",
       "injury_status": "Out",
-      "search_rank": 292,
+      "search_rank": 295,
       "years_exp": 0,
       "depth_chart_position": null
     },
@@ -10015,17 +10056,6 @@
       "depth_chart_position": "QB"
     },
     {
-      "player_id": "7559",
-      "name": "Ihmir Smith-Marsette",
-      "position": "WR",
-      "team": "ARI",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 386,
-      "years_exp": 5,
-      "depth_chart_position": null
-    },
-    {
       "player_id": "13402",
       "name": "Skyler Bell",
       "position": "WR",
@@ -10045,6 +10075,17 @@
       "injury_status": null,
       "search_rank": 388,
       "years_exp": 0,
+      "depth_chart_position": null
+    },
+    {
+      "player_id": "7559",
+      "name": "Ihmir Smith-Marsette",
+      "position": "WR",
+      "team": "ARI",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 389,
+      "years_exp": 5,
       "depth_chart_position": null
     },
     {
@@ -10142,7 +10183,7 @@
       "team": "NO",
       "status": "Active",
       "injury_status": null,
-      "search_rank": 416,
+      "search_rank": 418,
       "years_exp": 1,
       "depth_chart_position": null
     },
@@ -10200,6 +10241,17 @@
       "search_rank": 430,
       "years_exp": 10,
       "depth_chart_position": "TE"
+    },
+    {
+      "player_id": "12901",
+      "name": "Patrick Herbert",
+      "position": "TE",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 430,
+      "years_exp": 1,
+      "depth_chart_position": null
     },
     {
       "player_id": "13905",
@@ -10367,17 +10419,6 @@
       "depth_chart_position": null
     },
     {
-      "player_id": "12901",
-      "name": "Patrick Herbert",
-      "position": "TE",
-      "team": "LAC",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 457,
-      "years_exp": 1,
-      "depth_chart_position": null
-    },
-    {
       "player_id": "13533",
       "name": "Barion Brown",
       "position": "WR",
@@ -10466,17 +10507,6 @@
       "depth_chart_position": "TE"
     },
     {
-      "player_id": "12357",
-      "name": "David Martin-Robinson",
-      "position": "TE",
-      "team": "TEN",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 475,
-      "years_exp": 2,
-      "depth_chart_position": "TE"
-    },
-    {
       "player_id": "13420",
       "name": "Bryce Lance",
       "position": "WR",
@@ -10486,6 +10516,17 @@
       "search_rank": 475,
       "years_exp": 0,
       "depth_chart_position": "LWR"
+    },
+    {
+      "player_id": "12357",
+      "name": "David Martin-Robinson",
+      "position": "TE",
+      "team": "TEN",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 476,
+      "years_exp": 2,
+      "depth_chart_position": "TE"
     },
     {
       "player_id": "6147",
@@ -10719,17 +10760,6 @@
       "depth_chart_position": null
     },
     {
-      "player_id": "12151",
-      "name": "Julian Hicks",
-      "position": "WR",
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 503,
-      "years_exp": 2,
-      "depth_chart_position": null
-    },
-    {
       "player_id": "1706",
       "name": "Jack Doyle",
       "position": "TE",
@@ -10774,15 +10804,15 @@
       "depth_chart_position": "RWR"
     },
     {
-      "player_id": "4995",
-      "name": "Ian Thomas",
-      "position": "TE",
-      "team": "LV",
+      "player_id": "12151",
+      "name": "Julian Hicks",
+      "position": "WR",
+      "team": "SEA",
       "status": "Active",
       "injury_status": null,
-      "search_rank": 507,
-      "years_exp": 8,
-      "depth_chart_position": "TE"
+      "search_rank": 505,
+      "years_exp": 2,
+      "depth_chart_position": null
     },
     {
       "player_id": "2307",
@@ -10816,6 +10846,17 @@
       "search_rank": 508,
       "years_exp": 0,
       "depth_chart_position": null
+    },
+    {
+      "player_id": "4995",
+      "name": "Ian Thomas",
+      "position": "TE",
+      "team": "LV",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 509,
+      "years_exp": 8,
+      "depth_chart_position": "TE"
     },
     {
       "player_id": "12765",
@@ -11102,7 +11143,7 @@
         "team": "CHI",
         "status": "Active",
         "injury_status": "Out",
-        "search_rank": 292,
+        "search_rank": 295,
         "years_exp": 0,
         "depth_chart_position": null
       },
@@ -11804,17 +11845,6 @@
         "depth_chart_position": null
       },
       {
-        "player_id": "7559",
-        "name": "Ihmir Smith-Marsette",
-        "position": "WR",
-        "team": "ARI",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 386,
-        "years_exp": 5,
-        "depth_chart_position": null
-      },
-      {
         "player_id": "13402",
         "name": "Skyler Bell",
         "position": "WR",
@@ -11824,6 +11854,17 @@
         "search_rank": 386,
         "years_exp": 0,
         "depth_chart_position": "SWR"
+      },
+      {
+        "player_id": "7559",
+        "name": "Ihmir Smith-Marsette",
+        "position": "WR",
+        "team": "ARI",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 389,
+        "years_exp": 5,
+        "depth_chart_position": null
       },
       {
         "player_id": "7066",
@@ -11854,7 +11895,7 @@
         "team": "NO",
         "status": "Active",
         "injury_status": null,
-        "search_rank": 416,
+        "search_rank": 418,
         "years_exp": 1,
         "depth_chart_position": null
       },
@@ -12046,17 +12087,6 @@
         "depth_chart_position": "SWR"
       },
       {
-        "player_id": "12151",
-        "name": "Julian Hicks",
-        "position": "WR",
-        "team": "SEA",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 503,
-        "years_exp": 2,
-        "depth_chart_position": null
-      },
-      {
         "player_id": "8119",
         "name": "Jahan Dotson",
         "position": "WR",
@@ -12066,6 +12096,17 @@
         "search_rank": 505,
         "years_exp": 4,
         "depth_chart_position": "RWR"
+      },
+      {
+        "player_id": "12151",
+        "name": "Julian Hicks",
+        "position": "WR",
+        "team": "SEA",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 505,
+        "years_exp": 2,
+        "depth_chart_position": null
       },
       {
         "player_id": "13962",
@@ -12323,6 +12364,17 @@
         "depth_chart_position": "TE"
       },
       {
+        "player_id": "12901",
+        "name": "Patrick Herbert",
+        "position": "TE",
+        "team": "LAC",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 430,
+        "years_exp": 1,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "11595",
         "name": "Jared Wiley",
         "position": "TE",
@@ -12375,17 +12427,6 @@
         "injury_status": null,
         "search_rank": 456,
         "years_exp": 9,
-        "depth_chart_position": null
-      },
-      {
-        "player_id": "12901",
-        "name": "Patrick Herbert",
-        "position": "TE",
-        "team": "LAC",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 457,
-        "years_exp": 1,
         "depth_chart_position": null
       },
       {
@@ -12450,7 +12491,7 @@
         "team": "TEN",
         "status": "Active",
         "injury_status": null,
-        "search_rank": 475,
+        "search_rank": 476,
         "years_exp": 2,
         "depth_chart_position": "TE"
       },
@@ -12521,14 +12562,14 @@
         "depth_chart_position": "TE"
       },
       {
-        "player_id": "4995",
-        "name": "Ian Thomas",
+        "player_id": "13282",
+        "name": "Jack Endries",
         "position": "TE",
-        "team": "LV",
+        "team": "CIN",
         "status": "Active",
-        "injury_status": null,
-        "search_rank": 507,
-        "years_exp": 8,
+        "injury_status": "Out",
+        "search_rank": 508,
+        "years_exp": 0,
         "depth_chart_position": "TE"
       }
     ]
