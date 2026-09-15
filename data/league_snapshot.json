@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-15T20:27:14.138405+00:00",
+  "generated_at_utc": "2026-09-15T21:21:30.621843+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,10 +80,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 176,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -10816,6 +10816,17 @@
       "depth_chart_position": null
     },
     {
+      "player_id": "3200",
+      "name": "Sterling Shepard",
+      "position": "WR",
+      "team": "NYJ",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 506,
+      "years_exp": 10,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "2307",
       "name": "Marcus Mariota",
       "position": "QB",
@@ -11023,17 +11034,6 @@
       "search_rank": 527,
       "years_exp": 2,
       "depth_chart_position": "RB"
-    },
-    {
-      "player_id": "11626",
-      "name": "Xavier Legette",
-      "position": "WR",
-      "team": "CAR",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 527,
-      "years_exp": 2,
-      "depth_chart_position": "RWR"
     }
   ],
   "free_agents_by_position": {
@@ -12110,6 +12110,17 @@
         "depth_chart_position": null
       },
       {
+        "player_id": "3200",
+        "name": "Sterling Shepard",
+        "position": "WR",
+        "team": "NYJ",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 506,
+        "years_exp": 10,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "13962",
         "name": "Cameron Dorner",
         "position": "WR",
@@ -12118,17 +12129,6 @@
         "injury_status": null,
         "search_rank": 508,
         "years_exp": 0,
-        "depth_chart_position": null
-      },
-      {
-        "player_id": "8076",
-        "name": "Michael Bandy",
-        "position": "WR",
-        "team": "DEN",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 519,
-        "years_exp": 5,
         "depth_chart_position": null
       }
     ],
