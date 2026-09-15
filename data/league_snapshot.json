@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-15T14:24:04.113735+00:00",
+  "generated_at_utc": "2026-09-15T15:23:03.322550+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -79,11 +79,11 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "last_message_id": "1404889584587862016",
+    "sport": "nfl",
     "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -141,6 +141,7 @@
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -164,7 +165,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
     "loser_bracket_id": null,
@@ -10559,7 +10559,7 @@
       "injury_status": null,
       "search_rank": 480,
       "years_exp": 4,
-      "depth_chart_position": null
+      "depth_chart_position": "RB"
     },
     {
       "player_id": "12491",
@@ -11620,7 +11620,7 @@
         "injury_status": null,
         "search_rank": 480,
         "years_exp": 4,
-        "depth_chart_position": null
+        "depth_chart_position": "RB"
       },
       {
         "player_id": "12491",
