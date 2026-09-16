@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-16T21:23:05.088385+00:00",
+  "generated_at_utc": "2026-09-16T22:21:38.844469+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,10 +80,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1405868765597470720",
     "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -129,7 +130,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1405868765597470720",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -142,11 +142,6 @@
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -170,6 +165,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -1487,7 +1487,7 @@
           "position": "TE",
           "team": "NO",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 103,
           "years_exp": 6,
           "is_starter": false,
@@ -2632,7 +2632,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 23,
           "years_exp": 5,
           "is_starter": true,
@@ -3585,7 +3585,7 @@
           "injury_status": null,
           "search_rank": 117,
           "years_exp": 4,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -3676,7 +3676,7 @@
           "injury_status": null,
           "search_rank": 99,
           "years_exp": 3,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -4519,7 +4519,7 @@
         "8146",
         "11620",
         "9484",
-        "8121",
+        "9756",
         "11539",
         "CHI"
       ],
@@ -9812,7 +9812,7 @@
       "position": "RB",
       "team": "TB",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 155,
       "years_exp": 3,
       "depth_chart_position": "RB"
@@ -10857,7 +10857,7 @@
       "position": "QB",
       "team": "IND",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 473,
       "years_exp": 3,
       "depth_chart_position": "QB"
@@ -11608,7 +11608,7 @@
         "position": "QB",
         "team": "IND",
         "status": "Active",
-        "injury_status": null,
+        "injury_status": "Questionable",
         "search_rank": 473,
         "years_exp": 3,
         "depth_chart_position": "QB"
@@ -11720,7 +11720,7 @@
         "position": "RB",
         "team": "TB",
         "status": "Active",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "search_rank": 155,
         "years_exp": 3,
         "depth_chart_position": "RB"
