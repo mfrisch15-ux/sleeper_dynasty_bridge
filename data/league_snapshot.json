@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-16T18:25:15.479340+00:00",
+  "generated_at_utc": "2026-09-16T19:21:50.164868+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,9 +80,11 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
+    "last_message_id": "1405868765597470720",
+    "shard": 176,
     "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -128,18 +130,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "shard": 176,
-    "last_message_id": "1405868765597470720",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
-    "draft_id": "1328462469970038784",
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1789547742798,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "roster_positions": [
@@ -2966,7 +2966,7 @@
           "position": "RB",
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "IR",
           "search_rank": 91,
           "years_exp": 4,
           "is_starter": false,
@@ -9484,18 +9484,18 @@
         "created": 1789547742763,
         "settings": null,
         "leg": 2,
-        "draft_picks": [],
         "creator": "735298292942041088",
+        "draft_picks": [],
         "transaction_id": "1405868765450711040",
         "adds": {
           "9501": 2
         },
-        "drops": {
-          "4454": 2
-        },
         "consenter_ids": [
           2
         ],
+        "drops": {
+          "4454": 2
+        },
         "roster_ids": [
           2
         ],
@@ -9509,16 +9509,16 @@
         "created": 1789547172427,
         "settings": null,
         "leg": 2,
-        "draft_picks": [],
         "creator": "735298292942041088",
+        "draft_picks": [],
         "transaction_id": "1405866373283958784",
         "adds": {
           "4454": 2
         },
-        "drops": null,
         "consenter_ids": [
           2
         ],
+        "drops": null,
         "roster_ids": [
           2
         ],
@@ -9893,17 +9893,6 @@
       "search_rank": 176,
       "years_exp": 0,
       "depth_chart_position": "RB"
-    },
-    {
-      "player_id": "8698",
-      "name": "Jake Tonges",
-      "position": "TE",
-      "team": "SF",
-      "status": "Active",
-      "injury_status": "IR",
-      "search_rank": 178,
-      "years_exp": 4,
-      "depth_chart_position": "TE"
     },
     {
       "player_id": "9757",
@@ -11389,6 +11378,17 @@
       "search_rank": 529,
       "years_exp": 1,
       "depth_chart_position": "TE"
+    },
+    {
+      "player_id": "11306",
+      "name": "Xavier Gipson",
+      "position": "WR",
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 531,
+      "years_exp": 3,
+      "depth_chart_position": null
     }
   ],
   "free_agents_by_position": {
@@ -12566,17 +12566,6 @@
         "depth_chart_position": "TE"
       },
       {
-        "player_id": "8698",
-        "name": "Jake Tonges",
-        "position": "TE",
-        "team": "SF",
-        "status": "Active",
-        "injury_status": "IR",
-        "search_rank": 178,
-        "years_exp": 4,
-        "depth_chart_position": "TE"
-      },
-      {
         "player_id": "13401",
         "name": "Michael Trigg",
         "position": "TE",
@@ -12947,6 +12936,17 @@
         "status": "Active",
         "injury_status": null,
         "search_rank": 504,
+        "years_exp": 0,
+        "depth_chart_position": "TE"
+      },
+      {
+        "player_id": "13282",
+        "name": "Jack Endries",
+        "position": "TE",
+        "team": "CIN",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 508,
         "years_exp": 0,
         "depth_chart_position": "TE"
       }
