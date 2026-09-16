@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-16T22:21:38.844469+00:00",
+  "generated_at_utc": "2026-09-16T23:21:05.849425+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,11 +80,11 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1405868765597470720",
     "sport": "nfl",
-    "shard": 176,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "shard": 176,
+    "last_message_id": "1406086709820600320",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -136,10 +136,10 @@
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789547742798,
+    "last_message_time": 1789599704750,
     "last_pinned_message_id": "1402369202257424384",
-    "draft_id": "1328462469970038784",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "roster_positions": [
@@ -215,7 +215,7 @@
           "injury_status": null,
           "search_rank": 98,
           "years_exp": 2,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -254,7 +254,7 @@
           "injury_status": null,
           "search_rank": 208,
           "years_exp": 1,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -293,7 +293,7 @@
           "injury_status": null,
           "search_rank": 119,
           "years_exp": 1,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -389,6 +389,19 @@
           "is_taxi": true
         },
         {
+          "player_id": "13347",
+          "name": "Demond Claiborne",
+          "position": "RB",
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 176,
+          "years_exp": 0,
+          "is_starter": false,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
           "player_id": "13349",
           "name": "Eli Stowers",
           "position": "TE",
@@ -411,7 +424,7 @@
           "search_rank": 113,
           "years_exp": 0,
           "is_starter": false,
-          "is_reserve": false,
+          "is_reserve": true,
           "is_taxi": false
         },
         {
@@ -462,7 +475,7 @@
           "injury_status": null,
           "search_rank": 73,
           "years_exp": 7,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -2116,7 +2129,7 @@
           "position": "TE",
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 81,
           "years_exp": 9,
           "is_starter": true,
@@ -3728,6 +3741,7 @@
         "12544",
         "13287",
         "13293",
+        "13347",
         "13349",
         "13417",
         "1945",
@@ -3781,6 +3795,7 @@
         "12544": 0.0,
         "13287": 0.0,
         "13293": 0.0,
+        "13347": 0.0,
         "13349": 0.0,
         "13417": 0.0,
         "1945": 0.0,
@@ -9481,6 +9496,29 @@
         "status": "complete",
         "type": "free_agent",
         "metadata": null,
+        "created": 1789599704714,
+        "settings": null,
+        "leg": 2,
+        "draft_picks": [],
+        "creator": "872912569105625088",
+        "transaction_id": "1406086709665345536",
+        "adds": {
+          "13347": 1
+        },
+        "drops": null,
+        "consenter_ids": [
+          1
+        ],
+        "roster_ids": [
+          1
+        ],
+        "status_updated": 1789599704714,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
         "created": 1789547742763,
         "settings": null,
         "leg": 2,
@@ -9490,12 +9528,12 @@
         "adds": {
           "9501": 2
         },
-        "consenter_ids": [
-          2
-        ],
         "drops": {
           "4454": 2
         },
+        "consenter_ids": [
+          2
+        ],
         "roster_ids": [
           2
         ],
@@ -9515,10 +9553,10 @@
         "adds": {
           "4454": 2
         },
+        "drops": null,
         "consenter_ids": [
           2
         ],
-        "drops": null,
         "roster_ids": [
           2
         ],
@@ -9884,17 +9922,6 @@
       "depth_chart_position": null
     },
     {
-      "player_id": "13347",
-      "name": "Demond Claiborne",
-      "position": "RB",
-      "team": "MIN",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 176,
-      "years_exp": 0,
-      "depth_chart_position": "RB"
-    },
-    {
       "player_id": "9757",
       "name": "Kendre Miller",
       "position": "RB",
@@ -10145,6 +10172,17 @@
       "injury_status": null,
       "search_rank": 239,
       "years_exp": 4,
+      "depth_chart_position": null
+    },
+    {
+      "player_id": "12884",
+      "name": "Quincy Skinner",
+      "position": "WR",
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 241,
+      "years_exp": 1,
       "depth_chart_position": null
     },
     {
@@ -11770,17 +11808,6 @@
         "depth_chart_position": "RB"
       },
       {
-        "player_id": "13347",
-        "name": "Demond Claiborne",
-        "position": "RB",
-        "team": "MIN",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 176,
-        "years_exp": 0,
-        "depth_chart_position": "RB"
-      },
-      {
         "player_id": "9757",
         "name": "Kendre Miller",
         "position": "RB",
@@ -12146,6 +12173,17 @@
         "depth_chart_position": "LWR"
       },
       {
+        "player_id": "12884",
+        "name": "Quincy Skinner",
+        "position": "WR",
+        "team": "GB",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 241,
+        "years_exp": 1,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "11617",
         "name": "Malachi Corley",
         "position": "WR",
@@ -12496,17 +12534,6 @@
         "search_rank": 522,
         "years_exp": 4,
         "depth_chart_position": "LWR"
-      },
-      {
-        "player_id": "13338",
-        "name": "Kevin Coleman",
-        "position": "WR",
-        "team": "MIA",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 523,
-        "years_exp": 0,
-        "depth_chart_position": "SWR"
       }
     ],
     "TE": [
