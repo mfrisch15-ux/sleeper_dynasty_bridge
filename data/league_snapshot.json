@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-17T20:23:18.531360+00:00",
+  "generated_at_utc": "2026-09-17T21:22:02.932419+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,6 +80,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -125,23 +129,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "last_message_id": "1406316306461978624",
-    "shard": 176,
-    "draft_id": "1328462469970038784",
-    "last_author_avatar": "7572250c2fb084c434fed0e82229e183",
-    "last_author_display_name": "Firebird4",
-    "last_author_id": "1155579787705110528",
-    "last_author_is_bot": false,
+    "last_message_id": "1406422019481845760",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789654444857,
+    "last_message_time": 1789679648804,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -165,11 +170,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -606,19 +606,6 @@
           "is_taxi": false
         },
         {
-          "player_id": "12536",
-          "name": "Jaylin Noel",
-          "position": "WR",
-          "team": "HOU",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 190,
-          "years_exp": 1,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
           "player_id": "12545",
           "name": "Tyler Shough",
           "position": "QB",
@@ -632,6 +619,19 @@
           "is_taxi": false
         },
         {
+          "player_id": "13268",
+          "name": "Elijah Sarratt",
+          "position": "WR",
+          "team": "BAL",
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 201,
+          "years_exp": 0,
+          "is_starter": false,
+          "is_reserve": false,
+          "is_taxi": true
+        },
+        {
           "player_id": "13296",
           "name": "Caleb Douglas",
           "position": "WR",
@@ -639,19 +639,6 @@
           "status": "Active",
           "injury_status": null,
           "search_rank": 198,
-          "years_exp": 0,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": true
-        },
-        {
-          "player_id": "13319",
-          "name": "Oscar Delp",
-          "position": "TE",
-          "team": "NO",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "search_rank": 449,
           "years_exp": 0,
           "is_starter": false,
           "is_reserve": false,
@@ -732,6 +719,19 @@
           "search_rank": 124,
           "years_exp": 11,
           "is_starter": true,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
+          "player_id": "4177",
+          "name": "Mack Hollins",
+          "position": "WR",
+          "team": "NE",
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 697,
+          "years_exp": 9,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -961,7 +961,7 @@
           "injury_status": null,
           "search_rank": 209,
           "years_exp": 2,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -1039,7 +1039,7 @@
           "injury_status": null,
           "search_rank": 45,
           "years_exp": 1,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -1552,7 +1552,7 @@
           "position": "WR",
           "team": "NO",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 29,
           "years_exp": 4,
           "is_starter": true,
@@ -3815,16 +3815,16 @@
         "11564",
         "12514",
         "12534",
-        "12536",
         "12545",
+        "13268",
         "13296",
-        "13319",
         "13411",
         "13421",
         "1466",
         "1479",
         "2449",
         "2747",
+        "4177",
         "4983",
         "4984",
         "5859",
@@ -3870,16 +3870,16 @@
         "11564": 0.0,
         "12514": 0.0,
         "12534": 0.0,
-        "12536": 0.0,
         "12545": 0.0,
+        "13268": 0.0,
         "13296": 0.0,
-        "13319": 0.0,
         "13411": 0.0,
         "13421": 0.0,
         "1466": 0.0,
         "1479": 0.0,
         "2449": 0.0,
         "2747": 0.0,
+        "4177": 0.0,
         "4983": 0.0,
         "4984": 0.0,
         "5859": 0.0,
@@ -3934,7 +3934,7 @@
         "7525",
         "5927",
         "8130",
-        "11834",
+        "12512",
         "8259",
         "SF"
       ],
@@ -9496,6 +9496,77 @@
         "status": "complete",
         "type": "free_agent",
         "metadata": null,
+        "created": 1789679648769,
+        "settings": null,
+        "leg": 2,
+        "draft_picks": [],
+        "creator": "735298292942041088",
+        "transaction_id": "1406422019339300864",
+        "adds": {
+          "4177": 2
+        },
+        "consenter_ids": [
+          2
+        ],
+        "drops": null,
+        "roster_ids": [
+          2
+        ],
+        "status_updated": 1789679648769,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1789678856422,
+        "settings": null,
+        "leg": 2,
+        "draft_picks": [],
+        "creator": "735298292942041088",
+        "transaction_id": "1406418695995011072",
+        "adds": null,
+        "consenter_ids": [
+          2
+        ],
+        "drops": {
+          "13319": 2
+        },
+        "roster_ids": [
+          2
+        ],
+        "status_updated": 1789678856422,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1789678813135,
+        "settings": null,
+        "leg": 2,
+        "draft_picks": [],
+        "creator": "735298292942041088",
+        "transaction_id": "1406418514436268032",
+        "adds": {
+          "13268": 2
+        },
+        "consenter_ids": [
+          2
+        ],
+        "drops": {
+          "12536": 2
+        },
+        "roster_ids": [
+          2
+        ],
+        "status_updated": 1789678813135,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
         "created": 1789646451806,
         "settings": null,
         "leg": 2,
@@ -9505,12 +9576,12 @@
         "adds": {
           "12536": 2
         },
-        "drops": {
-          "9501": 2
-        },
         "consenter_ids": [
           2
         ],
+        "drops": {
+          "9501": 2
+        },
         "roster_ids": [
           2
         ],
@@ -9530,10 +9601,10 @@
         "adds": {
           "13347": 1
         },
-        "drops": null,
         "consenter_ids": [
           1
         ],
+        "drops": null,
         "roster_ids": [
           1
         ],
@@ -9553,12 +9624,12 @@
         "adds": {
           "9501": 2
         },
-        "drops": {
-          "4454": 2
-        },
         "consenter_ids": [
           2
         ],
+        "drops": {
+          "4454": 2
+        },
         "roster_ids": [
           2
         ],
@@ -9578,10 +9649,10 @@
         "adds": {
           "4454": 2
         },
-        "drops": null,
         "consenter_ids": [
           2
         ],
+        "drops": null,
         "roster_ids": [
           2
         ],
@@ -10024,6 +10095,17 @@
       "depth_chart_position": null
     },
     {
+      "player_id": "12536",
+      "name": "Jaylin Noel",
+      "position": "WR",
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 190,
+      "years_exp": 1,
+      "depth_chart_position": "SWR"
+    },
+    {
       "player_id": "11569",
       "name": "Jarquez Hunter",
       "position": "RB",
@@ -10044,17 +10126,6 @@
       "search_rank": 199,
       "years_exp": 2,
       "depth_chart_position": "SWR"
-    },
-    {
-      "player_id": "13268",
-      "name": "Elijah Sarratt",
-      "position": "WR",
-      "team": "BAL",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 201,
-      "years_exp": 0,
-      "depth_chart_position": "LWR"
     },
     {
       "player_id": "3257",
@@ -10750,6 +10821,17 @@
       "depth_chart_position": "TE"
     },
     {
+      "player_id": "13319",
+      "name": "Oscar Delp",
+      "position": "TE",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "search_rank": 449,
+      "years_exp": 0,
+      "depth_chart_position": "TE"
+    },
+    {
       "player_id": "4147",
       "name": "Samaje Perine",
       "position": "RB",
@@ -11441,17 +11523,6 @@
       "search_rank": 529,
       "years_exp": 1,
       "depth_chart_position": "TE"
-    },
-    {
-      "player_id": "11306",
-      "name": "Xavier Gipson",
-      "position": "WR",
-      "team": "PHI",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 531,
-      "years_exp": 3,
-      "depth_chart_position": null
     }
   ],
   "free_agents_by_position": {
@@ -12165,6 +12236,17 @@
         "depth_chart_position": "SWR"
       },
       {
+        "player_id": "12536",
+        "name": "Jaylin Noel",
+        "position": "WR",
+        "team": "HOU",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 190,
+        "years_exp": 1,
+        "depth_chart_position": "SWR"
+      },
+      {
         "player_id": "11783",
         "name": "Ryan Flournoy",
         "position": "WR",
@@ -12174,17 +12256,6 @@
         "search_rank": 199,
         "years_exp": 2,
         "depth_chart_position": "SWR"
-      },
-      {
-        "player_id": "13268",
-        "name": "Elijah Sarratt",
-        "position": "WR",
-        "team": "BAL",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 201,
-        "years_exp": 0,
-        "depth_chart_position": "LWR"
       },
       {
         "player_id": "11617",
@@ -12838,6 +12909,17 @@
         "depth_chart_position": "TE"
       },
       {
+        "player_id": "13319",
+        "name": "Oscar Delp",
+        "position": "TE",
+        "team": "NO",
+        "status": "Active",
+        "injury_status": "Questionable",
+        "search_rank": 449,
+        "years_exp": 0,
+        "depth_chart_position": "TE"
+      },
+      {
         "player_id": "6001",
         "name": "Drew Sample",
         "position": "TE",
@@ -12988,17 +13070,6 @@
         "status": "Active",
         "injury_status": null,
         "search_rank": 504,
-        "years_exp": 0,
-        "depth_chart_position": "TE"
-      },
-      {
-        "player_id": "13282",
-        "name": "Jack Endries",
-        "position": "TE",
-        "team": "CIN",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 508,
         "years_exp": 0,
         "depth_chart_position": "TE"
       }
