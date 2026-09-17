@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-17T14:25:31.619185+00:00",
+  "generated_at_utc": "2026-09-17T15:23:32.453475+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 2,
-    "leg": 2,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -80,6 +80,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1406316306461978624",
+    "sport": "nfl",
+    "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -125,11 +130,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "last_message_id": "1406316306461978624",
-    "shard": 176,
     "draft_id": "1328462469970038784",
     "last_author_avatar": "7572250c2fb084c434fed0e82229e183",
     "last_author_display_name": "Firebird4",
@@ -961,7 +961,7 @@
           "injury_status": null,
           "search_rank": 209,
           "years_exp": 2,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -1039,7 +1039,7 @@
           "injury_status": null,
           "search_rank": 45,
           "years_exp": 1,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -3934,7 +3934,7 @@
         "7525",
         "5927",
         "8130",
-        "11834",
+        "12512",
         "8259",
         "SF"
       ],
