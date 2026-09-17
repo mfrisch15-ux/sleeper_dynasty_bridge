@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-17T00:29:16.840083+00:00",
+  "generated_at_utc": "2026-09-17T01:22:19.379996+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -1795,7 +1795,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 196,
           "years_exp": 9,
           "is_starter": false,
@@ -2758,7 +2758,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 199,
           "years_exp": 1,
           "is_starter": false,
@@ -2983,7 +2983,7 @@
           "search_rank": 91,
           "years_exp": 4,
           "is_starter": false,
-          "is_reserve": false,
+          "is_reserve": true,
           "is_taxi": false
         },
         {
@@ -3048,7 +3048,7 @@
           "search_rank": 40,
           "years_exp": 3,
           "is_starter": false,
-          "is_reserve": true,
+          "is_reserve": false,
           "is_taxi": false
         },
         {
