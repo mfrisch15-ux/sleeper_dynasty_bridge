@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-17T23:19:16.915737+00:00",
+  "generated_at_utc": "2026-09-18T00:28:50.953367+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 2,
-    "leg": 2,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -80,10 +80,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -129,8 +125,11 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "shard": 176,
     "last_message_id": "1406422019481845760",
-    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -139,6 +138,7 @@
     "last_message_text_map": null,
     "last_message_time": 1789679648804,
     "last_pinned_message_id": "1402369202257424384",
+    "draft_id": "1328462469970038784",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
@@ -1795,7 +1795,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 195,
           "years_exp": 9,
           "is_starter": false,
@@ -3808,7 +3808,7 @@
       }
     },
     {
-      "points": 0.0,
+      "points": 13.18,
       "players": [
         "10229",
         "10236",
@@ -3853,8 +3853,8 @@
         "PHI"
       ],
       "starters_points": [
-        0.0,
-        0.0,
+        10.88,
+        2.3,
         0.0,
         0.0,
         0.0,
@@ -3881,13 +3881,13 @@
         "2747": 0.0,
         "4177": 0.0,
         "4983": 0.0,
-        "4984": 0.0,
+        "4984": 10.88,
         "5859": 0.0,
         "5892": 0.0,
         "6794": 0.0,
         "7567": 0.0,
-        "8134": 0.0,
-        "8138": 0.0,
+        "8134": 4.2,
+        "8138": 2.3,
         "8151": 0.0,
         "9480": 0.0,
         "PHI": 0.0
@@ -4063,7 +4063,7 @@
         "8144": 0.0,
         "8180": 0.0,
         "9225": 0.0,
-        "DET": 0.0,
+        "DET": 6.0,
         "MIN": 0.0
       }
     },
@@ -4571,7 +4571,7 @@
         "9494": 0.0,
         "9511": 0.0,
         "9756": 0.0,
-        "BUF": 0.0,
+        "BUF": 10.0,
         "CHI": 0.0
       }
     }
