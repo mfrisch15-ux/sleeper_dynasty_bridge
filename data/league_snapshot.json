@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-18T16:21:31.249907+00:00",
+  "generated_at_utc": "2026-09-18T17:20:30.954444+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,10 +80,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -129,16 +125,20 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1406520569175842816",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 176,
+    "sport": "nfl",
+    "last_message_id": "1406722746083274752",
+    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789703144882,
+    "last_message_time": 1789751347613,
     "last_pinned_message_id": "1402369202257424384",
-    "draft_id": "1328462469970038784",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
@@ -225,7 +225,7 @@
           "position": "WR",
           "team": "CAR",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 132,
           "years_exp": 2,
           "is_starter": true,
@@ -2506,7 +2506,7 @@
           "search_rank": 119,
           "years_exp": 9,
           "is_starter": false,
-          "is_reserve": true,
+          "is_reserve": false,
           "is_taxi": false
         },
         {
@@ -2518,7 +2518,7 @@
           "injury_status": null,
           "search_rank": 65,
           "years_exp": 17,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -2531,7 +2531,7 @@
           "injury_status": null,
           "search_rank": 74,
           "years_exp": 8,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -2583,7 +2583,7 @@
           "injury_status": null,
           "search_rank": 131,
           "years_exp": 7,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -2614,19 +2614,6 @@
           "is_taxi": false
         },
         {
-          "player_id": "7090",
-          "name": "Darnell Mooney",
-          "position": "WR",
-          "team": "NYG",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 194,
-          "years_exp": 6,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
           "player_id": "7543",
           "name": "Travis Etienne",
           "position": "RB",
@@ -2648,7 +2635,7 @@
           "injury_status": "Questionable",
           "search_rank": 22,
           "years_exp": 5,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -2674,20 +2661,20 @@
           "injury_status": null,
           "search_rank": null,
           "years_exp": null,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
         {
-          "player_id": "LAC",
-          "name": "Los Angeles Chargers",
+          "player_id": "NE",
+          "name": "New England Patriots",
           "position": "DEF",
-          "team": "LAC",
+          "team": "NE",
           "status": null,
           "injury_status": null,
           "search_rank": null,
           "years_exp": null,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         }
@@ -3339,7 +3326,7 @@
           "position": "TE",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 137,
           "years_exp": 4,
           "is_starter": false,
@@ -4261,12 +4248,11 @@
         "5872",
         "6786",
         "6819",
-        "7090",
         "7543",
         "7569",
         "9224",
         "JAX",
-        "LAC"
+        "NE"
       ],
       "roster_id": 7,
       "custom_points": null,
@@ -4276,12 +4262,12 @@
         "9224",
         "7543",
         "6786",
-        "7569",
+        "5872",
         "11632",
         "12518",
-        "5872",
+        "12490",
         "11792",
-        "JAX"
+        "NE"
       ],
       "starters_points": [
         0.0,
@@ -4317,12 +4303,11 @@
         "5872": 0.0,
         "6786": 0.0,
         "6819": 0.0,
-        "7090": 0.0,
         "7543": 0.0,
         "7569": 0.0,
         "9224": 0.0,
         "JAX": 0.0,
-        "LAC": 0.0
+        "NE": 0.0
       }
     },
     {
@@ -9496,6 +9481,75 @@
         "status": "complete",
         "type": "free_agent",
         "metadata": null,
+        "created": 1789751347582,
+        "settings": null,
+        "leg": 2,
+        "draft_picks": [],
+        "creator": "1265444209784008704",
+        "transaction_id": "1406722745957384192",
+        "adds": {
+          "NE": 7
+        },
+        "drops": null,
+        "consenter_ids": [
+          7
+        ],
+        "roster_ids": [
+          7
+        ],
+        "status_updated": 1789751347582,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1789751330089,
+        "settings": null,
+        "leg": 2,
+        "draft_picks": [],
+        "creator": "1265444209784008704",
+        "transaction_id": "1406722672586473472",
+        "adds": null,
+        "drops": {
+          "7090": 7
+        },
+        "consenter_ids": [
+          7
+        ],
+        "roster_ids": [
+          7
+        ],
+        "status_updated": 1789751330089,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1789751293591,
+        "settings": null,
+        "leg": 2,
+        "draft_picks": [],
+        "creator": "1265444209784008704",
+        "transaction_id": "1406722519502782464",
+        "adds": null,
+        "drops": {
+          "LAC": 7
+        },
+        "consenter_ids": [
+          7
+        ],
+        "roster_ids": [
+          7
+        ],
+        "status_updated": 1789751293591,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
         "created": 1789703144845,
         "settings": null,
         "leg": 2,
@@ -10129,6 +10183,17 @@
       "search_rank": 191,
       "years_exp": 1,
       "depth_chart_position": null
+    },
+    {
+      "player_id": "7090",
+      "name": "Darnell Mooney",
+      "position": "WR",
+      "team": "NYG",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 194,
+      "years_exp": 6,
+      "depth_chart_position": "SWR"
     },
     {
       "player_id": "11783",
@@ -11537,17 +11602,6 @@
       "search_rank": 531,
       "years_exp": 3,
       "depth_chart_position": null
-    },
-    {
-      "player_id": "12500",
-      "name": "Quinn Ewers",
-      "position": "QB",
-      "team": "JAX",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 532,
-      "years_exp": 1,
-      "depth_chart_position": "QB"
     }
   ],
   "free_agents_by_position": {
@@ -11858,17 +11912,6 @@
         "injury_status": null,
         "search_rank": 523,
         "years_exp": 0,
-        "depth_chart_position": "QB"
-      },
-      {
-        "player_id": "12500",
-        "name": "Quinn Ewers",
-        "position": "QB",
-        "team": "JAX",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 532,
-        "years_exp": 1,
         "depth_chart_position": "QB"
       }
     ],
@@ -12261,6 +12304,17 @@
         "depth_chart_position": "SWR"
       },
       {
+        "player_id": "7090",
+        "name": "Darnell Mooney",
+        "position": "WR",
+        "team": "NYG",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 194,
+        "years_exp": 6,
+        "depth_chart_position": "SWR"
+      },
+      {
         "player_id": "11783",
         "name": "Ryan Flournoy",
         "position": "WR",
@@ -12644,17 +12698,6 @@
         "search_rank": 522,
         "years_exp": 4,
         "depth_chart_position": "LWR"
-      },
-      {
-        "player_id": "13338",
-        "name": "Kevin Coleman",
-        "position": "WR",
-        "team": "MIA",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 523,
-        "years_exp": 0,
-        "depth_chart_position": "SWR"
       }
     ],
     "TE": [
