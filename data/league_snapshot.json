@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-19T20:21:27.329108+00:00",
+  "generated_at_utc": "2026-09-19T22:20:51.318690+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -420,7 +420,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Inactive",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "search_rank": 113,
           "years_exp": 0,
           "is_starter": false,
