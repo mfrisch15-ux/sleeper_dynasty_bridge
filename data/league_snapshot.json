@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-21T01:21:36.742109+00:00",
+  "generated_at_utc": "2026-09-21T02:22:57.472118+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,11 +80,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "last_message_id": "1407468356675596288",
     "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -130,23 +129,19 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
+    "last_message_id": "1407468356675596288",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
-    "draft_id": "1328462469970038784",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1789929115030,
     "last_pinned_message_id": "1402369202257424384",
+    "draft_id": "1328462469970038784",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -170,6 +165,11 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -1539,7 +1539,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "search_rank": 94,
           "years_exp": 4,
           "is_starter": false,
@@ -3724,7 +3724,7 @@
   ],
   "matchups_current_week": [
     {
-      "points": 91.92,
+      "points": 88.92,
       "players": [
         "11560",
         "11581",
@@ -3777,7 +3777,7 @@
         10.4,
         13.6,
         4.0,
-        6.0
+        3.0
       ],
       "players_points": {
         "11560": 8.72,
@@ -3804,11 +3804,11 @@
         "5846": 6.7,
         "8136": 14.3,
         "9509": 11.1,
-        "KC": 6.0
+        "KC": 3.0
       }
     },
     {
-      "points": 122.32,
+      "points": 128.62,
       "players": [
         "10229",
         "10236",
@@ -3856,7 +3856,7 @@
       "starters_points": [
         40.82,
         20.9,
-        4.0,
+        10.3,
         -0.1,
         8.5,
         10.3,
@@ -3866,7 +3866,7 @@
         4.0
       ],
       "players_points": {
-        "10229": 4.0,
+        "10229": 6.6,
         "10236": 22.5,
         "11564": 9.02,
         "12514": 10.3,
@@ -3877,7 +3877,7 @@
         "13296": 3.9,
         "13411": 0.0,
         "13421": 4.0,
-        "1466": 8.3,
+        "1466": 12.8,
         "1479": 0.0,
         "2449": 21.7,
         "2747": 7.0,
@@ -3890,13 +3890,13 @@
         "7567": 4.5,
         "8134": 6.8,
         "8138": 20.9,
-        "8151": 4.0,
+        "8151": 10.3,
         "9480": 3.7,
         "PHI": 4.0
       }
     },
     {
-      "points": 95.5,
+      "points": 107.7,
       "players": [
         "10219",
         "10222",
@@ -3942,7 +3942,7 @@
       ],
       "starters_points": [
         15.8,
-        5.5,
+        17.7,
         0.0,
         11.4,
         27.7,
@@ -3966,14 +3966,14 @@
         "12512": 9.8,
         "13274": 7.5,
         "13317": 4.7,
-        "13337": 0.0,
+        "13337": 1.8,
         "13346": 20.5,
         "13424": 0.0,
         "4881": 15.8,
         "5927": 7.0,
         "6130": 0.0,
         "6783": 0.0,
-        "6813": 5.5,
+        "6813": 17.7,
         "7525": 27.7,
         "8130": 18.1,
         "8259": 1.0,
@@ -4129,7 +4129,7 @@
       "players_points": {
         "11237": 0.0,
         "11584": 13.0,
-        "11624": 4.2,
+        "11624": 12.7,
         "11786": 7.0,
         "12469": 0.0,
         "12502": 3.3,
@@ -4398,7 +4398,7 @@
         "12533": 5.8,
         "13413": 0.0,
         "4037": 8.8,
-        "4046": 6.84,
+        "4046": 19.52,
         "6650": 16.0,
         "6803": 0.0,
         "7049": 0.0,
@@ -4410,7 +4410,7 @@
         "8183": 28.48,
         "8408": 0.0,
         "9226": 12.3,
-        "9500": 4.5,
+        "9500": 8.1,
         "9508": 9.0,
         "9753": 0.0,
         "9997": 0.0,
