@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-21T09:24:02.525917+00:00",
+  "generated_at_utc": "2026-09-21T10:22:57.481602+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,7 +80,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1407468356675596288",
     "shard": 176,
     "season": "2026",
     "season_type": "regular",
@@ -130,7 +129,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "draft_id": "1328462469970038784",
+    "last_message_id": "1407468356675596288",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -139,14 +138,10 @@
     "last_message_text_map": null,
     "last_message_time": 1789929115030,
     "last_pinned_message_id": "1402369202257424384",
+    "draft_id": "1328462469970038784",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -170,6 +165,11 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
