@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-21T21:21:45.661746+00:00",
+  "generated_at_utc": "2026-09-21T22:22:05.570551+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,10 +80,11 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "last_message_id": "1407468356675596288",
+    "shard": 176,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -129,19 +130,23 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1407468356675596288",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
+    "draft_id": "1328462469970038784",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1789929115030,
     "last_pinned_message_id": "1402369202257424384",
-    "draft_id": "1328462469970038784",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -165,11 +170,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -10111,17 +10111,6 @@
   ],
   "free_agent_pool_compact": [
     {
-      "player_id": "4033",
-      "name": "David Njoku",
-      "position": "TE",
-      "team": "LAC",
-      "status": "Active",
-      "injury_status": "Out",
-      "search_rank": 131,
-      "years_exp": 9,
-      "depth_chart_position": "TE"
-    },
-    {
       "player_id": "5870",
       "name": "Daniel Jones",
       "position": "QB",
@@ -11759,6 +11748,17 @@
       "search_rank": 522,
       "years_exp": 4,
       "depth_chart_position": "LWR"
+    },
+    {
+      "player_id": "13306",
+      "name": "Taylen Green",
+      "position": "QB",
+      "team": "CLE",
+      "status": "Active",
+      "injury_status": "Out",
+      "search_rank": 523,
+      "years_exp": 0,
+      "depth_chart_position": "QB"
     }
   ],
   "free_agents_by_position": {
@@ -12068,6 +12068,17 @@
         "status": "Active",
         "injury_status": "Out",
         "search_rank": 515,
+        "years_exp": 0,
+        "depth_chart_position": "QB"
+      },
+      {
+        "player_id": "13306",
+        "name": "Taylen Green",
+        "position": "QB",
+        "team": "CLE",
+        "status": "Active",
+        "injury_status": "Out",
+        "search_rank": 523,
         "years_exp": 0,
         "depth_chart_position": "QB"
       }
@@ -12848,17 +12859,6 @@
     ],
     "TE": [
       {
-        "player_id": "4033",
-        "name": "David Njoku",
-        "position": "TE",
-        "team": "LAC",
-        "status": "Active",
-        "injury_status": "Out",
-        "search_rank": 131,
-        "years_exp": 9,
-        "depth_chart_position": "TE"
-      },
-      {
         "player_id": "6865",
         "name": "Colby Parkinson",
         "position": "TE",
@@ -13286,6 +13286,17 @@
         "search_rank": 504,
         "years_exp": 9,
         "depth_chart_position": null
+      },
+      {
+        "player_id": "13324",
+        "name": "Matt Hibner",
+        "position": "TE",
+        "team": "BAL",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 504,
+        "years_exp": 0,
+        "depth_chart_position": "TE"
       }
     ]
   },
