@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-21T03:23:47.672956+00:00",
+  "generated_at_utc": "2026-09-21T04:23:50.228217+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,11 +80,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "last_message_id": "1407468356675596288",
     "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -130,23 +129,19 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
+    "last_message_id": "1407468356675596288",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
-    "draft_id": "1328462469970038784",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1789929115030,
     "last_pinned_message_id": "1402369202257424384",
+    "draft_id": "1328462469970038784",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -170,6 +165,11 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -3808,7 +3808,7 @@
       }
     },
     {
-      "points": 136.02,
+      "points": 142.12,
       "players": [
         "10229",
         "10236",
@@ -3856,7 +3856,7 @@
       "starters_points": [
         40.82,
         20.9,
-        17.7,
+        23.8,
         -0.1,
         8.5,
         10.3,
@@ -3877,7 +3877,7 @@
         "13296": 3.9,
         "13411": 0.0,
         "13421": 4.0,
-        "1466": 23.0,
+        "1466": 25.1,
         "1479": 1.5,
         "2449": 21.7,
         "2747": 7.0,
@@ -3890,13 +3890,13 @@
         "7567": 4.5,
         "8134": 6.8,
         "8138": 20.9,
-        "8151": 17.7,
+        "8151": 23.8,
         "9480": 3.7,
         "PHI": 4.0
       }
     },
     {
-      "points": 119.5,
+      "points": 119.2,
       "players": [
         "10219",
         "10222",
@@ -3942,7 +3942,7 @@
       ],
       "starters_points": [
         15.8,
-        29.5,
+        29.2,
         0.0,
         11.4,
         27.7,
@@ -3973,7 +3973,7 @@
         "5927": 7.0,
         "6130": 0.0,
         "6783": 0.0,
-        "6813": 29.5,
+        "6813": 29.2,
         "7525": 27.7,
         "8130": 18.1,
         "8259": 1.0,
@@ -4398,7 +4398,7 @@
         "12533": 5.8,
         "13413": 0.0,
         "4037": 8.8,
-        "4046": 24.76,
+        "4046": 28.98,
         "6650": 16.0,
         "6803": 0.0,
         "7049": 0.0,
