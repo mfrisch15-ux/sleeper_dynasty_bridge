@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-22T20:21:17.208830+00:00",
+  "generated_at_utc": "2026-09-22T21:20:43.471072+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,10 +80,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -129,19 +125,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 176,
+    "sport": "nfl",
     "last_message_id": "1408193812811010048",
-    "draft_id": "1328462469970038784",
     "last_author_avatar": "7572250c2fb084c434fed0e82229e183",
     "last_author_display_name": "Firebird4",
     "last_author_id": "1155579787705110528",
     "last_author_is_bot": false,
     "last_message_attachment": null,
+    "draft_id": "1328462469970038784",
     "last_message_text_map": null,
     "last_message_time": 1790102078928,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "bracket_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -165,9 +166,8 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -3261,7 +3261,7 @@
           "position": "RB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "search_rank": 65,
           "years_exp": 6,
           "is_starter": false,
@@ -10660,6 +10660,17 @@
       "depth_chart_position": null
     },
     {
+      "player_id": "12374",
+      "name": "Brenden Bates",
+      "position": "TE",
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 335,
+      "years_exp": 2,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "12154",
       "name": "Messiah Swinson",
       "position": "TE",
@@ -11747,17 +11758,6 @@
       "search_rank": 522,
       "years_exp": 4,
       "depth_chart_position": "LWR"
-    },
-    {
-      "player_id": "13306",
-      "name": "Taylen Green",
-      "position": "QB",
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": "Out",
-      "search_rank": 523,
-      "years_exp": 0,
-      "depth_chart_position": "QB"
     }
   ],
   "free_agents_by_position": {
@@ -12067,17 +12067,6 @@
         "status": "Active",
         "injury_status": "Out",
         "search_rank": 515,
-        "years_exp": 0,
-        "depth_chart_position": "QB"
-      },
-      {
-        "player_id": "13306",
-        "name": "Taylen Green",
-        "position": "QB",
-        "team": "CLE",
-        "status": "Active",
-        "injury_status": "Out",
-        "search_rank": 523,
         "years_exp": 0,
         "depth_chart_position": "QB"
       }
@@ -12990,6 +12979,17 @@
         "depth_chart_position": "TE"
       },
       {
+        "player_id": "12374",
+        "name": "Brenden Bates",
+        "position": "TE",
+        "team": "JAX",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 335,
+        "years_exp": 2,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "12154",
         "name": "Messiah Swinson",
         "position": "TE",
@@ -13285,17 +13285,6 @@
         "search_rank": 504,
         "years_exp": 9,
         "depth_chart_position": null
-      },
-      {
-        "player_id": "13324",
-        "name": "Matt Hibner",
-        "position": "TE",
-        "team": "BAL",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 504,
-        "years_exp": 0,
-        "depth_chart_position": "TE"
       }
     ]
   },
