@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-23T00:27:33.775642+00:00",
+  "generated_at_utc": "2026-09-23T01:21:25.272220+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -10932,7 +10932,7 @@
       "injury_status": null,
       "search_rank": 423,
       "years_exp": 7,
-      "depth_chart_position": "LWR"
+      "depth_chart_position": null
     },
     {
       "player_id": "7812",
@@ -12633,7 +12633,7 @@
         "injury_status": null,
         "search_rank": 423,
         "years_exp": 7,
-        "depth_chart_position": "LWR"
+        "depth_chart_position": null
       },
       {
         "player_id": "7812",
