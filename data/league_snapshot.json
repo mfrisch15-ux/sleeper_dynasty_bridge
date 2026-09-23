@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-23T19:21:27.406083+00:00",
+  "generated_at_utc": "2026-09-23T20:23:06.703477+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -127,22 +127,21 @@
     },
     "season": "2026",
     "season_type": "regular",
-    "shard": 176,
     "sport": "nfl",
-    "last_message_id": "1408533196596883456",
+    "last_message_id": "1408577902051594240",
+    "shard": 176,
+    "draft_id": "1328462469970038784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790182992651,
+    "last_message_time": 1790193651262,
     "last_pinned_message_id": "1402369202257424384",
-    "draft_id": "1328462469970038784",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -168,6 +167,7 @@
     ],
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -225,7 +225,7 @@
           "position": "WR",
           "team": "CAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 132,
           "years_exp": 2,
           "is_starter": true,
@@ -251,7 +251,7 @@
           "position": "RB",
           "team": "IND",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 503,
           "years_exp": 1,
           "is_starter": false,
@@ -580,6 +580,19 @@
           "is_taxi": false
         },
         {
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "team": "SEA",
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 161,
+          "years_exp": 3,
+          "is_starter": false,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
           "player_id": "11564",
           "name": "Drake Maye",
           "position": "QB",
@@ -866,19 +879,6 @@
           "is_taxi": false
         },
         {
-          "player_id": "9480",
-          "name": "Brenton Strange",
-          "position": "TE",
-          "team": "JAX",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 104,
-          "years_exp": 3,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
           "player_id": "PHI",
           "name": "Philadelphia Eagles",
           "position": "DEF",
@@ -932,7 +932,7 @@
           "position": "WR",
           "team": "GB",
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 98,
           "years_exp": 3,
           "is_starter": false,
@@ -1829,6 +1829,19 @@
           "is_taxi": false
         },
         {
+          "player_id": "4177",
+          "name": "Mack Hollins",
+          "position": "WR",
+          "team": "NE",
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 697,
+          "years_exp": 9,
+          "is_starter": false,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
           "player_id": "5001",
           "name": "Dalton Schultz",
           "position": "TE",
@@ -1985,10 +1998,10 @@
           "is_taxi": false
         },
         {
-          "player_id": "TB",
-          "name": "Tampa Bay Buccaneers",
+          "player_id": "NYG",
+          "name": "New York Giants",
           "position": "DEF",
-          "team": "TB",
+          "team": "NYG",
           "status": null,
           "injury_status": null,
           "search_rank": null,
@@ -3248,7 +3261,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 494,
           "years_exp": 0,
           "is_starter": false,
@@ -3853,6 +3866,7 @@
       "players": [
         "10229",
         "10236",
+        "11435",
         "11564",
         "11575",
         "12514",
@@ -3875,7 +3889,6 @@
         "8134",
         "8138",
         "8151",
-        "9480",
         "PHI"
       ],
       "roster_id": 2,
@@ -3908,6 +3921,7 @@
       "players_points": {
         "10229": 0.0,
         "10236": 0.0,
+        "11435": 0.0,
         "11564": 0.0,
         "11575": 0.0,
         "12514": 0.0,
@@ -3930,7 +3944,6 @@
         "8134": 0.0,
         "8138": 0.0,
         "8151": 0.0,
-        "9480": 0.0,
         "PHI": 0.0
       }
     },
@@ -4126,6 +4139,7 @@
         "2216",
         "3294",
         "4039",
+        "4177",
         "5001",
         "5022",
         "5045",
@@ -4138,7 +4152,7 @@
         "9228",
         "9758",
         "LAR",
-        "TB"
+        "NYG"
       ],
       "roster_id": 5,
       "custom_points": null,
@@ -4153,7 +4167,7 @@
         "5001",
         "11584",
         "11786",
-        "TB"
+        "NYG"
       ],
       "starters_points": [
         0.0,
@@ -4181,6 +4195,7 @@
         "2216": 0.0,
         "3294": 0.0,
         "4039": 0.0,
+        "4177": 0.0,
         "5001": 0.0,
         "5022": 0.0,
         "5045": 0.0,
@@ -4193,7 +4208,7 @@
         "9228": 0.0,
         "9758": 0.0,
         "LAR": 0.0,
-        "TB": 0.0
+        "NYG": 0.0
       }
     },
     {
@@ -10146,6 +10161,79 @@
         "status": "complete",
         "type": "free_agent",
         "metadata": null,
+        "created": 1790193651235,
+        "settings": null,
+        "leg": 3,
+        "draft_picks": [],
+        "creator": "1126265615670505472",
+        "transaction_id": "1408577901938397184",
+        "adds": {
+          "4177": 5
+        },
+        "consenter_ids": [
+          5
+        ],
+        "drops": null,
+        "roster_ids": [
+          5
+        ],
+        "status_updated": 1790193651235,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1790193578975,
+        "settings": null,
+        "leg": 3,
+        "draft_picks": [],
+        "creator": "1126265615670505472",
+        "transaction_id": "1408577598853771264",
+        "adds": {
+          "NYG": 5
+        },
+        "consenter_ids": [
+          5
+        ],
+        "drops": {
+          "TB": 5
+        },
+        "roster_ids": [
+          5
+        ],
+        "status_updated": 1790193578975,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1790191997200,
+        "settings": null,
+        "leg": 3,
+        "draft_picks": [],
+        "creator": "735298292942041088",
+        "transaction_id": "1408570964408627200",
+        "adds": {
+          "11435": 2
+        },
+        "consenter_ids": [
+          2
+        ],
+        "drops": {
+          "9480": 2
+        },
+        "roster_ids": [
+          2
+        ],
+        "status_updated": 1790191997200,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
         "created": 1790182992623,
         "settings": null,
         "leg": 3,
@@ -10431,6 +10519,17 @@
   ],
   "free_agent_pool_compact": [
     {
+      "player_id": "9480",
+      "name": "Brenton Strange",
+      "position": "TE",
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 104,
+      "years_exp": 3,
+      "depth_chart_position": "TE"
+    },
+    {
       "player_id": "5870",
       "name": "Daniel Jones",
       "position": "QB",
@@ -10504,17 +10603,6 @@
       "status": "Active",
       "injury_status": null,
       "search_rank": 155,
-      "years_exp": 3,
-      "depth_chart_position": "RB"
-    },
-    {
-      "player_id": "11435",
-      "name": "Emanuel Wilson",
-      "position": "RB",
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 161,
       "years_exp": 3,
       "depth_chart_position": "RB"
     },
@@ -12394,17 +12482,6 @@
         "depth_chart_position": "RB"
       },
       {
-        "player_id": "11435",
-        "name": "Emanuel Wilson",
-        "position": "RB",
-        "team": "SEA",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 161,
-        "years_exp": 3,
-        "depth_chart_position": "RB"
-      },
-      {
         "player_id": "7528",
         "name": "Najee Harris",
         "position": "RB",
@@ -13168,6 +13245,17 @@
     ],
     "TE": [
       {
+        "player_id": "9480",
+        "name": "Brenton Strange",
+        "position": "TE",
+        "team": "JAX",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 104,
+        "years_exp": 3,
+        "depth_chart_position": "TE"
+      },
+      {
         "player_id": "6865",
         "name": "Colby Parkinson",
         "position": "TE",
@@ -13594,17 +13682,6 @@
         "injury_status": null,
         "search_rank": 493,
         "years_exp": 0,
-        "depth_chart_position": null
-      },
-      {
-        "player_id": "1706",
-        "name": "Jack Doyle",
-        "position": "TE",
-        "team": "IND",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 504,
-        "years_exp": 9,
         "depth_chart_position": null
       }
     ]
