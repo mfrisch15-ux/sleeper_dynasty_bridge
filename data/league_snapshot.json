@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T13:24:28.122354+00:00",
+  "generated_at_utc": "2026-09-24T14:24:18.026194+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,6 +80,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -125,28 +129,19 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 176,
-    "sport": "nfl",
-    "last_message_id": "1408609877827264512",
-    "last_author_avatar": "bb4df5148bf5a7e4356ef1657abb854e",
-    "last_author_display_name": "DrSlick",
-    "last_author_id": "735298292942041088",
-    "last_author_is_bot": false,
+    "last_message_id": "1408850769444093952",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790201274882,
+    "last_message_time": 1790258707919,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
     "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -170,6 +165,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -580,19 +580,6 @@
           "is_taxi": false
         },
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "team": "SEA",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 161,
-          "years_exp": 3,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
           "player_id": "11564",
           "name": "Drake Maye",
           "position": "QB",
@@ -658,19 +645,6 @@
           "is_taxi": false
         },
         {
-          "player_id": "13268",
-          "name": "Elijah Sarratt",
-          "position": "WR",
-          "team": "BAL",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 201,
-          "years_exp": 0,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": true
-        },
-        {
           "player_id": "13296",
           "name": "Caleb Douglas",
           "position": "WR",
@@ -682,6 +656,19 @@
           "is_starter": false,
           "is_reserve": false,
           "is_taxi": true
+        },
+        {
+          "player_id": "13320",
+          "name": "Zachariah Branch",
+          "position": "WR",
+          "team": "ATL",
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 185,
+          "years_exp": 0,
+          "is_starter": false,
+          "is_reserve": false,
+          "is_taxi": false
         },
         {
           "player_id": "13411",
@@ -3866,14 +3853,13 @@
       "players": [
         "10229",
         "10236",
-        "11435",
         "11564",
         "11575",
         "12514",
         "12534",
         "12545",
-        "13268",
         "13296",
+        "13320",
         "13411",
         "13421",
         "1466",
@@ -3921,14 +3907,13 @@
       "players_points": {
         "10229": 0.0,
         "10236": 0.0,
-        "11435": 0.0,
         "11564": 0.0,
         "11575": 0.0,
         "12514": 0.0,
         "12534": 0.0,
         "12545": 0.0,
-        "13268": 0.0,
         "13296": 0.0,
+        "13320": 0.0,
         "13411": 0.0,
         "13421": 0.0,
         "1466": 0.0,
@@ -9570,12 +9555,12 @@
         "adds": {
           "11559": 9
         },
-        "consenter_ids": [
-          9
-        ],
         "drops": {
           "9504": 9
         },
+        "consenter_ids": [
+          9
+        ],
         "roster_ids": [
           9
         ],
@@ -9600,10 +9585,10 @@
         "adds": {
           "CAR": 9
         },
+        "drops": null,
         "consenter_ids": [
           9
         ],
-        "drops": null,
         "roster_ids": [
           9
         ],
@@ -9628,10 +9613,10 @@
         "adds": {
           "5854": 9
         },
+        "drops": null,
         "consenter_ids": [
           9
         ],
-        "drops": null,
         "roster_ids": [
           9
         ],
@@ -9656,12 +9641,12 @@
         "adds": {
           "11575": 2
         },
-        "consenter_ids": [
-          2
-        ],
         "drops": {
           "7528": 2
         },
+        "consenter_ids": [
+          2
+        ],
         "roster_ids": [
           2
         ],
@@ -9686,10 +9671,10 @@
         "adds": {
           "1166": 3
         },
+        "drops": null,
         "consenter_ids": [
           3
         ],
-        "drops": null,
         "roster_ids": [
           3
         ],
@@ -9714,10 +9699,10 @@
         "adds": {
           "1166": 1
         },
+        "drops": null,
         "consenter_ids": [
           1
         ],
-        "drops": null,
         "roster_ids": [
           1
         ],
@@ -9742,12 +9727,12 @@
         "adds": {
           "10218": 4
         },
-        "consenter_ids": [
-          4
-        ],
         "drops": {
           "8180": 4
         },
+        "consenter_ids": [
+          4
+        ],
         "roster_ids": [
           4
         ],
@@ -9767,10 +9752,10 @@
         "adds": {
           "7528": 2
         },
+        "drops": null,
         "consenter_ids": [
           2
         ],
-        "drops": null,
         "roster_ids": [
           2
         ],
@@ -9788,12 +9773,12 @@
         "creator": "735298292942041088",
         "transaction_id": "1407467838721073152",
         "adds": null,
-        "consenter_ids": [
-          2
-        ],
         "drops": {
           "12536": 2
         },
+        "consenter_ids": [
+          2
+        ],
         "roster_ids": [
           2
         ],
@@ -9811,12 +9796,12 @@
         "creator": "890612043944792064",
         "transaction_id": "1407438145435303936",
         "adds": null,
-        "consenter_ids": [
-          9
-        ],
         "drops": {
           "8210": 9
         },
+        "consenter_ids": [
+          9
+        ],
         "roster_ids": [
           9
         ],
@@ -9836,12 +9821,12 @@
         "adds": {
           "CIN": 6
         },
-        "consenter_ids": [
-          6
-        ],
         "drops": {
           "CAR": 6
         },
+        "consenter_ids": [
+          6
+        ],
         "roster_ids": [
           6
         ],
@@ -9861,10 +9846,10 @@
         "adds": {
           "CAR": 6
         },
+        "drops": null,
         "consenter_ids": [
           6
         ],
-        "drops": null,
         "roster_ids": [
           6
         ],
@@ -9884,10 +9869,10 @@
         "adds": {
           "GB": 7
         },
+        "drops": null,
         "consenter_ids": [
           7
         ],
-        "drops": null,
         "roster_ids": [
           7
         ],
@@ -9907,10 +9892,10 @@
         "adds": {
           "NE": 7
         },
+        "drops": null,
         "consenter_ids": [
           7
         ],
-        "drops": null,
         "roster_ids": [
           7
         ],
@@ -9928,12 +9913,12 @@
         "creator": "1265444209784008704",
         "transaction_id": "1406722672586473472",
         "adds": null,
-        "consenter_ids": [
-          7
-        ],
         "drops": {
           "7090": 7
         },
+        "consenter_ids": [
+          7
+        ],
         "roster_ids": [
           7
         ],
@@ -9951,12 +9936,12 @@
         "creator": "1265444209784008704",
         "transaction_id": "1406722519502782464",
         "adds": null,
-        "consenter_ids": [
-          7
-        ],
         "drops": {
           "LAC": 7
         },
+        "consenter_ids": [
+          7
+        ],
         "roster_ids": [
           7
         ],
@@ -9976,12 +9961,12 @@
         "adds": {
           "12536": 2
         },
-        "consenter_ids": [
-          2
-        ],
         "drops": {
           "4177": 2
         },
+        "consenter_ids": [
+          2
+        ],
         "roster_ids": [
           2
         ],
@@ -10001,10 +9986,10 @@
         "adds": {
           "4177": 2
         },
+        "drops": null,
         "consenter_ids": [
           2
         ],
-        "drops": null,
         "roster_ids": [
           2
         ],
@@ -10022,12 +10007,12 @@
         "creator": "735298292942041088",
         "transaction_id": "1406418695995011072",
         "adds": null,
-        "consenter_ids": [
-          2
-        ],
         "drops": {
           "13319": 2
         },
+        "consenter_ids": [
+          2
+        ],
         "roster_ids": [
           2
         ],
@@ -10047,12 +10032,12 @@
         "adds": {
           "13268": 2
         },
-        "consenter_ids": [
-          2
-        ],
         "drops": {
           "12536": 2
         },
+        "consenter_ids": [
+          2
+        ],
         "roster_ids": [
           2
         ],
@@ -10072,12 +10057,12 @@
         "adds": {
           "12536": 2
         },
-        "consenter_ids": [
-          2
-        ],
         "drops": {
           "9501": 2
         },
+        "consenter_ids": [
+          2
+        ],
         "roster_ids": [
           2
         ],
@@ -10097,10 +10082,10 @@
         "adds": {
           "13347": 1
         },
+        "drops": null,
         "consenter_ids": [
           1
         ],
-        "drops": null,
         "roster_ids": [
           1
         ],
@@ -10120,12 +10105,12 @@
         "adds": {
           "9501": 2
         },
-        "consenter_ids": [
-          2
-        ],
         "drops": {
           "4454": 2
         },
+        "consenter_ids": [
+          2
+        ],
         "roster_ids": [
           2
         ],
@@ -10145,10 +10130,10 @@
         "adds": {
           "4454": 2
         },
+        "drops": null,
         "consenter_ids": [
           2
         ],
-        "drops": null,
         "roster_ids": [
           2
         ],
@@ -10157,6 +10142,54 @@
       }
     ],
     "3": [
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1790258707894,
+        "settings": null,
+        "leg": 3,
+        "draft_picks": [],
+        "creator": "735298292942041088",
+        "transaction_id": "1408850769343430656",
+        "adds": null,
+        "consenter_ids": [
+          2
+        ],
+        "drops": {
+          "13268": 2
+        },
+        "roster_ids": [
+          2
+        ],
+        "status_updated": 1790258707894,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1790258685314,
+        "settings": null,
+        "leg": 3,
+        "draft_picks": [],
+        "creator": "735298292942041088",
+        "transaction_id": "1408850674636107776",
+        "adds": {
+          "13320": 2
+        },
+        "consenter_ids": [
+          2
+        ],
+        "drops": {
+          "11435": 2
+        },
+        "roster_ids": [
+          2
+        ],
+        "status_updated": 1790258685314,
+        "waiver_budget": []
+      },
       {
         "status": "complete",
         "type": "free_agent",
@@ -10170,10 +10203,10 @@
         "adds": {
           "4177": 5
         },
-        "drops": null,
         "consenter_ids": [
           5
         ],
+        "drops": null,
         "roster_ids": [
           5
         ],
@@ -10193,12 +10226,12 @@
         "adds": {
           "NYG": 5
         },
-        "drops": {
-          "TB": 5
-        },
         "consenter_ids": [
           5
         ],
+        "drops": {
+          "TB": 5
+        },
         "roster_ids": [
           5
         ],
@@ -10218,12 +10251,12 @@
         "adds": {
           "11435": 2
         },
-        "drops": {
-          "9480": 2
-        },
         "consenter_ids": [
           2
         ],
+        "drops": {
+          "9480": 2
+        },
         "roster_ids": [
           2
         ],
@@ -10243,10 +10276,10 @@
         "adds": {
           "12472": 3
         },
-        "drops": null,
         "consenter_ids": [
           3
         ],
+        "drops": null,
         "roster_ids": [
           3
         ],
@@ -10266,12 +10299,12 @@
         "adds": {
           "13545": 3
         },
-        "drops": {
-          "8259": 3
-        },
         "consenter_ids": [
           3
         ],
+        "drops": {
+          "8259": 3
+        },
         "roster_ids": [
           3
         ],
@@ -10291,12 +10324,12 @@
         "adds": {
           "8188": 4
         },
-        "drops": {
-          "10218": 4
-        },
         "consenter_ids": [
           4
         ],
+        "drops": {
+          "10218": 4
+        },
         "roster_ids": [
           4
         ],
@@ -10607,6 +10640,17 @@
       "depth_chart_position": "RB"
     },
     {
+      "player_id": "11435",
+      "name": "Emanuel Wilson",
+      "position": "RB",
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 161,
+      "years_exp": 3,
+      "depth_chart_position": "RB"
+    },
+    {
       "player_id": "9504",
       "name": "Kayshon Boutte",
       "position": "WR",
@@ -10717,17 +10761,6 @@
       "depth_chart_position": "LWR"
     },
     {
-      "player_id": "13320",
-      "name": "Zachariah Branch",
-      "position": "WR",
-      "team": "ATL",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 185,
-      "years_exp": 0,
-      "depth_chart_position": "SWR"
-    },
-    {
       "player_id": "96",
       "name": "Aaron Rodgers",
       "position": "QB",
@@ -10792,6 +10825,17 @@
       "search_rank": 199,
       "years_exp": 2,
       "depth_chart_position": "SWR"
+    },
+    {
+      "player_id": "13268",
+      "name": "Elijah Sarratt",
+      "position": "WR",
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 201,
+      "years_exp": 0,
+      "depth_chart_position": "LWR"
     },
     {
       "player_id": "3257",
@@ -12156,17 +12200,6 @@
       "search_rank": 523,
       "years_exp": 0,
       "depth_chart_position": "QB"
-    },
-    {
-      "player_id": "13338",
-      "name": "Kevin Coleman",
-      "position": "WR",
-      "team": "MIA",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 523,
-      "years_exp": 0,
-      "depth_chart_position": "SWR"
     }
   ],
   "free_agents_by_position": {
@@ -12478,6 +12511,17 @@
         "status": "Active",
         "injury_status": null,
         "search_rank": 155,
+        "years_exp": 3,
+        "depth_chart_position": "RB"
+      },
+      {
+        "player_id": "11435",
+        "name": "Emanuel Wilson",
+        "position": "RB",
+        "team": "SEA",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 161,
         "years_exp": 3,
         "depth_chart_position": "RB"
       },
@@ -12858,17 +12902,6 @@
         "depth_chart_position": "LWR"
       },
       {
-        "player_id": "13320",
-        "name": "Zachariah Branch",
-        "position": "WR",
-        "team": "ATL",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 185,
-        "years_exp": 0,
-        "depth_chart_position": "SWR"
-      },
-      {
         "player_id": "12536",
         "name": "Jaylin Noel",
         "position": "WR",
@@ -12900,6 +12933,17 @@
         "search_rank": 199,
         "years_exp": 2,
         "depth_chart_position": "SWR"
+      },
+      {
+        "player_id": "13268",
+        "name": "Elijah Sarratt",
+        "position": "WR",
+        "team": "BAL",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 201,
+        "years_exp": 0,
+        "depth_chart_position": "LWR"
       },
       {
         "player_id": "11617",
