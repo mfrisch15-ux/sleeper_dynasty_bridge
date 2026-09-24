@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T14:24:18.026194+00:00",
+  "generated_at_utc": "2026-09-24T15:24:35.073639+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -129,19 +129,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1408850769444093952",
+    "last_message_id": "1408867993693241344",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790258707919,
+    "last_message_time": 1790262814499,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
     "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -165,11 +170,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -1917,19 +1917,6 @@
           "years_exp": 4,
           "is_starter": false,
           "is_reserve": false,
-          "is_taxi": false
-        },
-        {
-          "player_id": "8800",
-          "name": "Malik Davis",
-          "position": "RB",
-          "team": "DAL",
-          "status": "Inactive",
-          "injury_status": "IR",
-          "search_rank": 444,
-          "years_exp": 4,
-          "is_starter": false,
-          "is_reserve": true,
           "is_taxi": false
         },
         {
@@ -4132,7 +4119,6 @@
         "8112",
         "8205",
         "8676",
-        "8800",
         "9221",
         "9228",
         "9758",
@@ -4188,7 +4174,6 @@
         "8112": 0.0,
         "8205": 0.0,
         "8676": 0.0,
-        "8800": 0.0,
         "9221": 0.0,
         "9228": 0.0,
         "9758": 0.0,
@@ -10142,6 +10127,29 @@
       }
     ],
     "3": [
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
+        "created": 1790262814471,
+        "settings": null,
+        "leg": 3,
+        "draft_picks": [],
+        "creator": "1126265615670505472",
+        "transaction_id": "1408867993571577856",
+        "adds": null,
+        "consenter_ids": [
+          5
+        ],
+        "drops": {
+          "8800": 5
+        },
+        "roster_ids": [
+          5
+        ],
+        "status_updated": 1790262814471,
+        "waiver_budget": []
+      },
       {
         "status": "complete",
         "type": "free_agent",
