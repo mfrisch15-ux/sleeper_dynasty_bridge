@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T18:25:59.298282+00:00",
+  "generated_at_utc": "2026-09-24T19:21:34.618929+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -3147,7 +3147,7 @@
           "injury_status": null,
           "search_rank": 228,
           "years_exp": 2,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -3277,7 +3277,7 @@
           "injury_status": null,
           "search_rank": 33,
           "years_exp": 6,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -4476,7 +4476,7 @@
       "custom_points": null,
       "matchup_id": 2,
       "starters": [
-        "6797",
+        "11559",
         "4034",
         "8228",
         "7526",
