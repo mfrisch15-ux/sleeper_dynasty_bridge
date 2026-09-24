@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T19:21:34.618929+00:00",
+  "generated_at_utc": "2026-09-24T20:24:12.932987+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -11396,6 +11396,17 @@
       "depth_chart_position": null
     },
     {
+      "player_id": "6045",
+      "name": "Gary Jennings",
+      "position": "WR",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 426,
+      "years_exp": 7,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "7812",
       "name": "Simi Fehoko",
       "position": "WR",
@@ -12197,17 +12208,6 @@
       "search_rank": 519,
       "years_exp": 3,
       "depth_chart_position": "RWR"
-    },
-    {
-      "player_id": "13306",
-      "name": "Taylen Green",
-      "position": "QB",
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 523,
-      "years_exp": 0,
-      "depth_chart_position": "QB"
     }
   ],
   "free_agents_by_position": {
@@ -12495,17 +12495,6 @@
         "status": "Active",
         "injury_status": null,
         "search_rank": 515,
-        "years_exp": 0,
-        "depth_chart_position": "QB"
-      },
-      {
-        "player_id": "13306",
-        "name": "Taylen Green",
-        "position": "QB",
-        "team": "CLE",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 523,
         "years_exp": 0,
         "depth_chart_position": "QB"
       }
@@ -13097,6 +13086,17 @@
         "depth_chart_position": null
       },
       {
+        "player_id": "6045",
+        "name": "Gary Jennings",
+        "position": "WR",
+        "team": "LAC",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 426,
+        "years_exp": 7,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "7812",
         "name": "Simi Fehoko",
         "position": "WR",
@@ -13282,17 +13282,6 @@
         "search_rank": 506,
         "years_exp": 2,
         "depth_chart_position": null
-      },
-      {
-        "player_id": "8119",
-        "name": "Jahan Dotson",
-        "position": "WR",
-        "team": "ATL",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 507,
-        "years_exp": 4,
-        "depth_chart_position": "RWR"
       }
     ],
     "TE": [
