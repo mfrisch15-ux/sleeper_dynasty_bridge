@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-25T19:14:42.116001+00:00",
+  "generated_at_utc": "2026-09-25T22:20:52.792090+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,6 +80,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 176,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -125,19 +129,15 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "shard": 176,
-    "last_message_id": "1409207190786506752",
+    "last_message_id": "1409332342052417536",
     "draft_id": "1328462469970038784",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_author_avatar": "0f82a6122b5c82295ba06b1e66a4429b",
+    "last_author_display_name": "mattkojm",
+    "last_author_id": "1264778915197505536",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790343685388,
+    "last_message_time": 1790373523776,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
     "league_id": "1328462469961613312",
@@ -368,7 +368,7 @@
           "position": "RB",
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 503,
           "years_exp": 1,
           "is_starter": false,
@@ -624,7 +624,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 61,
           "years_exp": 1,
           "is_starter": false,
@@ -1396,7 +1396,7 @@
           "position": "WR",
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 196,
           "years_exp": 0,
           "is_starter": false,
@@ -1487,7 +1487,7 @@
           "position": "RB",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 63,
           "years_exp": 7,
           "is_starter": false,
@@ -2194,7 +2194,7 @@
           "position": "WR",
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 77,
           "years_exp": 7,
           "is_starter": false,
@@ -2388,7 +2388,7 @@
           "injury_status": null,
           "search_rank": 185,
           "years_exp": 3,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -2414,7 +2414,7 @@
           "injury_status": null,
           "search_rank": 27,
           "years_exp": 2,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -2532,7 +2532,7 @@
           "search_rank": 145,
           "years_exp": 10,
           "is_starter": false,
-          "is_reserve": true,
+          "is_reserve": false,
           "is_taxi": false
         },
         {
@@ -2558,19 +2558,6 @@
           "search_rank": 65,
           "years_exp": 17,
           "is_starter": true,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 74,
-          "years_exp": 8,
-          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -2622,7 +2609,7 @@
           "injury_status": null,
           "search_rank": 130,
           "years_exp": 7,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -2671,11 +2658,11 @@
           "position": "WR",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 23,
           "years_exp": 5,
-          "is_starter": true,
-          "is_reserve": false,
+          "is_starter": false,
+          "is_reserve": true,
           "is_taxi": false
         },
         {
@@ -3209,7 +3196,7 @@
           "position": "RB",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 52,
           "years_exp": 0,
           "is_starter": true,
@@ -3299,8 +3286,8 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
-          "status": "Active",
-          "injury_status": "Questionable",
+          "status": "Inactive",
+          "injury_status": "Out",
           "search_rank": 65,
           "years_exp": 6,
           "is_starter": false,
@@ -3556,7 +3543,7 @@
           "position": "RB",
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "search_rank": 118,
           "years_exp": 0,
           "is_starter": false,
@@ -4299,7 +4286,6 @@
         "3321",
         "4035",
         "421",
-        "4892",
         "5012",
         "5844",
         "5850",
@@ -4321,8 +4307,8 @@
         "9224",
         "12490",
         "6786",
-        "7569",
-        "11632",
+        "10213",
+        "5872",
         "12518",
         "7543",
         "11792",
@@ -4355,7 +4341,6 @@
         "3321": 0.0,
         "4035": 0.0,
         "421": 0.0,
-        "4892": 0.0,
         "5012": 0.0,
         "5844": 0.0,
         "5850": 0.0,
@@ -10146,6 +10131,29 @@
         "status": "complete",
         "type": "free_agent",
         "metadata": null,
+        "created": 1790369184058,
+        "settings": null,
+        "leg": 3,
+        "draft_picks": [],
+        "creator": "1265444209784008704",
+        "transaction_id": "1409314139960102912",
+        "adds": null,
+        "consenter_ids": [
+          7
+        ],
+        "drops": {
+          "4892": 7
+        },
+        "roster_ids": [
+          7
+        ],
+        "status_updated": 1790369184058,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
         "created": 1790343685368,
         "settings": null,
         "leg": 3,
@@ -10155,10 +10163,10 @@
         "adds": {
           "7600": 2
         },
-        "drops": null,
         "consenter_ids": [
           2
         ],
+        "drops": null,
         "roster_ids": [
           2
         ],
@@ -10183,12 +10191,12 @@
         "adds": {
           "9504": 3
         },
-        "drops": {
-          "11603": 3
-        },
         "consenter_ids": [
           3
         ],
+        "drops": {
+          "11603": 3
+        },
         "roster_ids": [
           3
         ],
@@ -10206,12 +10214,12 @@
         "creator": "1126265615670505472",
         "transaction_id": "1408867993571577856",
         "adds": null,
-        "drops": {
-          "8800": 5
-        },
         "consenter_ids": [
           5
         ],
+        "drops": {
+          "8800": 5
+        },
         "roster_ids": [
           5
         ],
@@ -10229,12 +10237,12 @@
         "creator": "735298292942041088",
         "transaction_id": "1408850769343430656",
         "adds": null,
-        "drops": {
-          "13268": 2
-        },
         "consenter_ids": [
           2
         ],
+        "drops": {
+          "13268": 2
+        },
         "roster_ids": [
           2
         ],
@@ -10254,12 +10262,12 @@
         "adds": {
           "13320": 2
         },
-        "drops": {
-          "11435": 2
-        },
         "consenter_ids": [
           2
         ],
+        "drops": {
+          "11435": 2
+        },
         "roster_ids": [
           2
         ],
@@ -10279,10 +10287,10 @@
         "adds": {
           "4177": 5
         },
-        "drops": null,
         "consenter_ids": [
           5
         ],
+        "drops": null,
         "roster_ids": [
           5
         ],
@@ -10302,12 +10310,12 @@
         "adds": {
           "NYG": 5
         },
-        "drops": {
-          "TB": 5
-        },
         "consenter_ids": [
           5
         ],
+        "drops": {
+          "TB": 5
+        },
         "roster_ids": [
           5
         ],
@@ -10327,12 +10335,12 @@
         "adds": {
           "11435": 2
         },
-        "drops": {
-          "9480": 2
-        },
         "consenter_ids": [
           2
         ],
+        "drops": {
+          "9480": 2
+        },
         "roster_ids": [
           2
         ],
@@ -10352,10 +10360,10 @@
         "adds": {
           "12472": 3
         },
-        "drops": null,
         "consenter_ids": [
           3
         ],
+        "drops": null,
         "roster_ids": [
           3
         ],
@@ -10375,12 +10383,12 @@
         "adds": {
           "13545": 3
         },
-        "drops": {
-          "8259": 3
-        },
         "consenter_ids": [
           3
         ],
+        "drops": {
+          "8259": 3
+        },
         "roster_ids": [
           3
         ],
@@ -10400,12 +10408,12 @@
         "adds": {
           "8188": 4
         },
-        "drops": {
-          "10218": 4
-        },
         "consenter_ids": [
           4
         ],
+        "drops": {
+          "10218": 4
+        },
         "roster_ids": [
           4
         ],
@@ -10628,6 +10636,17 @@
   ],
   "free_agent_pool_compact": [
     {
+      "player_id": "4892",
+      "name": "Baker Mayfield",
+      "position": "QB",
+      "team": "TB",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 74,
+      "years_exp": 8,
+      "depth_chart_position": "QB"
+    },
+    {
       "player_id": "9480",
       "name": "Brenton Strange",
       "position": "TE",
@@ -10677,7 +10696,7 @@
       "position": "TE",
       "team": "WAS",
       "status": "Active",
-      "injury_status": "Doubtful",
+      "injury_status": "Out",
       "search_rank": 137,
       "years_exp": 4,
       "depth_chart_position": "TE"
@@ -10798,7 +10817,7 @@
       "position": "RB",
       "team": "NO",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 180,
       "years_exp": 3,
       "depth_chart_position": "RB"
@@ -11667,7 +11686,7 @@
       "position": "WR",
       "team": "NO",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "search_rank": 460,
       "years_exp": 0,
       "depth_chart_position": "SWR"
@@ -12265,21 +12284,21 @@
       "search_rank": 519,
       "years_exp": 3,
       "depth_chart_position": "RWR"
-    },
-    {
-      "player_id": "13306",
-      "name": "Taylen Green",
-      "position": "QB",
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 523,
-      "years_exp": 0,
-      "depth_chart_position": "QB"
     }
   ],
   "free_agents_by_position": {
     "QB": [
+      {
+        "player_id": "4892",
+        "name": "Baker Mayfield",
+        "position": "QB",
+        "team": "TB",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 74,
+        "years_exp": 8,
+        "depth_chart_position": "QB"
+      },
       {
         "player_id": "5870",
         "name": "Daniel Jones",
@@ -12565,17 +12584,6 @@
         "search_rank": 515,
         "years_exp": 0,
         "depth_chart_position": "QB"
-      },
-      {
-        "player_id": "13306",
-        "name": "Taylen Green",
-        "position": "QB",
-        "team": "CLE",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 523,
-        "years_exp": 0,
-        "depth_chart_position": "QB"
       }
     ],
     "RB": [
@@ -12629,7 +12637,7 @@
         "position": "RB",
         "team": "NO",
         "status": "Active",
-        "injury_status": "Questionable",
+        "injury_status": null,
         "search_rank": 180,
         "years_exp": 3,
         "depth_chart_position": "RB"
@@ -13236,7 +13244,7 @@
         "position": "WR",
         "team": "NO",
         "status": "Active",
-        "injury_status": "Questionable",
+        "injury_status": "Out",
         "search_rank": 460,
         "years_exp": 0,
         "depth_chart_position": "SWR"
@@ -13403,7 +13411,7 @@
         "position": "TE",
         "team": "WAS",
         "status": "Active",
-        "injury_status": "Doubtful",
+        "injury_status": "Out",
         "search_rank": 137,
         "years_exp": 4,
         "depth_chart_position": "TE"
