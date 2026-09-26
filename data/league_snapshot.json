@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-26T19:48:31.256550+00:00",
+  "generated_at_utc": "2026-09-26T22:44:52.371366+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,11 +80,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "last_message_id": "1409332342052417536",
-    "shard": 176,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -130,16 +125,21 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_author_avatar": "0f82a6122b5c82295ba06b1e66a4429b",
-    "last_author_display_name": "mattkojm",
-    "last_author_id": "1264778915197505536",
-    "last_author_is_bot": false,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "shard": 176,
+    "last_message_id": "1409677040398999552",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790373523776,
+    "last_message_time": 1790455706265,
     "last_pinned_message_id": "1402369202257424384",
-    "draft_id": "1328462469970038784",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "bracket_id": null,
@@ -1205,7 +1205,7 @@
           "position": "WR",
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 33,
           "years_exp": 5,
           "is_starter": true,
@@ -1604,7 +1604,7 @@
           "position": "RB",
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "search_rank": 147,
           "years_exp": 3,
           "is_starter": false,
@@ -1860,7 +1860,7 @@
           "position": "TE",
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "search_rank": 94,
           "years_exp": 8,
           "is_starter": false,
@@ -3460,6 +3460,19 @@
       },
       "players": [
         {
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "team": "SEA",
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 161,
+          "years_exp": 3,
+          "is_starter": false,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
           "player_id": "11539",
           "name": "Jake Bates",
           "position": "K",
@@ -3542,12 +3555,12 @@
           "name": "Jonah Coleman",
           "position": "RB",
           "team": "DEN",
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 118,
           "years_exp": 0,
           "is_starter": false,
-          "is_reserve": false,
+          "is_reserve": true,
           "is_taxi": false
         },
         {
@@ -4530,6 +4543,7 @@
     {
       "points": 26.08,
       "players": [
+        "11435",
         "11539",
         "11563",
         "11604",
@@ -4581,6 +4595,7 @@
         0.0
       ],
       "players_points": {
+        "11435": 0.0,
         "11539": 0.0,
         "11563": 0.0,
         "11604": 0.0,
@@ -10131,6 +10146,29 @@
         "status": "complete",
         "type": "free_agent",
         "metadata": null,
+        "created": 1790455706245,
+        "settings": null,
+        "leg": 3,
+        "draft_picks": [],
+        "creator": "1265824215584473088",
+        "transaction_id": "1409677040315027456",
+        "adds": {
+          "11435": 10
+        },
+        "consenter_ids": [
+          10
+        ],
+        "drops": null,
+        "roster_ids": [
+          10
+        ],
+        "status_updated": 1790455706245,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
         "created": 1790369184058,
         "settings": null,
         "leg": 3,
@@ -10742,17 +10780,6 @@
       "status": "Active",
       "injury_status": null,
       "search_rank": 155,
-      "years_exp": 3,
-      "depth_chart_position": "RB"
-    },
-    {
-      "player_id": "11435",
-      "name": "Emanuel Wilson",
-      "position": "RB",
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 161,
       "years_exp": 3,
       "depth_chart_position": "RB"
     },
@@ -12284,6 +12311,17 @@
       "search_rank": 519,
       "years_exp": 3,
       "depth_chart_position": "RWR"
+    },
+    {
+      "player_id": "13306",
+      "name": "Taylen Green",
+      "position": "QB",
+      "team": "CLE",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 523,
+      "years_exp": 0,
+      "depth_chart_position": "QB"
     }
   ],
   "free_agents_by_position": {
@@ -12584,6 +12622,17 @@
         "search_rank": 515,
         "years_exp": 0,
         "depth_chart_position": "QB"
+      },
+      {
+        "player_id": "13306",
+        "name": "Taylen Green",
+        "position": "QB",
+        "team": "CLE",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 523,
+        "years_exp": 0,
+        "depth_chart_position": "QB"
       }
     ],
     "RB": [
@@ -12595,17 +12644,6 @@
         "status": "Active",
         "injury_status": null,
         "search_rank": 155,
-        "years_exp": 3,
-        "depth_chart_position": "RB"
-      },
-      {
-        "player_id": "11435",
-        "name": "Emanuel Wilson",
-        "position": "RB",
-        "team": "SEA",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 161,
         "years_exp": 3,
         "depth_chart_position": "RB"
       },
