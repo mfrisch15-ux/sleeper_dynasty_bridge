@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-29T15:45:13.154660+00:00",
+  "generated_at_utc": "2026-09-29T20:43:31.946266+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -27,7 +27,7 @@
     },
     "settings": {
       "best_ball": 0,
-      "last_report": 2,
+      "last_report": 3,
       "waiver_budget": 200,
       "disable_adds": 0,
       "capacity_override": 0,
@@ -80,10 +80,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 176,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 176,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -129,19 +129,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1410680807185526785",
+    "last_message_id": "1410719179866128384",
     "draft_id": "1328462469970038784",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_author_avatar": "7572250c2fb084c434fed0e82229e183",
+    "last_author_display_name": "Firebird4",
+    "last_author_id": "1155579787705110528",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790695022917,
+    "last_message_time": 1790704173068,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -165,11 +170,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "manager_rosters": [
@@ -264,7 +264,7 @@
           "position": "WR",
           "team": "LV",
           "status": "Inactive",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "search_rank": 208,
           "years_exp": 1,
           "is_starter": false,
@@ -961,7 +961,7 @@
           "injury_status": null,
           "search_rank": 209,
           "years_exp": 2,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -1039,7 +1039,7 @@
           "injury_status": null,
           "search_rank": 45,
           "years_exp": 1,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -1156,7 +1156,7 @@
           "injury_status": null,
           "search_rank": 55,
           "years_exp": 7,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -1234,7 +1234,7 @@
           "injury_status": "Out",
           "search_rank": 4,
           "years_exp": 3,
-          "is_starter": false,
+          "is_starter": true,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -3959,11 +3959,11 @@
         "4881",
         "6813",
         "12481",
-        "9493",
         "7525",
         "5927",
-        "8130",
         "13346",
+        "8130",
+        "9493",
         "13545",
         "SF"
       ],
@@ -10840,6 +10840,17 @@
       "depth_chart_position": "RB"
     },
     {
+      "player_id": "12476",
+      "name": "Devin Neal",
+      "position": "RB",
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "search_rank": 169,
+      "years_exp": 1,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "7528",
       "name": "Najee Harris",
       "position": "RB",
@@ -11104,6 +11115,17 @@
       "depth_chart_position": "TE"
     },
     {
+      "player_id": "8500",
+      "name": "John FitzPatrick",
+      "position": "TE",
+      "team": "CLE",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 233,
+      "years_exp": 4,
+      "depth_chart_position": null
+    },
+    {
       "player_id": "8249",
       "name": "Lucas Krull",
       "position": "TE",
@@ -11288,7 +11310,7 @@
       "injury_status": null,
       "search_rank": 327,
       "years_exp": 8,
-      "depth_chart_position": null
+      "depth_chart_position": "TE"
     },
     {
       "player_id": "3309",
@@ -11662,7 +11684,7 @@
       "injury_status": null,
       "search_rank": 443,
       "years_exp": 12,
-      "depth_chart_position": "LWR"
+      "depth_chart_position": null
     },
     {
       "player_id": "13208",
@@ -12367,28 +12389,6 @@
       "search_rank": 515,
       "years_exp": 0,
       "depth_chart_position": "QB"
-    },
-    {
-      "player_id": "12079",
-      "name": "Treyton Welch",
-      "position": "TE",
-      "team": "NO",
-      "status": "Active",
-      "injury_status": "Out",
-      "search_rank": 517,
-      "years_exp": 2,
-      "depth_chart_position": "TE"
-    },
-    {
-      "player_id": "11571",
-      "name": "Isaiah Davis",
-      "position": "RB",
-      "team": "NYJ",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 518,
-      "years_exp": 2,
-      "depth_chart_position": "RB"
     }
   ],
   "free_agents_by_position": {
@@ -12704,6 +12704,17 @@
         "depth_chart_position": "RB"
       },
       {
+        "player_id": "12476",
+        "name": "Devin Neal",
+        "position": "RB",
+        "team": "MIN",
+        "status": "Active",
+        "injury_status": "Questionable",
+        "search_rank": 169,
+        "years_exp": 1,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "7528",
         "name": "Najee Harris",
         "position": "RB",
@@ -13010,17 +13021,6 @@
         "search_rank": 510,
         "years_exp": 3,
         "depth_chart_position": null
-      },
-      {
-        "player_id": "11571",
-        "name": "Isaiah Davis",
-        "position": "RB",
-        "team": "NYJ",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 518,
-        "years_exp": 2,
-        "depth_chart_position": "RB"
       }
     ],
     "WR": [
@@ -13297,7 +13297,7 @@
         "injury_status": null,
         "search_rank": 443,
         "years_exp": 12,
-        "depth_chart_position": "LWR"
+        "depth_chart_position": null
       },
       {
         "player_id": "13208",
@@ -13566,6 +13566,17 @@
         "depth_chart_position": "TE"
       },
       {
+        "player_id": "8500",
+        "name": "John FitzPatrick",
+        "position": "TE",
+        "team": "CLE",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 233,
+        "years_exp": 4,
+        "depth_chart_position": null
+      },
+      {
         "player_id": "8249",
         "name": "Lucas Krull",
         "position": "TE",
@@ -13607,7 +13618,7 @@
         "injury_status": null,
         "search_rank": 327,
         "years_exp": 8,
-        "depth_chart_position": null
+        "depth_chart_position": "TE"
       },
       {
         "player_id": "12154",
@@ -13894,17 +13905,6 @@
         "search_rank": 478,
         "years_exp": 3,
         "depth_chart_position": "TE"
-      },
-      {
-        "player_id": "12374",
-        "name": "Brenden Bates",
-        "position": "TE",
-        "team": "JAX",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 483,
-        "years_exp": 2,
-        "depth_chart_position": null
       }
     ]
   },
