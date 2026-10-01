@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-01T08:50:13.306004+00:00",
+  "generated_at_utc": "2026-10-01T16:22:45.272154+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -129,22 +129,19 @@
     "season_type": "regular",
     "shard": 176,
     "sport": "nfl",
-    "last_message_id": "1411204963748630532",
+    "last_message_id": "1411416890143764480",
     "draft_id": "1328462469970038784",
-    "last_author_avatar": "82d11b695920028373e7816e8bf4f8e5",
-    "last_author_display_name": "zeusygoosy",
-    "last_author_id": "890612043944792064",
+    "last_author_avatar": "7572250c2fb084c434fed0e82229e183",
+    "last_author_display_name": "Firebird4",
+    "last_author_id": "1155579787705110528",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790819991579,
+    "last_message_time": 1790870518770,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -168,6 +165,9 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -908,8 +908,8 @@
         "ppts_decimal": 64,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 57,
-        "waiver_position": 9,
+        "waiver_budget_used": 58,
+        "waiver_position": 10,
         "wins": 1
       },
       "players": [
@@ -1161,19 +1161,6 @@
           "is_taxi": false
         },
         {
-          "player_id": "6783",
-          "name": "Jerry Jeudy",
-          "position": "WR",
-          "team": "CLE",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 160,
-          "years_exp": 6,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
           "player_id": "6813",
           "name": "Jonathan Taylor",
           "position": "RB",
@@ -1252,6 +1239,19 @@
           "is_taxi": false
         },
         {
+          "player_id": "GB",
+          "name": "Green Bay Packers",
+          "position": "DEF",
+          "team": "GB",
+          "status": null,
+          "injury_status": null,
+          "search_rank": null,
+          "years_exp": null,
+          "is_starter": true,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
           "player_id": "SF",
           "name": "San Francisco 49ers",
           "position": "DEF",
@@ -1260,7 +1260,7 @@
           "injury_status": null,
           "search_rank": null,
           "years_exp": null,
-          "is_starter": true,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         }
@@ -1282,7 +1282,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 3
       },
       "players": [
@@ -3956,13 +3956,13 @@
         "4881",
         "5870",
         "5927",
-        "6783",
         "6813",
         "7525",
         "7528",
         "8130",
         "9493",
         "9504",
+        "GB",
         "SF"
       ],
       "roster_id": 3,
@@ -3972,13 +3972,13 @@
         "4881",
         "6813",
         "12481",
+        "9493",
         "7525",
-        "5927",
         "13346",
         "8130",
-        "9493",
+        "5927",
         "12711",
-        "SF"
+        "GB"
       ],
       "starters_points": [
         0.0,
@@ -4012,13 +4012,13 @@
         "4881": 0.0,
         "5870": 0.0,
         "5927": 0.0,
-        "6783": 0.0,
         "6813": 0.0,
         "7525": 0.0,
         "7528": 0.0,
         "8130": 0.0,
         "9493": 0.0,
         "9504": 0.0,
+        "GB": 0.0,
         "SF": 0.0
       }
     },
@@ -11068,6 +11068,36 @@
       },
       {
         "status": "complete",
+        "type": "waiver",
+        "metadata": {
+          "notes": "Your waiver claim was processed successfully!"
+        },
+        "created": 1790773169895,
+        "settings": {
+          "seq": 0,
+          "waiver_bid": 1
+        },
+        "leg": 4,
+        "draft_picks": [],
+        "creator": "1264778915197505536",
+        "transaction_id": "1411008579372093440",
+        "adds": {
+          "GB": 3
+        },
+        "consenter_ids": [
+          3
+        ],
+        "drops": {
+          "6783": 3
+        },
+        "roster_ids": [
+          3
+        ],
+        "status_updated": 1790864580038,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
         "type": "free_agent",
         "metadata": null,
         "created": 1790753213204,
@@ -11429,6 +11459,17 @@
       "search_rank": 155,
       "years_exp": 3,
       "depth_chart_position": "RB"
+    },
+    {
+      "player_id": "6783",
+      "name": "Jerry Jeudy",
+      "position": "WR",
+      "team": "CLE",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 160,
+      "years_exp": 6,
+      "depth_chart_position": "RWR"
     },
     {
       "player_id": "12476",
@@ -12872,17 +12913,6 @@
       "depth_chart_position": "TE"
     },
     {
-      "player_id": "12151",
-      "name": "Julian Hicks",
-      "position": "WR",
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 507,
-      "years_exp": 2,
-      "depth_chart_position": null
-    },
-    {
       "player_id": "13282",
       "name": "Jack Endries",
       "position": "TE",
@@ -13605,6 +13635,17 @@
         "depth_chart_position": "LWR"
       },
       {
+        "player_id": "6783",
+        "name": "Jerry Jeudy",
+        "position": "WR",
+        "team": "CLE",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 160,
+        "years_exp": 6,
+        "depth_chart_position": "RWR"
+      },
+      {
         "player_id": "8180",
         "name": "Jalen Nailor",
         "position": "WR",
@@ -14021,17 +14062,6 @@
         "search_rank": 502,
         "years_exp": 0,
         "depth_chart_position": "SWR"
-      },
-      {
-        "player_id": "12267",
-        "name": "Qadir Ismail",
-        "position": "WR",
-        "team": "CHI",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 504,
-        "years_exp": 2,
-        "depth_chart_position": null
       }
     ],
     "TE": [
