@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-03T19:49:53.608756+00:00",
+  "generated_at_utc": "2026-10-03T22:51:55.526553+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
   "nfl_state": {
     "week": 4,
     "leg": 4,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -80,10 +80,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 176,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -129,17 +125,21 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1411854386187059200",
-    "draft_id": "1328462469970038784",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "last_message_id": "1412214164931313664",
+    "shard": 176,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790974825955,
+    "last_message_time": 1791060603891,
     "last_pinned_message_id": "1402369202257424384",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
     "roster_positions": [
@@ -862,6 +862,19 @@
           "search_rank": 18,
           "years_exp": 4,
           "is_starter": true,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
+          "player_id": "8210",
+          "name": "Chig Okonkwo",
+          "position": "TE",
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": null,
+          "search_rank": 137,
+          "years_exp": 4,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -3208,8 +3221,8 @@
           "name": "Jadarian Price",
           "position": "RB",
           "team": "SEA",
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "search_rank": 52,
           "years_exp": 0,
           "is_starter": false,
@@ -3888,6 +3901,7 @@
         "7567",
         "8138",
         "8151",
+        "8210",
         "9754",
         "CIN"
       ],
@@ -3943,6 +3957,7 @@
         "7567": 0.0,
         "8138": 0.0,
         "8151": 0.0,
+        "8210": 0.0,
         "9754": 0.0,
         "CIN": 0.0
       }
@@ -10989,6 +11004,29 @@
         "status": "complete",
         "type": "free_agent",
         "metadata": null,
+        "created": 1791060603865,
+        "settings": null,
+        "leg": 4,
+        "draft_picks": [],
+        "creator": "735298292942041088",
+        "transaction_id": "1412214164822163456",
+        "adds": {
+          "8210": 2
+        },
+        "consenter_ids": [
+          2
+        ],
+        "drops": null,
+        "roster_ids": [
+          2
+        ],
+        "status_updated": 1791060603865,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
         "created": 1790974825933,
         "settings": null,
         "leg": 4,
@@ -11593,17 +11631,6 @@
       "injury_status": "Questionable",
       "search_rank": 136,
       "years_exp": 6,
-      "depth_chart_position": "TE"
-    },
-    {
-      "player_id": "8210",
-      "name": "Chig Okonkwo",
-      "position": "TE",
-      "team": "WAS",
-      "status": "Active",
-      "injury_status": null,
-      "search_rank": 137,
-      "years_exp": 4,
       "depth_chart_position": "TE"
     },
     {
@@ -13189,6 +13216,17 @@
       "search_rank": 518,
       "years_exp": 2,
       "depth_chart_position": "RB"
+    },
+    {
+      "player_id": "8076",
+      "name": "Michael Bandy",
+      "position": "WR",
+      "team": "DEN",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 519,
+      "years_exp": 5,
+      "depth_chart_position": null
     }
   ],
   "free_agents_by_position": {
@@ -14267,17 +14305,6 @@
         "depth_chart_position": "TE"
       },
       {
-        "player_id": "8210",
-        "name": "Chig Okonkwo",
-        "position": "TE",
-        "team": "WAS",
-        "status": "Active",
-        "injury_status": null,
-        "search_rank": 137,
-        "years_exp": 4,
-        "depth_chart_position": "TE"
-      },
-      {
         "player_id": "12498",
         "name": "Mason Taylor",
         "position": "TE",
@@ -14682,6 +14709,17 @@
         "injury_status": null,
         "search_rank": 485,
         "years_exp": 2,
+        "depth_chart_position": "TE"
+      },
+      {
+        "player_id": "7568",
+        "name": "Brevin Jordan",
+        "position": "TE",
+        "team": "HOU",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 488,
+        "years_exp": 5,
         "depth_chart_position": "TE"
       }
     ]
