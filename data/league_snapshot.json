@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-06T20:13:59.453253+00:00",
+  "generated_at_utc": "2026-10-06T23:48:10.915598+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -1591,7 +1591,7 @@
           "position": "RB",
           "team": "PHI",
           "status": "Inactive",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "search_rank": 147,
           "years_exp": 3,
           "is_starter": false,
@@ -6994,17 +6994,6 @@
       "depth_chart_position": "RWR"
     },
     {
-      "player_id": "4018",
-      "name": "Joe Mixon",
-      "position": "RB",
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": "Active",
-      "search_rank": 164,
-      "years_exp": 9,
-      "depth_chart_position": null
-    },
-    {
       "player_id": "12476",
       "name": "Devin Neal",
       "position": "RB",
@@ -7476,17 +7465,6 @@
       "search_rank": 336,
       "years_exp": 6,
       "depth_chart_position": "SWR"
-    },
-    {
-      "player_id": "7535",
-      "name": "Hunter Long",
-      "position": "TE",
-      "team": "ARI",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "search_rank": 339,
-      "years_exp": 5,
-      "depth_chart_position": "TE"
     },
     {
       "player_id": "13013",
@@ -8521,6 +8499,28 @@
       "search_rank": 520,
       "years_exp": 0,
       "depth_chart_position": "QB"
+    },
+    {
+      "player_id": "13431",
+      "name": "Miles Kitselman",
+      "position": "TE",
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "search_rank": 521,
+      "years_exp": 0,
+      "depth_chart_position": null
+    },
+    {
+      "player_id": "8188",
+      "name": "Tyquan Thornton",
+      "position": "WR",
+      "team": "KC",
+      "status": "Active",
+      "injury_status": "Out",
+      "search_rank": 522,
+      "years_exp": 4,
+      "depth_chart_position": "LWR"
     }
   ],
   "free_agents_by_position": {
@@ -8834,17 +8834,6 @@
         "search_rank": 155,
         "years_exp": 3,
         "depth_chart_position": "RB"
-      },
-      {
-        "player_id": "4018",
-        "name": "Joe Mixon",
-        "position": "RB",
-        "team": "SEA",
-        "status": "Active",
-        "injury_status": "Active",
-        "search_rank": 164,
-        "years_exp": 9,
-        "depth_chart_position": null
       },
       {
         "player_id": "12476",
@@ -9720,17 +9709,6 @@
         "depth_chart_position": "TE"
       },
       {
-        "player_id": "7535",
-        "name": "Hunter Long",
-        "position": "TE",
-        "team": "ARI",
-        "status": "Active",
-        "injury_status": "Questionable",
-        "search_rank": 339,
-        "years_exp": 5,
-        "depth_chart_position": "TE"
-      },
-      {
         "player_id": "13013",
         "name": "Mark Redman",
         "position": "TE",
@@ -10004,6 +9982,17 @@
         "search_rank": 491,
         "years_exp": 5,
         "depth_chart_position": "TE"
+      },
+      {
+        "player_id": "13630",
+        "name": "Evan Svoboda",
+        "position": "TE",
+        "team": "LAC",
+        "status": "Active",
+        "injury_status": null,
+        "search_rank": 493,
+        "years_exp": 0,
+        "depth_chart_position": null
       }
     ]
   },
