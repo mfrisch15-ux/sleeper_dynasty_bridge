@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-05T18:22:00.469714+00:00",
+  "generated_at_utc": "2026-10-06T00:46:13.050582+00:00",
   "league_id": "1328462469961613312",
   "sleeper_username": "mfrisch15",
   "my_user_id": "1265708049574670336",
@@ -80,6 +80,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 176,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -125,26 +129,22 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "shard": 176,
-    "last_message_id": "1412664354196701184",
-    "draft_id": "1328462469970038784",
+    "last_message_id": "1412902510342991872",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1791167937376,
+    "last_message_time": 1791224718226,
     "last_pinned_message_id": "1412558646470074368",
     "last_read_id": null,
+    "draft_id": "1328462469970038784",
     "league_id": "1328462469961613312",
     "previous_league_id": "1264762908156379136",
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
@@ -381,7 +381,7 @@
           "position": "RB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "search_rank": 15,
           "years_exp": 0,
           "is_starter": true,
@@ -953,19 +953,6 @@
           "is_taxi": false
         },
         {
-          "player_id": "12472",
-          "name": "Raheim Sanders",
-          "position": "RB",
-          "team": "CLE",
-          "status": "Active",
-          "injury_status": null,
-          "search_rank": 690,
-          "years_exp": 1,
-          "is_starter": false,
-          "is_reserve": false,
-          "is_taxi": false
-        },
-        {
           "player_id": "12481",
           "name": "Cam Skattebo",
           "position": "RB",
@@ -1131,6 +1118,19 @@
           "search_rank": 354,
           "years_exp": 11,
           "is_starter": true,
+          "is_reserve": false,
+          "is_taxi": false
+        },
+        {
+          "player_id": "4018",
+          "name": "Joe Mixon",
+          "position": "RB",
+          "team": "SEA",
+          "status": "Active",
+          "injury_status": "Active",
+          "search_rank": 164,
+          "years_exp": 9,
+          "is_starter": false,
           "is_reserve": false,
           "is_taxi": false
         },
@@ -1616,8 +1616,8 @@
           "name": "Tank Bigsby",
           "position": "RB",
           "team": "PHI",
-          "status": "Active",
-          "injury_status": "Questionable",
+          "status": "Inactive",
+          "injury_status": "Out",
           "search_rank": 147,
           "years_exp": 3,
           "is_starter": false,
@@ -3789,7 +3789,7 @@
   ],
   "matchups_current_week": [
     {
-      "points": 78.6,
+      "points": 91.1,
       "players": [
         "11560",
         "11581",
@@ -3835,7 +3835,7 @@
       ],
       "starters_points": [
         23.6,
-        0.0,
+        12.5,
         6.5,
         2.5,
         11.4,
@@ -3870,7 +3870,7 @@
         "4943": 14.32,
         "5846": 16.5,
         "8136": 0.0,
-        "9509": 0.0,
+        "9509": 12.5,
         "KC": 4.0
       }
     },
@@ -3943,9 +3943,9 @@
         "11643": 0.7,
         "12514": 3.3,
         "12534": 28.0,
-        "12545": 0.0,
+        "12545": 0.08,
         "13296": 0.0,
-        "13320": 0.0,
+        "13320": 1.9,
         "13411": 0.0,
         "13421": 2.2,
         "1466": 3.5,
@@ -3962,12 +3962,12 @@
         "8151": 30.9,
         "8210": 2.5,
         "9754": 5.0,
-        "9757": 0.0,
+        "9757": -0.2,
         "CIN": 5.0
       }
     },
     {
-      "points": 121.48,
+      "points": 122.68,
       "players": [
         "10219",
         "11834",
@@ -3985,6 +3985,7 @@
         "13346",
         "13424",
         "2505",
+        "4018",
         "4881",
         "5870",
         "5927",
@@ -4017,7 +4018,7 @@
         22.7,
         7.6,
         27.7,
-        0.0,
+        1.2,
         12.9,
         10.1,
         6.6,
@@ -4026,7 +4027,7 @@
       ],
       "players_points": {
         "10219": 9.5,
-        "11834": 0.0,
+        "11834": 1.2,
         "12472": 3.6,
         "12481": 7.6,
         "12484": 0.0,
@@ -4041,6 +4042,7 @@
         "13346": 12.9,
         "13424": 4.8,
         "2505": 6.6,
+        "4018": 0.0,
         "4881": 18.88,
         "5870": 8.92,
         "5927": 0.0,
@@ -4143,7 +4145,7 @@
       }
     },
     {
-      "points": 165.26,
+      "points": 167.46,
       "players": [
         "11237",
         "11584",
@@ -4191,7 +4193,7 @@
         21.46,
         17.7,
         31.3,
-        0.0,
+        2.2,
         45.2,
         12.6,
         2.9,
@@ -4218,7 +4220,7 @@
         "5022": 0.0,
         "5045": 1.4,
         "7588": 31.3,
-        "8112": 0.0,
+        "8112": 2.2,
         "8205": 0.0,
         "8676": 12.3,
         "9221": 17.7,
@@ -4549,7 +4551,7 @@
       "players_points": {
         "10232": 16.5,
         "11533": 10.0,
-        "11559": 0.0,
+        "11559": 1.2,
         "11566": 0.0,
         "13269": 0.0,
         "13279": 21.5,
@@ -11008,6 +11010,31 @@
         "status": "complete",
         "type": "free_agent",
         "metadata": null,
+        "created": 1791224718205,
+        "settings": null,
+        "leg": 4,
+        "draft_picks": [],
+        "creator": "1264778915197505536",
+        "transaction_id": "1412902510250774528",
+        "adds": {
+          "4018": 3
+        },
+        "consenter_ids": [
+          3
+        ],
+        "drops": {
+          "12472": 3
+        },
+        "roster_ids": [
+          3
+        ],
+        "status_updated": 1791224718205,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
         "created": 1791167937340,
         "settings": null,
         "leg": 4,
@@ -12134,7 +12161,7 @@
       "injury_status": null,
       "search_rank": 270,
       "years_exp": 3,
-      "depth_chart_position": "RB"
+      "depth_chart_position": null
     },
     {
       "player_id": "8500",
@@ -12200,7 +12227,7 @@
       "injury_status": null,
       "search_rank": 311,
       "years_exp": 10,
-      "depth_chart_position": "SWR"
+      "depth_chart_position": null
     },
     {
       "player_id": "12475",
@@ -12640,7 +12667,7 @@
       "injury_status": null,
       "search_rank": 439,
       "years_exp": 1,
-      "depth_chart_position": "TE"
+      "depth_chart_position": null
     },
     {
       "player_id": "5781",
@@ -12651,7 +12678,7 @@
       "injury_status": null,
       "search_rank": 440,
       "years_exp": 8,
-      "depth_chart_position": "RWR"
+      "depth_chart_position": null
     },
     {
       "player_id": "6798",
@@ -13058,7 +13085,7 @@
       "injury_status": null,
       "search_rank": 496,
       "years_exp": 2,
-      "depth_chart_position": "RWR"
+      "depth_chart_position": null
     },
     {
       "player_id": "13348",
@@ -13723,7 +13750,7 @@
         "injury_status": null,
         "search_rank": 270,
         "years_exp": 3,
-        "depth_chart_position": "RB"
+        "depth_chart_position": null
       },
       {
         "player_id": "3309",
@@ -14077,7 +14104,7 @@
         "injury_status": null,
         "search_rank": 311,
         "years_exp": 10,
-        "depth_chart_position": "SWR"
+        "depth_chart_position": null
       },
       {
         "player_id": "12475",
@@ -14253,7 +14280,7 @@
         "injury_status": null,
         "search_rank": 440,
         "years_exp": 8,
-        "depth_chart_position": "RWR"
+        "depth_chart_position": null
       },
       {
         "player_id": "6798",
@@ -14352,7 +14379,7 @@
         "injury_status": null,
         "search_rank": 496,
         "years_exp": 2,
-        "depth_chart_position": "RWR"
+        "depth_chart_position": null
       }
     ],
     "TE": [
@@ -14673,7 +14700,7 @@
         "injury_status": null,
         "search_rank": 439,
         "years_exp": 1,
-        "depth_chart_position": "TE"
+        "depth_chart_position": null
       },
       {
         "player_id": "4993",
